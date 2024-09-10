@@ -8,32 +8,32 @@
 %% Abschlussarbeit
 -->
 \newcommand{\titel}{Titel der Abschlussarbeit}
-\newcommand{\datum}{01.03.2018}
+\newcommand{\datum}{xx.xx.xxxx}
 <!--
 % Autor_in
 -->
-\newcommand{\aVorname}{Max}
-\newcommand{\aNachname}{Mustermann}
-\newcommand{\aGeburtsdatum}{01.04.1998}
+\newcommand{\aVorname}{Helena}
+\newcommand{\aNachname}{Berndt}
+\newcommand{\aGeburtsdatum}{01.03.2002}
 \newcommand{\aInstitution}{Hochschule München}
 \newcommand{\aStudiengruppe}{IF7}
-\newcommand{\aSemester}{WS 17/2018}
+\newcommand{\aSemester}{WS 2024/2025}
 
 \newcommand{\aName}{\aVorname\space \aNachname}
 <!--
 % Prüfer_in
 -->
 \newcommand{\pTitle}{Prof. Dr.}
-\newcommand{\pVorname}{}
-\newcommand{\pNachname}{}
+\newcommand{\pVorname}{Lars}
+\newcommand{\pNachname}{Wischhof}
 \newcommand{\pInstitution}{Hochschule München}
 <!--
 % Betreuer_in
 -->
-\newcommand{\bTitle}{Dr.}
-\newcommand{\bVorname}{}
-\newcommand{\bNachname}{}
-\newcommand{\bInstitution}{Firma GmbH}
+\newcommand{\bTitle}{}
+\newcommand{\bVorname}{Daniel}
+\newcommand{\bNachname}{Abram}
+\newcommand{\bInstitution}{BMW Group}
 
 \title{\titel}
 \author{\aName}
