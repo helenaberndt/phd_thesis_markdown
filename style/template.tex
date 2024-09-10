@@ -5,6 +5,8 @@ $else$
 \usepackage{lmodern}
 $endif$
 
+\usepackage[hyphens]{url} % enables line breaks in urls at hyphens
+
 % use sans serif fonts
 \renewcommand{\familydefault}{\sfdefault}
 
@@ -181,7 +183,7 @@ $if(csl-refs)$
 $endif$
 
 % References; This whole block should be the last before \begin{document}
-\usepackage[hyphens]{url} % enables line breaks in urls at hyphens
+
 \ifxetex
   \usepackage[setpagesize=false, % page size defined by xetex
               unicode=false, % unicode breaks when used with xetex

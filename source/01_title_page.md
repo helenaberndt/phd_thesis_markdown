@@ -2,11 +2,16 @@
   Zentrale Variablen:
   Workaround bzw. Rückgriff auf LaTex-Befehle, um zentrale Werte immer wieder verwenden zu können.
 -->
-% Abschlussarbeit
+
+
+<!--
+%% Abschlussarbeit
+-->
 \newcommand{\titel}{Titel der Abschlussarbeit}
 \newcommand{\datum}{01.03.2018}
-
+<!--
 % Autor_in
+-->
 \newcommand{\aVorname}{Max}
 \newcommand{\aNachname}{Mustermann}
 \newcommand{\aGeburtsdatum}{01.04.1998}
@@ -15,14 +20,16 @@
 \newcommand{\aSemester}{WS 17/2018}
 
 \newcommand{\aName}{\aVorname\space \aNachname}
-
+<!--
 % Prüfer_in
+-->
 \newcommand{\pTitle}{Prof. Dr.}
 \newcommand{\pVorname}{}
 \newcommand{\pNachname}{}
 \newcommand{\pInstitution}{Hochschule München}
-
+<!--
 % Betreuer_in
+-->
 \newcommand{\bTitle}{Dr.}
 \newcommand{\bVorname}{}
 \newcommand{\bNachname}{}
@@ -63,7 +70,7 @@
 
         \vspace{0.5cm}
 
-        % Firmenlogo
+        Firmenlogo
         % \includegraphics[width=0.4\textwidth]{style/firmenlogo.png}
 
         \normalsize
