@@ -2,34 +2,98 @@
 
 ## Hintergrund
 
-Das ist die Einleitung. Quisque finibus aliquet cursus. Integer in pellentesque tellus. Duis eu dignissim nulla, a porttitor enim. Quisque vehicula leo non ultrices finibus. Duis vehicula quis sem sit amet sollicitudin. Integer neque est, pharetra et auctor vel, iaculis interdum lectus.
+- BMW
+    - Quelle: [@BMWGeschichte]
+        - Anfänge im Jahr 1916, damals noch Bayerische Flugzeug-Werke AG
+        - seitdem durch verschiedene Krisen Autos und Motorräder
+        - 1998: Verantwortung und Rechte an Rolls Royce
+        - 2001: erster Mini unter Leitung von BMW
+        - mit i3 2013 erstes vollelektrisch angetriebenes Großserienmodell der BMW Group
+    - Quelle: [@bmwgroupJahresbericht20242024]
+        - 154.950 Mitarbeiter Ende 2024
+        - 2.554.183 Auslieferungen im Segment Automobile
+        - 209.066 Auslieferungen im Segment Motorräder
+        - Vertriebsstandort und Standorte Finanzdienstleister: 41 weltweit
+        - 32 Produktionsstandorte
+        - 17 Länder mit Forschungs- und Entwicklungssstandorten
+        - Ergebnis vor Steuern: 17,096 Mrd €
+    - Quelle: [@tholundUmfangreicheUpdatesMy2024] (unten im Impressum?)
+        - Die BMW Group ist mit ihren Marken BMW, MINI, Rolls-Royce und BMW Motorrad der weltweit führende Premium-Hersteller von Automobilen und Motorrädern und Anbieter von Premium-Finanz- und Mobilitätsdienstleistungen. Das BMW Group Produktionsnetzwerk umfasst über 30 Produktionsstandorte weltweit; das Unternehmen verfügt über ein globales Vertriebsnetzwerk mit Vertretungen in über 140 Ländern.
+        - Im Jahr 2023 erzielte die BMW Group einen weltweiten Absatz von über 2,55 Mio. Automobilen und über 209.000 Motorrädern. Das Ergebnis vor Steuern im Geschäftsjahr 2023 belief sich auf 17,1 Mrd. €, der Umsatz auf 155,5 Mrd. €. Zum 31. Dezember 2023 beschäftigte das Unternehmen weltweit 154.950 Mitarbeiterinnen und Mitarbeiter.
+        - Seit jeher sind langfristiges Denken und verantwortungsvolles Handeln die Grundlage des wirtschaftlichen Erfolges der BMW Group. Das Unternehmen hat frühzeitig die Weichen für die Zukunft gestellt und rückt Nachhaltigkeit und Ressourcenschonung konsequent ins Zentrum seiner Ausrichtung, von der Lieferkette über die Produktion bis zum Ende der Nutzungsphase aller Produkte.
 
-<!--
-Um ein Zitat in den Text aufzunehmen, füge einfach den in der references.bib-Datei gezeigten Zitatschlüssel hinzu.
--->
+- Automobilindustrie
+    - Quelle: [@AutomotiveIndustryEuropean]
+        - Automobilindustrie für Europas Wohlstand wichtig
+        - Automobilsektor schafft 13.8 Millionen direkte und indirekte Jobs, was 6.1% der gesamten EU-Beschäftigung ausmacht
+        - 2.6 Millionen Personen arbeiten in der direkten Herstellung von Kraftfahrzeugen, das macht 8.5% der EU-Beschäftigung der Herrstellung aus
+    - Quelle: [@miguelImpactDynamicCapabilities2022]
+        - Von den 13.8 Millionen Leuten, die in dem EU Automobilsektor arbeiten: Manufacturing 3.5 Millionen, sales and maintenance 4.5 Millionen, Transport 5.1 Millionen
+        - Aus wirtschaftlicher Sicht macht der von der Automobilindustrie erwirtschaftete Umsatz über 7 % des BIP der EU aus. 
+        - Automobilbranche wird durch digitale Technologien beeinflusst, also müssen Unternehmen Geschäftsmodelle durch Entwicklung ihrer dynamischen Fähigkeiten erneuern 
+        - Digitalisierung schafft Möglichkeit für Unternehmen mit Kunden zu interagieren, was neue Geschäftsmodelle schaffen kann und neue Wege wie Unternehmen mit Kunden/Verbrauchern in Kontakt bleien und so Werte für sie schaffen kann
+        - Erfolg von Unternehmen u. a. vorallem davon ab, die Wettbewerbsfähigkeit auf dem Markt zu steigern, um Kundenzufriedenheit zui erreichen
+        - Die Automobilindustrie wird größtenteils durch digitale Innovationen angetrieben (Soziale Netzwerke, Autonomes Autos, Connectivity, Big Data). Dadurch müssen Business Models mit der Technologie, Advances und deren Effekten mithalten. Z.B. Car sharing Plattformen oder Telematic services
+- Digitale Produkte 
+    Entwicklung Smartphonenutzung
+    - Quelle [@MeasuringDigitalDevelopment]
+        - mehr als dreiviertel der Weltpopulation besitzt ein Mobiles Telefon (mobile phone)
+        - genauer: weltweit haben über 78 % der 10 und älteren Pupulation ein mobile phone
+        - 93% der individuals haben in Europe ein mobile phone
+    Entwicklung Appnutzung
+    - Quelle [@jeanrenaudGlobaleAusgabenFuer2023]
+        - Geld
+            - 2019: über 112 Mrd $ für kostenpflichtige Apps und In-App-Käufe
+            - nach weiterem Wachstum: 2022 236 Mrd. $
+            - dabei immer der Großteil für In-App-Käufe (z.b. 2022 204.9 mrd inapp und 5.25 bezahlte apps) -> Anteil der bezahlten Apps rückläufig und bewegt sich nach Prognosen immer mehr auf 2% zu
+        - App-Downloads
+            - Anzahl der Downloads ist in den vergangenen Jahren gestiegen und ist auch prognostiziert, dass es weiter steigt
+            - 2022 z.b. 235 Mrd.
+            - In Spanne 2017-2021 hat sich Anzahl von 107.1 Mrd auf 220.2 Mrd mehr als verdoppelt
+    Entwicklung Automobilmarkt
+    - Quelle [@gaoUmsatzAutoindustrieKann2024]
+        - Angetrieben von gemeinsamer Mobilität (shared mobility), Konnektivitätsdiensten und Funktionserweiterungen könnten neue Geschäftsmodelle die Einnahmequellen im Automobilsektor um etwa 30 Prozent erweitern, was einem Betrag von 1,5 Billionen Dollar entspricht.
+        - Die Einnahmen aus dem Automobilsektor werden erheblich steigen und sich auf Mobilitätsdienste auf Abruf und datengesteuerte Dienste verlagern.
+    Entwicklungen der Automobilindustrie
+    - Quelle [@winkelhakeDigitaleTransformationAutomobilindustrie2024]
+        - "always on" als neuer Standart bei der Smartphone Nutzung
+        - Unternehmen müssen der Erwartungshaltung (dass "gewachsene etablierte IT-Strukturen mit bewährten Anwendungen und enormen Datenbeständen mit der mobilen app-orientierten Welt zusammen zu bringen") = Systems of Record & System of Oepration (bewährte IT-Welt) muss mit mobiler, app-orientierter Welt verbunden werden
+        - regelmäßige kostenfreie Updates der Fahrzeugsoftware "over the air" sind länger schon ein Benchmark
+        - Bereitschaft für Service zu zahlen, der persönlichen Erwartungen enspricht: China 40€ pro Monat und Person, USA und Europa ca. 20 €        
+    kurz My BMW App
+    - Quelle [@HighlightsMyBMW]
+        - universelle Schnittstelle zum Fahrzeug und allen weiteren Produkten und Services von BMW
 
-Um ein Zitat in den Text aufzunehmen, füge einfach den in der references.bib-Datei gezeigten Zitatschlüssel hinzu. Der Stil des Zitats wird durch die Datei ref_format.csl bestimmt. Zum Beispiel findest Du in *The Living Sea* Bilder vom *Calypso* [@phd_thesis_markdown].
 
-In neque mauris, maximus at sapien a, @ROS iaculis dignissim justo. Aliquam erat volutpat. Praesent varius risus auctor est ultricies, sit amet consequat nisi laoreet. Suspendisse non est et mauris pharetra sagittis non porta justo. Praesent malesuada metus ut sapien sodales ornare.
+## Motivation
 
-## Der Mittelteil
+- Kundenerlebnis
+- Kundenzufriedenheit
+- Suchfunktion
+- Schneller Zugriff auf Daten
 
-Das ist der Mittelteil. Phasellus quis ex in ipsum pellentesque lobortis tincidunt sed massa. Nullam euismod sem quis dictum condimentum. Suspendisse risus metus, elementum eu congue quis, viverra ac metus. Donec non lectus at lectus euismod laoreet pharetra semper dui. Donec sed eleifend erat, vel ultrices nibh. Nam scelerisque turpis ac nunc mollis, et rutrum nisl luctus.
+- Quelle [@strategy&DigitalAutoReport]:
+    - Digitale Experience ist jetzt ein wichtiger Brand-Differentiator
+    - Software-Plattformen und mobile Anwendungen, die die Interaktion zwischen den Besitzern von Elektrofahrzeugen und der Ladeinfrastruktur erleichtern
+    - Software platforms designed to manage, operate and optimize charging networks, as well as enhancing the efficiency of charging services
+- Quelle [@mollerFutureMobilityOur2019]:
+    - 2019 wurder vorhergesagt, dass heute ca. 60% aller Autos mit Basis oder höheren Connectivity Ausstattungen sind
 
-Duis faucibus vestibulum elit, sit amet lobortis libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed at cursus nibh. Sed accumsan imperdiet interdum. Proin id facilisis tortor. Proin posuere a neque nec iaculis. Suspendisse potenti. Nullam hendrerit ante mi, vitae iaculis dui laoreet eu.
+- Durch Suchfunktion schnellerer Zugriff auf Daten möglich, was dem Nutzer ein besseres Erlebnis gibt und die Kundenzufriedenheit steigern lässt.
 
-Cras eleifend velit diam, eu viverra mi volutpat ut. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.  Donec finibus leo nec dui imperdiet, tincidunt ornare orci venenatis. Maecenas placerat efficitur est, eu blandit magna hendrerit eu.
+## Ziele dieser Bachelorarbeit
 
-### Unterabschnitt des Mittelteils
+- Erstellung Suchfunktion
+- Kundenzufriedenheit
 
-Das ist ein Unterabschnitt des Mittelteils. Quisque sit amet tempus arcu, ac suscipit ante. Cras massa elit, pellentesque eget nisl ut, malesuada rutrum risus. Nunc in venenatis mi. Curabitur sit amet suscipit eros, non tincidunt nibh. Phasellus lorem lectus, iaculis non luctus eget, tempus non risus. Suspendisse ut felis mi.
+Erstellung von Suchfunktion die prototypsich zwei Quellen der App vereint und damit Grundlage für eine App-umfassende Suchfunktion bildet.
 
-## Zusammenfassung der Kapitel
+## Abgrenzung
 
-<!--
-kursiv: * auf beiden Seiten des Textes
-fett: **
-kursiv und fett: ***
--->
+- Prototypisch ?
 
-Dies ist ein kurzer Überblick darüber, was in jedem Kapitel geschrieben wurde. **Kapitel 1** gibt einen Hintergrund über duis tempus justo quis arcu consectetur sollicitudin. **Kapitel 2** diskutiert morbi sollicitudin gravida tellus in maximus. **Kapitel 3** diskutiert vestibulum eleifend turpis id turpis sollicitudin aliquet. **Kapitel 4** zeigt wie phasellus gravida non ex id aliquet. Proin faucibus nibh sit amet augue blandit varius.
+- Erst mal nur zwei Quellen. UI prototysich
+
+## Aufbau der Arbeit
+
+... 

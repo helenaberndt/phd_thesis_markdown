@@ -1,31 +1,60 @@
-# Literaturübersicht mit Mathe
+# Grundlagen
 
-<!--
-Nach dem einführenden Kapitel ist es üblich, dass ein Kapitel folgt,
-das die Literatur begutachtet und in die Methodik einführt wird,
-die während der gesamten Arbeit verwendet wird.
--->
+## Die MyBMW App
 
-## Einleitung
+Quelle [@tasiorDevelopersCars]
+- Zunächst Native Entwicklung, dann Android und dann alles neu in Flutter ab 2018/2019
+-  BMW, BMW M, Mini und Toyota -> gleiche App aber unterschiedliche Skins, mit verschiedenen Regionen (Nord Amerika, Korea etc.) ca 30 Apps im Apps Store
+- Eines der größten Flutter-Entwicklungsteams überhaupt
+- ca. 250 Developers arbeiten an der App
+- 23 Sprachen werden unterstützt
 
-Das ist die Einleitung. Duis in neque felis. In hac habitasse platea dictumst. Cras eget rutrum elit. Pellentesque tristique venenatis pellentesque. Cras eu dignissim quam, vel sodales felis. Vestibulum efficitur justo a nibh cursus eleifend. Integer ultrices lorem at nunc efficitur lobortis.
+Quelle[@bmwgroupHighlightsMyBMW]
+- Funktionen wie: Aus Ferne Fahrzeugstatus, ladestatus, Reichweite, Türen/Fenster überprüfen; Fahrten planen; Klimatisierung; Software-Upgrades buchen
+- universelle Schnittstellle zum Fahrzeug und weiteren Produkten und Services von BMW
+- App ist optimiert für Fahrzeuge ab dem Baujahr 2014
+- Verfügbarkeit der Funktionen ist abhängig von Fahrzeugausstattung, ConnectedDrive Vertrag und Ländern
 
-## Der Mittelteil
+Quelle[@julichUpdateFuerFreude2021]
+- My BMW App verbindet Kunden über das Smartphone mit Ihrem Fahrzeug und macht es zu einer intelligenten Schnittstelle
+- Remote Software Upgrade
+    - Mit dem BMW Operating System 7 und Remote Software Upgrade seit 2018
+    - Fahrzeug auf den neusten Softwarestand bekommen
+    - über die My BMW App oder over-the-air direkt ins Fahrzeug
+    - Ablauf: Installationsdateien im Hintergrund vorbereitet, Installation selber dauert unter 20 Minuten
+    - Mittlerweile ist RSU für über 30 BMW Modelle verfügbar
+    - Verfügbarkeit ist abhängig von Fahrzeugmodell, Ausstattung und jeweiligem Land
 
-Das ist die Literaturübersicht. Nullam quam odio, volutpat ac ornare quis, vestibulum nec nulla. Aenean nec dapibus in mL/min^-1^. Mathematical formula can be inserted using Latex:
+Quelle [@bmwHowErsteSchritteMit2024]
+- Mobiler Zugriff auf Fahrzeug, BMW Services und Stores
+- Einloggen mit BMW ID
+- Fahrzeug-Tab (Vehicle Tab): Überblick über Fahrzeugstatus und Remote-Funktionen, "Meine Fahrten" mit Informationen über Fahrten und Fahrverhalten, Charging Hub für Informationen über Elektrofahrzeuge
+- Karten-Tab: Karte mit Sonderzielen (Park-, Tank, Ladestationen), Ziele können an Fahrzeug geschickt werden
+- Explore-Tab: Neuigkeiten und praktische Tipps zu Benutzung des BMW-Fahrzeuges
+- Message Center: personaliserte Infomrationen (z.B. RSU verfügbar)
+- BMW Services und Store Tab: BMW Connected Drive Upgrades, Kontakt zu Service Partnern, Finanzdienstleistungen, BMW Stores, Buchung von Probefahrt
+- Profil-Tab: persönliche Einstellungen, Hilfecenter, Datenschutzeinstellungen
 
-(@ref_for_eqn1) $f(x) = ax^3 + bx^2 + cx + d$
+Quelle [@julichNeueSoftwareFuer2023]
+- Remote Software Upgrade ist für über 30 Modelle und damit fast alle BMW Modelle mit BMW Operating System 7 und 8 verfügbar
+- Kunden können im Einstellungsmenü des Fahrzeugs unter Remote Software Upgrade den Softwarestand abrufen und verfügbare Updates suchen
 
-Nunc eleifend, ex a luctus porttitor, felis ex suscipit tellus, ut sollicitudin sapien purus in libero. Nulla blandit eget urna vel tempus. Praesent fringilla dui sapien, sit amet egestas leo sollicitudin at.  
+Quelle [@tholundUmfangreicheUpdatesMy2024]
+- Über 13 Millionen Nutzer weltweit (My BMW und Mini)
+- fünf Updates pro Jahr
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed faucibus pulvinar volutpat. Ut semper fringilla erat non dapibus. Nunc vitae felis eget purus placerat finibus laoreet ut nibh.
 
-## Fazit
+## Suchfunktionen in Mobilen Anwendungen
 
-Das ist das Fazit. Donec pulvinar molestie urna eu faucibus. In tristique ut neque vel eleifend. Morbi ut massa vitae diam gravida iaculis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+Quelle [@komakiHowDoesMobile2012]
+- In Studie: Mehr Anfragen per Session an einem Desktop PC als an einem Mobilen Telefon, was impliziert, dass Mobile Nutzer weniger dazu bereit sind Themen in Tiefe zu erkunden wegen größeren Hürden beim Suchen, wie Query-Eingabe
+- Nützlich für Suchanfragen: Voice search, push-based information recommendation services
 
-<!-- Eine ungeordnete Liste -->
+Quelle [@churchLargeScaleStudy2008]
+- This study analyzed one million page requests from Google and focused on features such as query length, target content, and relationship between queries and device characteristics. They found that users with less sophisticated input capabilities submitted shorter queries and adult content was the most prevalent search topic. 
 
-- erstes Element der Liste
-- zweites Element der Liste
-- drittes Element der Liste
+## API-Entwicklung
+
+Donec pulvinar molestie urna eu faucibus. In tristique ut neque vel eleifend. Morbi ut massa vitae diam gravida iaculis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+
+
