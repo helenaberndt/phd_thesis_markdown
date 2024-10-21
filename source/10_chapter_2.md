@@ -55,6 +55,5 @@ Quelle [@churchLargeScaleStudy2008]
 
 ## API-Entwicklung
 
-Donec pulvinar molestie urna eu faucibus. In tristique ut neque vel eleifend. Morbi ut massa vitae diam gravida iaculis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-
+------
 
