@@ -7,7 +7,7 @@
 <!--
 %% Abschlussarbeit
 -->
-\newcommand{\titel}{Titel der Abschlussarbeit}
+\newcommand{\titel}{Entwicklung einer API-basierten Suchfunktion zur Vereinigung mehrerer Datenquellen in der "My BMW" App}
 \newcommand{\datum}{xx.xx.xxxx}
 <!--
 % Autor_in
