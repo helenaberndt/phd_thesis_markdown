@@ -82,6 +82,9 @@
 
 ### Schnittstellen-Design
 
+Quelle [@preibischAPIDevelopmentPractical2018]:
+- Erst mal ein Swagger-Dokument aufsetzen: contract-first approach, 
+
 - *Festlegung der Endpunkte (Endpoints) der API*
 - *Definition der Eingabeparameter und Rückgabewerte für jeden Endpunkt*
 - *Festlegung des Datenformats (z.B. JSON, XML)*
@@ -96,3 +99,6 @@
 - *Entscheidungen zur Skalierbarkeit, Performanz und Ausfallsicherheit*
 - *Konzeption von Querschnittsthemen wie Authentifizierung, Logging, Monitoring*
 
+Quelle [@preibischAPIDevelopmentPractical2018]
+- HTTP Methoden: GET: Retrieve data     POST: Submit data       PUT/PATCH: Update data      DELETE: Delete data
+- 

@@ -36,8 +36,10 @@ Nach Gespräch mit Jonas:
 - erst mal in der aktuellen Explore Seite einbauen
 - wenn das nicht geht -> selber bauen
 
+- fehlt: Informationen über Daten innerhalb von Explore Seite
+
 My Highlights:
-- aktuell nur ein einziges File immer lokal vorhanden
+- aktuell nur ein einziges File immer lokal vorhanden, Link zu Format: https://atc.bmwgroup.net/confluence/display/INFOTAIN/My+Highlights+Service+-+Back-End+Data+Model -> JSON 
 
 Release Notes:
 - gerade im Umbau -> erst mal lassen, sollen aber das gleiche Format wie My Highlights bekommen

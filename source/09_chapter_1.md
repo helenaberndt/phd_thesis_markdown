@@ -60,7 +60,7 @@
         - Zusammensetzung der Nutzer: Die Publikumslandschaft ist von Region zu Region sehr unterschiedlich, wobei einige Märkte wie Indonesien die Desktop-Phase fast übersprungen haben, während andere Märkte eine riesige, ausschließlich mobile Bevölkerung aufweisen. Gute Grafik: 
         ![Source: Source: comScore MMX Multi-Platform, January 2017 (falls ich des brauche) \label{martinMobilesHierarchiyNeeds2017_composition}](source/figures/martinMobilesHierarchiyNeeds2017_composition.png){ width=100% }
     - Quelle [@martinGlobalMobileReport2017]
-        Jeder Hinweis auf „mobil“ bedeutet die Kombination aus Smartphone und Tablet. Wenn sich die Daten speziell auf Smartphones oder Tablets beziehen, werden sie entsprechend gekennzeichnet.
+        - Jeder Hinweis auf „mobil“ bedeutet die Kombination aus Smartphone und Tablet. Wenn sich die Daten speziell auf Smartphones oder Tablets beziehen, werden sie entsprechend gekennzeichnet.
         - Apps dominieren den Anteil der mobilen Zeit in allen Märkten Mehr als 80 % der mobilen Minuten in allen Märkten werden mit Apps verbracht (Grafik dazu: Spitzenreiter Argentinien mit 94%, Deutschland bei 89%, USA 87%, UK 80%)
         - Mehr als 1⁄4 der weltweit gemessenen Nutzer nutzen nur noch das Mobiltelefon. In allen außer 3 Märkten sind 70 % und mehr der Nutzer im Laufe des Monats mobil aktiv. In Indien nutzen 70 % NUR das Handy (Grafik dazu: Wenigste Only Only Deutschland mit 40 %, Frankreich meiste Desktop Only ca. 70% davon, sonst Mobile Only: China 22%, Indien 70%)
         - Mehr als 1⁄4 der Mobilfunkminuten für soziale Funktionen Soziale Netzwerke und Instant-Messenger gehören durchweg zu den beliebtesten mobilen Verhaltensweisen (Grafik dazu)
