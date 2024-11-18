@@ -31,6 +31,7 @@ Chrome, Einstellungen [@ChromeEinstellungen2024]
 Explore Tab:
 <!-- aktueller: Könnte ich hernehmen und erweitern, wo die Daten herkommen (Theresa gefragt)
 - neuer: gibt es noch nicht. ich könnte ihn mir "nachbasteln" und eigene Daten (z.B. in JSON) selber erzeugen -->
+- Ich nehme die aktuellen Daten her
 
 Nach Gespräch mit Jonas:
 - erst mal in der aktuellen Explore Seite einbauen

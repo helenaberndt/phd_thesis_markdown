@@ -1,16 +1,11 @@
 # Abkürzungsverzeichnis {.unnumbered}
 
-## Nicht ausgerichtet {.unnumbered}
-
-API: **A**pplication **P**rogramming **I**nterface
-
-JSON: **J**ava**S**cript **O**bject **N**otation
-
-## Ausgerichtet {.unnumbered}
-
 \begin{tabbing}
 \textbf{API}~~~~~~~~~~~~ \= \textbf{A}pplication \textbf{P}rogramming \textbf{I}nterface \\  
-\textbf{JSON} \> \textbf{J}ava\textbf{S}cript \textbf{O}bject \textbf{N}otation \\  
+\textbf{CRUD} \> \textbf{C}reate \textbf{R}ead \textbf{U}pdate \textbf{D}elete \\
+\textbf{JSON} \> \textbf{J}ava\textbf{S}cript \textbf{O}bject \textbf{N}otation \\ 
+\textbf{REST} \> \textbf{RE}presentational \textbf{S}tate \textbf{T}ransfer \\
+\textbf{URL} \> \textbf{U}niform \textbf{R}esource \textbf{L}ocator \\
 \end{tabbing}
 
 \newpage

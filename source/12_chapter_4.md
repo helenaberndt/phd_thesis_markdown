@@ -80,6 +80,17 @@
 
 ## Konzeption der API
 
+### Auswahl der Sprache / des Frameworks für API
+Quelle [@selvarajMasteringRESTAPIs2024]:
+- Allgemein relevant: cross-origin resource sharing (CORS)
+
+- Node.js und Express-Framework:
+    - Im Mittelpunkt der Effizienz von Node.js steht die ereignisgesteuerte Architektur (event-driven architecture). Dieses Paradigma ist das Fundament der asynchronen Programmierung in Node.js. Sie können es verwenden, um sich in den Feinheiten der Ereignisbehandlung, der Rückrufe und der Ereignisschleife zurechtzufinden und so die Erstellung von APIs mit außergewöhnlicher Reaktionsfähigkeit zu ermöglichen, insbesondere wenn Sie mit I/O-intensiven Aufgaben konfrontiert sind; damit kann die API so vergrößert werden, dass große User-Volumen aufgenommen werden können
+    - non-blocking architecture
+    - asynchrones Programmieren: 
+- Django
+    -
+
 ### Schnittstellen-Design
 
 Quelle [@preibischAPIDevelopmentPractical2018]:
@@ -101,4 +112,5 @@ Quelle [@preibischAPIDevelopmentPractical2018]:
 
 Quelle [@preibischAPIDevelopmentPractical2018]
 - HTTP Methoden: GET: Retrieve data     POST: Submit data       PUT/PATCH: Update data      DELETE: Delete data
-- 
+
+

@@ -71,6 +71,8 @@
         - Die größte Anzahl von Apps sind Spiele...  In fast jedem Markt ist die Kategorie mit der größten Anzahl von Apps die der Spiele (Grafik dazu) aber die App-Minuten werden von sozialen Netzwerken und IM dominiert. Trotz einer geringeren Anzahl von Apps teilen sich diese beiden Kategorien eine unverhältnismäßig große Anzahl von Minuten (Grafik dazu)
         - Mehr als die Hälfte der Nutzer lädt keine neuen Apps herunter Nur eine Minderheit der Smartphone-Besitzer lädt mehr als eine App herunter, was die Akzeptanz neuer Apps erschwert (Grafik dazu)
         - Nur jüngere Nutzer haben eine positive Bilanz beim Herunterladen von Apps Über 35-Jährige laden eher weniger Apps herunter als vor einem Jahr und löschen sie eher schneller
+    - Quelle [@maMashDroidApproach2015]:
+        - Mobile Apps sind zum Haupt-Konsumenten von Internet-based Seriveces geworden
 
     Entwicklung Automobilmarkt
     - Quelle [@gaoUmsatzAutoindustrieKann2024]
@@ -107,7 +109,7 @@
 ## Ziele dieser Bachelorarbeit
 
 - Erstellung Suchfunktion
-- Kundenzufriedenheit
+- Kundenzufriedenheit 
 
 Erstellung von Suchfunktion die prototypsich zwei Quellen der App vereint und damit Grundlage für eine App-umfassende Suchfunktion bildet.
 
