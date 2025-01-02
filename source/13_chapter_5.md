@@ -30,17 +30,9 @@ Quelle [@selvarajMasteringRESTAPIs2024]:
 
 
 ## Implementierung des Suchfunktions-Prototyps
-Aufruf von API mit Flutter
-- Quelle [@payneMakingRESTfulAPI2024]:
-    - zu dependecies: http hinzufügen + import http
-    - HTTP Requests sind asynchron und geben eine Future zurück, die dann durch ein .then() oder await bearbeitet werden muss
-    - URL vor dem Senden encoden mit: You can do this with uri. encodeComponent(), uri.encodeQueryComponent(), and/or with uri. encodefull(). Call uri.encodefull like this:  String url = Uri.encodeFull('http://us.com/api/ ppl?query=Jo Ki');
-    - Eine Future (die Daten) auflösen und anzeigen: 
-        - Brute Force
-            setState() in .then() oder nach await - Rendert das Widget sobald die Futur
-        - FutureBuilder
-        - StreamBuilder
+
 
 
 ## UI
 
+Mehr in Quelle [@nunkesserAppEntwicklungFuerMobile2023] ab Seite 122 ... 

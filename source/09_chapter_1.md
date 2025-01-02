@@ -34,6 +34,12 @@
         - Digitalisierung schafft Möglichkeit für Unternehmen mit Kunden zu interagieren, was neue Geschäftsmodelle schaffen kann und neue Wege wie Unternehmen mit Kunden/Verbrauchern in Kontakt bleien und so Werte für sie schaffen kann
         - Erfolg von Unternehmen u. a. vorallem davon ab, die Wettbewerbsfähigkeit auf dem Markt zu steigern, um Kundenzufriedenheit zui erreichen
         - Die Automobilindustrie wird größtenteils durch digitale Innovationen angetrieben (Soziale Netzwerke, Autonomes Autos, Connectivity, Big Data). Dadurch müssen Business Models mit der Technologie, Advances und deren Effekten mithalten. Z.B. Car sharing Plattformen oder Telematic services
+
+- Apps
+    - Quelle [@nunkesserAppEntwicklungFuerMobile2023]
+        - Nach Einführung des iPhones 2007: nach nur einem Jahr wurden eine Milliarde Apps nach Start des iOS App Stores 2008 heruntergeladen
+
+
 - Digitale Produkte 
 
     Entwicklung Smartphonenutzung
@@ -121,4 +127,8 @@ Erstellung von Suchfunktion die prototypsich zwei Quellen der App vereint und da
 
 ## Aufbau der Arbeit
 
-... 
+Vorgehen (?)
+- Quelle [@nunkesserAppEntwicklungFuerMobile2023]
+        - Nach Einführung des iPhones 2007: nach nur einem Jahr wurden eine Milliarde Apps nach Start des iOS App Stores 2008 heruntergeladen
+        - Vorgehensweise: Ideenfindung über Design Thinking, Ausarbeitung und Umsetzung über Agile Methoden und Vermarktung über Lean Startup
+        - Lebenszyklus von Projekten

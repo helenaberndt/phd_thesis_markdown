@@ -124,5 +124,25 @@ Quelle [@payneMakingRESTfulAPI2024]:
 
 - Hintergrund: Server-Side Programm, um Daten in einer kontrollierten Art zu lesen und zu bearbeiten mithilfe von Protokollen wie https. Zum Lesen: http request mit credentials (username/password oder API key)
 - APIs geben die Daten fast immer in einem JSON Format zurück
-![Source: Source: comScore MMX Multi-Platform, January 2017 (falls ich des brauche) \label{source/figures/payneMakingRESTfulAPI2024_table9_1}](source/figures/payneMakingRESTfulAPI2024_table9_1.png){ width=100% }
 
+Quelle [@ibmWhatAPIApplication2024]:
+
+- Definition
+    - API = application programming interface, also Anwendungsprogrammierschnittstelle
+    - Satz von Regeln oder Protokollen, die es Softwareanwendungen ermöglichen miteinander zu kommunizieren, um Daten, Merkmale und Funktionen auszutauschen
+    - Vorteile:
+        - vereinfachen und beschleunigen die Anwendungs- und Softwareentwicklung
+        - ermöglichen es Entwicklern Daten, Dienste und Funktionen aus anderen Anwendungen zu integrieren, anstatt sie von Grund auf neu zu entwickeln
+        - bieten Anwendungseigentümern eine einfache und sichere Möglichkeit, ihr Anwendungsdaten und -funktionen den Abteilungen innerhalb eines Unternehmens zur Verfügung zu stellen oder sie an Geschäftspartner / Dritte weiterzugeben oder zu vermarkten
+    - ermöglichen gemeinsame Nutzung so, dass nur notwendige Informationen gezeigt werden und interne Systemdetails verborgen bleiben (verstärkt Systemsicherheit), APIs ermöglichen gemeinsame Nutzung kleiner Datenpakete, die für jeweilige Aufgabe relevant sind
+    - Dokumentation: wie technische Bedienanleitung
+- Funktionsweise:
+    - API-Kommunikation ist wie Anfrage zwischen Client und Server (Client stellt Anfrage, Server liefert Antwort), API ist die Brücke die die Verbindung herstellt
+- Arten von APIs:
+    - Verschiedene Verwendungszwecke:
+        - Daten(banken) APIs: zur Verbindung von Anwendungen und Datenbankverwaltungssystemen
+        - Betriebssystem (lokale) APIs: legen fest, wie Anwendungen Dienste und Ressourcen des Betriebssystems nutzen
+        - Entfernte (Remote) APIs: definieren, wie Anwendungen auf verschiedenen Geräten interagieren
+        - Web-APIs: Übertragung von Daten und Funktionen mit HTTP-Protokollen
+        - Meist verbreitet sind Web-APIs, auch dort gibt es offene APIs (quelloffene Schnittstelle zu Anwendungsprogrammierung), Partner APIs (verbinden strategische Geschäftspartner über Entwicklungsportal), Interne APIs (bleiben für externe Benutzer verborgen), zusammengesetzte (composite) API (kombinieren mehrere Daten- oder Service-APIs, damit mit einzelnem Aufruf Zugriff auf mehrere Eckpunkte)
+- Verwendungen und Beispiele: Universal Logins (z.b. mit Google-Konto), Internet of Things (Smart Home Objekte), Vergleichsseiten z.B. für Flüge, Navigations-Apps (Daten über Tempolimit etc.)  etc.

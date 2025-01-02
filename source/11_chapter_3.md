@@ -2,6 +2,8 @@
 
 ## Recherche und Analyse ähnlicher Suchfunktionen
 
+Informationen zu, Anforderungsmanagement in [@nunkesserAppEntwicklungFuerMobile2023] (Seite 41)
+
 ### Analyse des Suchfunktions-Angebots innerhalb Automobil-Apps der Wettbewerber
 
 Quellen: [@AppStoreMercedesBenz2024],[@AppStoreMyAudi2024],[@AppStoreTesla2024],[@AppStoreVolkswagen2024],[@AppStoreVolvo2024]
