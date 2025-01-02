@@ -2,57 +2,76 @@
 
 ## Hintergrund
 
-- BMW
-    - Quelle: [@BMWGeschichte]
+Bei Veröffentlichung der MyBMW im Jahre 2020 sagte der damalige Senior Vice President BMW Group Connected Company Customer über die neue App Generation, dass die BMW Group "einen weiteren Schritt in der Gestaltung des digitalen Kundenerlebnisses rund um [die] Fahrzeuge [geht] und [..] damit dem gestiegenen Kundenanspruch an digitale Dienste und Funktionen gerecht [wird]" [koenigYourWorldMy2020]. 
+
+Die BMW Group hatte ihre Anfänge im Jahre 1916, damals noch unter dem Namen 'Bayerische Flugzeug-Werke AG'. Durch Krisenjahre hindurch spezialisierte sich die AG auf die Herstellung von Autos und Motorräder unter der Marke BMW. Seit 1998 gehört auch Rolls Royce zu der BMW Group und im Jahre 2001 wurde der erste Mini unter der Leitung der BMW Group veröffentlicht. Mit dem i3 brachte die BMW Group 2013 das erste voll elektrisch angetriebene Großserienmodell auf den Markt. [@BMWGeschichte]
+
+Langfristiges Denken und verantwortungsvolles Handeln sind jeher die Grundlage des wirtschaftlichen Erfolges der BMW Group. Nachhaltigkeit und Ressourcenschonung werden dabei werden dabei in allen Phasen der Entwicklung in Mittelpunkt gerückt. Der Premium-Hersteller gehört mit seinen Marken zu den weltweit führenden Herstellern von Automobilen und Motorrädern. Darüber hinaus bietet die BMW Group auch Premium-Finanz- und Mobilitätsdienstleistungen an. Die Produkte werden an den über 30 Produktionsstandowrten weltweit hergestellt und über ein globales Vertriebsnetzwerk mit Vertretungen in über 140 Ländern vertrieben. [@tholundUmfangreicheUpdatesMy2024] <!--Hier nochmal wegen Impressum schauen, bzw passt Zitat?-->
+
+Ende 2023 waren fast 155.000 Menschen weltweit in über 70 Produktions- und Vertriebsstandorten beschäftigt mit Forschungsstandorten in über 17 Ländern. In diesem Jahr wurden über 2,5 Millionen Autos und fast 155.000 Motorräder ausgeliefert. Das Unternehmen erzielte damit ein Ergebnis vor Steuern von knapp über 17 Milliarden €. [@bmwgroupJahresbericht20242024]
+
+
+<!-- - BMW -->
+    <!--- Quelle: [koenigYourWorldMy2020]
+        - Zitat von Peter Henrich, damaliger Senior Vice President BMW Group Connected Company Customer: „Mit der neuen App-Generation gehen wir einen weiteren Schritt in der Gestaltung des digitalen Kundenerlebnisses rund um unsere Fahrzeuge und werden damit dem gestiegenen Kundenanspruch an digitale Dienste und Funktionen gerecht. Mit der My BMW App und der MINI App integrieren wir unsere Fahrzeuge nahtlos in den digitalen Lifestyle unserer Kunden. Die Apps bieten viele nützliche Inhalte sowohl für den täglichen Gebrauch des Fahrzeugs als auch in der persönlichen Interaktion mit uns als Marke, die wir kontinuierlich weiter ausbauen.“''' -->
+    <!-- - Quelle: [@BMWGeschichte]
         - Anfänge im Jahr 1916, damals noch Bayerische Flugzeug-Werke AG
         - seitdem durch verschiedene Krisen Autos und Motorräder
         - 1998: Verantwortung und Rechte an Rolls Royce
         - 2001: erster Mini unter Leitung von BMW
-        - mit i3 2013 erstes vollelektrisch angetriebenes Großserienmodell der BMW Group
-    - Quelle: [@bmwgroupJahresbericht20242024]
+        - mit i3 2013 erstes vollelektrisch angetriebenes Großserienmodell der BMW Group -->
+    <!-- - Quelle: [@bmwgroupJahresbericht20242024]
         - 154.950 Mitarbeiter Ende 2024
         - 2.554.183 Auslieferungen im Segment Automobile
         - 209.066 Auslieferungen im Segment Motorräder
         - Vertriebsstandort und Standorte Finanzdienstleister: 41 weltweit
         - 32 Produktionsstandorte
         - 17 Länder mit Forschungs- und Entwicklungssstandorten
-        - Ergebnis vor Steuern: 17,096 Mrd €
-    - Quelle: [@tholundUmfangreicheUpdatesMy2024] (unten im Impressum?)
+        - Ergebnis vor Steuern: 17,096 Mrd € -->
+    <!-- - Quelle: [@tholundUmfangreicheUpdatesMy2024] (unten im Impressum?)
         - Die BMW Group ist mit ihren Marken BMW, MINI, Rolls-Royce und BMW Motorrad der weltweit führende Premium-Hersteller von Automobilen und Motorrädern und Anbieter von Premium-Finanz- und Mobilitätsdienstleistungen. Das BMW Group Produktionsnetzwerk umfasst über 30 Produktionsstandorte weltweit; das Unternehmen verfügt über ein globales Vertriebsnetzwerk mit Vertretungen in über 140 Ländern.
         - Im Jahr 2023 erzielte die BMW Group einen weltweiten Absatz von über 2,55 Mio. Automobilen und über 209.000 Motorrädern. Das Ergebnis vor Steuern im Geschäftsjahr 2023 belief sich auf 17,1 Mrd. €, der Umsatz auf 155,5 Mrd. €. Zum 31. Dezember 2023 beschäftigte das Unternehmen weltweit 154.950 Mitarbeiterinnen und Mitarbeiter.
-        - Seit jeher sind langfristiges Denken und verantwortungsvolles Handeln die Grundlage des wirtschaftlichen Erfolges der BMW Group. Das Unternehmen hat frühzeitig die Weichen für die Zukunft gestellt und rückt Nachhaltigkeit und Ressourcenschonung konsequent ins Zentrum seiner Ausrichtung, von der Lieferkette über die Produktion bis zum Ende der Nutzungsphase aller Produkte.
+        - Seit jeher sind langfristiges Denken und verantwortungsvolles Handeln die Grundlage des wirtschaftlichen Erfolges der BMW Group. Das Unternehmen hat frühzeitig die Weichen für die Zukunft gestellt und rückt Nachhaltigkeit und Ressourcenschonung konsequent ins Zentrum seiner Ausrichtung, von der Lieferkette über die Produktion bis zum Ende der Nutzungsphase aller Produkte. -->
 
-- Automobilindustrie
-    - Quelle: [@AutomotiveIndustryEuropean]
+Die BMW Group ist Teil der Automobilindustrie und damit für den Wohlstand Europas sehr wichtig. Auf der Webseite der Europäischen Kommission wird angegeben, das dieser Sektor 13.8 Millionen direkte und indirekte Jobs schafft, was 6,1% der gesamten EU-Beschäftigung ausmacht. [@AutomotiveIndustryEuropean]
+Aus einem wirtschaftlichen Blickwinkel macht der von der Automobilindustrie erwirtschaftete Umsatz über 7 % des Brutto-Inland-Produktes der EU aus. Viele Unternehmen der Automobilbranche werden durch digitale Technologien beeinflusst, so dass sie ihre Geschäftsmodelle erneuern müssen, um so mit der Digitalisierung neue Möglichkeiten auszuschöpfen. [@miguelImpactDynamicCapabilities2022]
+
+<!-- - Automobilindustrie -->
+    <!-- - Quelle: [@AutomotiveIndustryEuropean]
         - Automobilindustrie für Europas Wohlstand wichtig
         - Automobilsektor schafft 13.8 Millionen direkte und indirekte Jobs, was 6.1% der gesamten EU-Beschäftigung ausmacht
-        - 2.6 Millionen Personen arbeiten in der direkten Herstellung von Kraftfahrzeugen, das macht 8.5% der EU-Beschäftigung der Herrstellung aus
-    - Quelle: [@miguelImpactDynamicCapabilities2022]
+        - 2.6 Millionen Personen arbeiten in der direkten Herstellung von Kraftfahrzeugen, das macht 8.5% der EU-Beschäftigung der Herrstellung aus -->
+    <!-- - Quelle: [@miguelImpactDynamicCapabilities2022]
         - Von den 13.8 Millionen Leuten, die in dem EU Automobilsektor arbeiten: Manufacturing 3.5 Millionen, sales and maintenance 4.5 Millionen, Transport 5.1 Millionen
         - Aus wirtschaftlicher Sicht macht der von der Automobilindustrie erwirtschaftete Umsatz über 7 % des BIP der EU aus. 
         - Automobilbranche wird durch digitale Technologien beeinflusst, also müssen Unternehmen Geschäftsmodelle durch Entwicklung ihrer dynamischen Fähigkeiten erneuern 
         - Digitalisierung schafft Möglichkeit für Unternehmen mit Kunden zu interagieren, was neue Geschäftsmodelle schaffen kann und neue Wege wie Unternehmen mit Kunden/Verbrauchern in Kontakt bleien und so Werte für sie schaffen kann
         - Erfolg von Unternehmen u. a. vorallem davon ab, die Wettbewerbsfähigkeit auf dem Markt zu steigern, um Kundenzufriedenheit zui erreichen
-        - Die Automobilindustrie wird größtenteils durch digitale Innovationen angetrieben (Soziale Netzwerke, Autonomes Autos, Connectivity, Big Data). Dadurch müssen Business Models mit der Technologie, Advances und deren Effekten mithalten. Z.B. Car sharing Plattformen oder Telematic services
+        - Die Automobilindustrie wird größtenteils durch digitale Innovationen angetrieben (Soziale Netzwerke, Autonomes Autos, Connectivity, Big Data). Dadurch müssen Business Models mit der Technologie, Advances und deren Effekten mithalten. Z.B. Car sharing Plattformen oder Telematic services -->
 
-- Apps
+Eine Möglichkeit, digitale Innovationen zu fördern, ist die Entwicklung und der Vertrieb von Apps, wie es die BMW Group bereits mit der MyBMW App umgesetzt hat. Aufgrund der zunehmenden Verbreitung von Smartphones sind Apps leicht für Kunden zugänglich.
+Weltweit benutzen inzwischen über drei Viertel der Bevölkerung ab 10 Jahren ein Mobiltelefon, in Europa sogar 93 %. [@MeasuringDigitalDevelopment]
+Auch die App-Nutzung ist in den letzten Jahren gestiegen, was an der Anzahl der App-Downloads messbar ist. So hat sich die Zahl der Downloads zwischen 2017 und 2021 von 107 Milliarden auf 220 Milliarden mehr als verdoppelt. Diese Zahl wird Prognosen zufolge weiter steigen. [@jeanrenaudGlobaleAusgabenFuer2023]
+
+Immer mehr Menschen verwenden nicht mehr ihren Laptop und verwenden ausschließlich ihr Mobiltelefon. Weltweit sind es  Bei der Zeit, die an mobilen Geräten verbracht wird, dominieren Apps mit einem Anteil von mehr als 80% der mobilen Nutzungsminuten. xxxxx
+
+<!-- - Apps
     - Quelle [@nunkesserAppEntwicklungFuerMobile2023]
-        - Nach Einführung des iPhones 2007: nach nur einem Jahr wurden eine Milliarde Apps nach Start des iOS App Stores 2008 heruntergeladen
+        - Nach Einführung des iPhones 2007: nach nur einem Jahr wurden eine Milliarde Apps nach Start des iOS App Stores 2008 heruntergeladen -->
 
 
 - Digitale Produkte 
 
-    Entwicklung Smartphonenutzung
+    <!-- Entwicklung Smartphonenutzung
     - Quelle [@MeasuringDigitalDevelopment]
         - mehr als dreiviertel der Weltpopulation besitzt ein Mobiles Telefon (mobile phone)
         - genauer: weltweit haben über 78 % der 10 und älteren Pupulation ein mobile phone
         - 93% der individuals haben in Europe ein mobile phone
     - Quelle [@martinMobilesHierarchiyNeeds2017]
-        - Mobile ist zu einem Grundbedürfnis geworden Eine aktuelle Umfrage der Boston Consulting Group zeigt, dass die Verbraucher immer weniger bereit sind, auf ihre mobilen Geräte zu verzichten, selbst wenn dies auf Kosten einiger traditioneller Bedürfnisse geht. In Grafik Beispiele (Mehr als 3/10 würde dafür darauf verzichten, ihre Freunde persönlich zu sehen; 45 % sagen sie würden einen Urlaub dafür aufschieben)
+        - Mobile ist zu einem Grundbedürfnis geworden Eine aktuelle Umfrage der Boston Consulting Group zeigt, dass die Verbraucher immer weniger bereit sind, auf ihre mobilen Geräte zu verzichten, selbst wenn dies auf Kosten einiger traditioneller Bedürfnisse geht. In Grafik Beispiele (Mehr als 3/10 würde dafür darauf verzichten, ihre Freunde persönlich zu sehen; 45 % sagen sie würden einen Urlaub dafür aufschieben) -->
        
-
     Entwicklung Appnutzung
-    - Quelle [@jeanrenaudGlobaleAusgabenFuer2023]
+    <!-- - Quelle [@jeanrenaudGlobaleAusgabenFuer2023]
         - Geld
             - 2019: über 112 Mrd $ für kostenpflichtige Apps und In-App-Käufe
             - nach weiterem Wachstum: 2022 236 Mrd. $
@@ -60,11 +79,11 @@
         - App-Downloads
             - Anzahl der Downloads ist in den vergangenen Jahren gestiegen und ist auch prognostiziert, dass es weiter steigt
             - 2022 z.b. 235 Mrd.
-            - In Spanne 2017-2021 hat sich Anzahl von 107.1 Mrd auf 220.2 Mrd mehr als verdoppelt
-    - Quelle [@martinMobilesHierarchiyNeeds2017]
+            - In Spanne 2017-2021 hat sich Anzahl von 107.1 Mrd auf 220.2 Mrd mehr als verdoppelt -->
+    <!-- - Quelle [@martinMobilesHierarchiyNeeds2017]
         - Immer mehr Vertrauen in Mobile Apps: Das Bankpublikum vertraut dem Mobiltelefon und verlässt den Desktop Trotz historischer Bedenken der Verbraucher in Bezug auf die Sicherheit des Mobiltelefons übertrifft das Bankpublikum nun weitgehend den Desktop. Mehr als 50 % dieser Nutzer haben den Desktop für ihre Bankgeschäfte komplett aufgegeben.
         - Zusammensetzung der Nutzer: Die Publikumslandschaft ist von Region zu Region sehr unterschiedlich, wobei einige Märkte wie Indonesien die Desktop-Phase fast übersprungen haben, während andere Märkte eine riesige, ausschließlich mobile Bevölkerung aufweisen. Gute Grafik: 
-        ![Source: Source: comScore MMX Multi-Platform, January 2017 (falls ich des brauche) \label{martinMobilesHierarchiyNeeds2017_composition}](source/figures/martinMobilesHierarchiyNeeds2017_composition.png){ width=100% }
+        ![Source: Source: comScore MMX Multi-Platform, January 2017 (falls ich des brauche) \label{martinMobilesHierarchiyNeeds2017_composition}](source/figures/martinMobilesHierarchiyNeeds2017_composition.png){ width=100% } -->
     - Quelle [@martinGlobalMobileReport2017]
         - Jeder Hinweis auf „mobil“ bedeutet die Kombination aus Smartphone und Tablet. Wenn sich die Daten speziell auf Smartphones oder Tablets beziehen, werden sie entsprechend gekennzeichnet.
         - Apps dominieren den Anteil der mobilen Zeit in allen Märkten Mehr als 80 % der mobilen Minuten in allen Märkten werden mit Apps verbracht (Grafik dazu: Spitzenreiter Argentinien mit 94%, Deutschland bei 89%, USA 87%, UK 80%)
