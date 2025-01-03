@@ -36,12 +36,12 @@ Ende 2023 waren fast 155.000 Menschen weltweit in über 70 Produktions- und Vert
 Die BMW Group ist Teil der Automobilindustrie und damit für den Wohlstand Europas sehr wichtig. Auf der Webseite der Europäischen Kommission wird angegeben, das dieser Sektor 13.8 Millionen direkte und indirekte Jobs schafft, was 6,1% der gesamten EU-Beschäftigung ausmacht. [@AutomotiveIndustryEuropean]
 Aus einem wirtschaftlichen Blickwinkel macht der von der Automobilindustrie erwirtschaftete Umsatz über 7 % des Brutto-Inland-Produktes der EU aus. Viele Unternehmen der Automobilbranche werden durch digitale Technologien beeinflusst, so dass sie ihre Geschäftsmodelle erneuern müssen, um so mit der Digitalisierung neue Möglichkeiten auszuschöpfen. [@miguelImpactDynamicCapabilities2022] So wird angenommen, dass Geschäftsmodelle wie Konnektivitätsdienste und Funktionserweiterungen die Einnahmequellen um etwa 30 % erweitern könnten, besonders durch On-demand Mobilitätsdienste und datengesteuerte Dienste. [@gaoUmsatzAutoindustrieKann2024] Damit müssen Firmen der Automobilbranche der Erwartungshaltung der Kunden, dass etablierte IT-Strukturen mit der mobilen, App-orientierten Welt verbunden werden. Einige Technologien, wie regelmäßige "over the air" Updates haben sich dabei schon zu einem Benchmark innerhalb der Industrie entwickelt. Kunden sind auch bereit, für bereichernde Services zu zahlen; in USA und Europa ca. 20 € pro Monat, in China sogar 40 €. [@winkelhakeDigitaleTransformationAutomobilindustrie2024]
 
-<!-- - Automobilindustrie -->
+<!-- - Automobilindustrie
     <!-- - Quelle: [@AutomotiveIndustryEuropean]
         - Automobilindustrie für Europas Wohlstand wichtig
         - Automobilsektor schafft 13.8 Millionen direkte und indirekte Jobs, was 6.1% der gesamten EU-Beschäftigung ausmacht
-        - 2.6 Millionen Personen arbeiten in der direkten Herstellung von Kraftfahrzeugen, das macht 8.5% der EU-Beschäftigung der Herrstellung aus -->
-    <!-- - Quelle: [@miguelImpactDynamicCapabilities2022]
+        - 2.6 Millionen Personen arbeiten in der direkten Herstellung von Kraftfahrzeugen, das macht 8.5% der EU-Beschäftigung der Herrstellung aus
+    - Quelle: [@miguelImpactDynamicCapabilities2022]
         - Von den 13.8 Millionen Leuten, die in dem EU Automobilsektor arbeiten: Manufacturing 3.5 Millionen, sales and maintenance 4.5 Millionen, Transport 5.1 Millionen
         - Aus wirtschaftlicher Sicht macht der von der Automobilindustrie erwirtschaftete Umsatz über 7 % des BIP der EU aus. 
         - Automobilbranche wird durch digitale Technologien beeinflusst, also müssen Unternehmen Geschäftsmodelle durch Entwicklung ihrer dynamischen Fähigkeiten erneuern 
@@ -53,21 +53,20 @@ Eine Möglichkeit, digitale Innovationen zu fördern, ist die Entwicklung und de
 Weltweit benutzen inzwischen über drei Viertel der Bevölkerung ab 10 Jahren ein Mobiltelefon, in Europa sogar 93 %. [@MeasuringDigitalDevelopment]
 Auch die App-Nutzung ist in den letzten Jahren gestiegen, was an der Anzahl der App-Downloads messbar ist. So hat sich die Zahl der Downloads zwischen 2017 und 2021 von 107 Milliarden auf 220 Milliarden mehr als verdoppelt. Diese Zahl wird Prognosen zufolge weiter steigen. [@jeanrenaudGlobaleAusgabenFuer2023]
 
-Immer mehr Menschen verwenden nicht mehr ihren Laptop und verwenden ausschließlich ihr Mobiltelefon. Weltweit sind es etwa ein Viertel der Nutzer, wobei die Schwankungen zwischen den Ländern groß sind. Bei der Zeit, die an mobilen Geräten verbracht wird, dominieren Apps mit einem Anteil von mehr als 80% der mobilen Nutzungsminuten. Innerhalb des App-Marktes herrscht ein intensiver Wettbewerb. Einige wenige Anwendungen beherrschen den Großteil des Marktes, was daran erkannt werden kann, dass Nutzer bis zu 95 % ihrer Zeit in ihren persönlichen Top-10-Apps verbringen. <!-- Dazu gibt es Grafik --> [@martinGlobalMobileReport2017] Insgesamt sind Apps zum Hauptkonsumenten von Internet basierten Diensten geworden. [@maMashDroidApproach2015] 
+Die Relevanz von mobilen Anwendungen zeigt sich auch dadurch, immer mehr Menschen nicht mehr ihren Laptop verwenden, sondern ausschließlich ihr Mobiltelefon. Weltweit sind es etwa ein Viertel der Nutzer, wobei die Schwankungen zwischen den Ländern groß sind. Bei der Zeit, die an mobilen Geräten verbracht wird, dominieren Apps mit einem Anteil von mehr als 80% der mobilen Nutzungsminuten. Innerhalb des App-Marktes herrscht ein intensiver Wettbewerb. Einige wenige Anwendungen beherrschen den Großteil des Marktes, was daran erkannt werden kann, dass Nutzer bis zu 95 % ihrer Zeit in ihren persönlichen Top-10-Apps verbringen. <!-- Dazu gibt es Grafik --> [@martinGlobalMobileReport2017] Insgesamt sind Apps zum Hauptkonsumenten von Internet basierten Diensten geworden. [@maMashDroidApproach2015] 
 
 <!-- - Apps
     - Quelle [@nunkesserAppEntwicklungFuerMobile2023]
         - Nach Einführung des iPhones 2007: nach nur einem Jahr wurden eine Milliarde Apps nach Start des iOS App Stores 2008 heruntergeladen -->
 
-- Digitale Produkte 
+<!-- - Digitale Produkte  -->
     <!-- Entwicklung Smartphonenutzung
     - Quelle [@MeasuringDigitalDevelopment]
         - mehr als dreiviertel der Weltpopulation besitzt ein Mobiles Telefon (mobile phone)
         - genauer: weltweit haben über 78 % der 10 und älteren Pupulation ein mobile phone
         - 93% der individuals haben in Europe ein mobile phone
     - Quelle [@martinMobilesHierarchiyNeeds2017]
-        - Mobile ist zu einem Grundbedürfnis geworden Eine aktuelle Umfrage der Boston Consulting Group zeigt, dass die Verbraucher immer weniger bereit sind, auf ihre mobilen Geräte zu verzichten, selbst wenn dies auf Kosten einiger traditioneller Bedürfnisse geht. In Grafik Beispiele (Mehr als 3/10 würde dafür darauf verzichten, ihre Freunde persönlich zu sehen; 45 % sagen sie würden einen Urlaub dafür aufschieben) -->
-       
+        - Mobile ist zu einem Grundbedürfnis geworden Eine aktuelle Umfrage der Boston Consulting Group zeigt, dass die Verbraucher immer weniger bereit sind, auf ihre mobilen Geräte zu verzichten, selbst wenn dies auf Kosten einiger traditioneller Bedürfnisse geht. In Grafik Beispiele (Mehr als 3/10 würde dafür darauf verzichten, ihre Freunde persönlich zu sehen; 45 % sagen sie würden einen Urlaub dafür aufschieben) -->  
     <!-- Entwicklung Appnutzung -->
     <!-- - Quelle [@jeanrenaudGlobaleAusgabenFuer2023]
         - Geld
@@ -112,37 +111,47 @@ Immer mehr Menschen verwenden nicht mehr ihren Laptop und verwenden ausschließl
 
 ## Motivation
 
-- Kundenerlebnis
+Die zuvor dargelegten Punkte zeigen die Notwendigkeit auf, dass insbesondere Unternehmen der Automobilindustrie die Entwicklung von Apps vorantreiben müssen, um ihre Kunden zu überzeugen. Dabei ist auch die kontinuierliche Weiterentwicklung von Apps von entscheidender Bedeutung, um das Kundenerlebnis langfristig zu optimieren und die Kundenzufriedenheit zu erhöhen.
+
+So ist das digitale Erlebnis eines Produktes ein entscheidendes Unterscheidungsmerkmal für Marken. Für Firmen der Automobilbranche kann es wichtig sein, mobile Anwendungen zu entwickeln, die die Interaktion von Benutzern von Elektrofahrzeugen und der Ladeinfrastruktur zu erleichtern. Die zugehörige Software Plattform verwalten, betreiben und optimieren Ladenetze und verbessern so die Effizienz von Ladediensten. [@strategy&DigitalAutoReport]  Eine Hochrechnung aus dem Jahr 2019 prognostizierte, dass im Jahr 2025 etwa 60 % aller Autos über Ausstattungen verfügen würden, die als basic oder higher Connectivity  <!--toask: welche Begriffe hier dann?--> bezeichnet werden. Für die Folgejahre wurde diese Tendenz als steigend prognostiziert. [@mollerFutureMobilityOur2019]
+
+Die Implementierung einer Suchfunktion stellt eine Methode zur Optimierung einer mobilen Anwendung dar. Dadurch wird es den Kunden ermöglicht, Inhalte innerhalb der App effizienter aufzufinden, was zu einer Steigerung des Nutzungserlebnisses und der Benutzerzufriedenheit führt.
+
+<!-- - Kundenerlebnis
 - Kundenzufriedenheit
 - Suchfunktion
-- Schneller Zugriff auf Daten
+- Schneller Zugriff auf Daten -->
 
-- Quelle [@strategy&DigitalAutoReport]:
+<!-- - Quelle [@strategy&DigitalAutoReport]:
     - Digitale Experience ist jetzt ein wichtiger Brand-Differentiator
     - Software-Plattformen und mobile Anwendungen, die die Interaktion zwischen den Besitzern von Elektrofahrzeugen und der Ladeinfrastruktur erleichtern
-    - Software platforms designed to manage, operate and optimize charging networks, as well as enhancing the efficiency of charging services
+    - Softwareplattformen für die Verwaltung, den Betrieb und die Optimierung von Ladenetzen sowie zur Verbesserung der Effizienz von Ladediensten
 - Quelle [@mollerFutureMobilityOur2019]:
-    - 2019 wurder vorhergesagt, dass heute ca. 60% aller Autos mit Basis oder höheren Connectivity Ausstattungen sind
+    - 2019 wurder vorhergesagt, dass heute ca. 60% aller Autos mit Basis oder höheren Connectivity Ausstattungen sind -->
 
-- Durch Suchfunktion schnellerer Zugriff auf Daten möglich, was dem Nutzer ein besseres Erlebnis gibt und die Kundenzufriedenheit steigern lässt.
+<!-- - Durch Suchfunktion schnellerer Zugriff auf Daten möglich, was dem Nutzer ein besseres Erlebnis gibt und die Kundenzufriedenheit steigern lässt. -->
 
 ## Ziele dieser Bachelorarbeit
 
-- Erstellung Suchfunktion
+<!-- erst am Ende machen! -->
+
+<!-- - Erstellung Suchfunktion
 - Kundenzufriedenheit 
 
-Erstellung von Suchfunktion die prototypsich zwei Quellen der App vereint und damit Grundlage für eine App-umfassende Suchfunktion bildet.
+Erstellung von Suchfunktion die prototypsich zwei Quellen der App vereint und damit Grundlage für eine App-umfassende Suchfunktion bildet. -->
 
 ## Abgrenzung
+<!-- erst am Ende machen! -->
 
-- Prototypisch ?
+<!-- - Prototypisch ?
 
-- Erst mal nur zwei Quellen. UI prototysich
+- Erst mal nur zwei Quellen. UI prototysich -->
 
 ## Aufbau der Arbeit
+<!-- erst am Ende machen! -->
 
-Vorgehen (?)
+<!-- Vorgehen (?)
 - Quelle [@nunkesserAppEntwicklungFuerMobile2023]
         - Nach Einführung des iPhones 2007: nach nur einem Jahr wurden eine Milliarde Apps nach Start des iOS App Stores 2008 heruntergeladen
         - Vorgehensweise: Ideenfindung über Design Thinking, Ausarbeitung und Umsetzung über Agile Methoden und Vermarktung über Lean Startup
-        - Lebenszyklus von Projekten
+        - Lebenszyklus von Projekten -->
