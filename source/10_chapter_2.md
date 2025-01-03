@@ -2,23 +2,27 @@
 
 ## Die MyBMW App
 
-Quelle [@tasiorDevelopersCars]:
+Im Jahr 2020 wurde von der BMW Group die MyBMW- bzw. Mini-App publiziert, die Kunden einen digitalen Zugang zu ihrem Auto ermöglicht. Ihre Entwicklung basierte auf dem Feedback und den Erkenntnissen aus dem Nutzerverhalten der vorherigen Generationen der BMW i Remote App und der BMW Connected App. [koenigYourWorldMy2020]
 
+Für die Entwicklung der App wurde Flutter verwendet, ein Open-Source-Framework welches nativ kompilierte und plattformübergreifende Anwendungen aus einer einzigen Code-Basis erstellt. [flutterFlutterBuildApps] Auf dieser Grundlage ist es möglich, die App sowohl für Android und IOS, sowie für die verschiedenen Skins und Regionen zu bauen. Die Skins repräsentieren die Marken BMW, BMW M, Mini und Toyota. Darüber hinaus existieren spezifische Versionen für ausgewählte Regionen, wie Nordamerika oder Korea. Daraus resultieren ca. 30 Apps, die den Kunden in Apps Stores angeboten werden. Das Team von ca. 250 Entwicklern, von denen einige bereits seit 2018 an der App arbeiten, stellt eines der größten Flutter-Entwicklungsteams dar. [@tasiorDevelopersCars]
+Die App bieten den Kunden eine universelle Schnittstelle zum Fahrzeug. So können Remote-Funktionen ausgeführt werden, mit denen aus der Ferne über das Mobiltelefon der Fahrzeug- oder Ladestatus, die Reichweite oder Türen und Fenster des Autos überprüft werden können. Dabei sind die Funktionen optimiert für Fahrzeuge ab dem Baujahr 2014 und abhängig von Fahrzeugausstattung und länderspezifischen Vorgaben.
+
+<!-- Quelle [koenigYourWorldMy2020]:
+- Davor: BMW i Remote App 2013, BMW Connected App
+- myBMW App seit 2020 neue App Generation, auf Feedback und Nutzerverhalten der vorherigen App Generationen
+- intuitiver, vereinfachte Benutzerführung -->
+<!-- Quelle [@tasiorDevelopersCars]:
 - Zunächst Native Entwicklung, dann Android und dann alles neu in Flutter ab 2018/2019
 -  BMW, BMW M, Mini und Toyota -> gleiche App aber unterschiedliche Skins, mit verschiedenen Regionen (Nord Amerika, Korea etc.) ca 30 Apps im Apps Store
 - Eines der größten Flutter-Entwicklungsteams überhaupt
 - ca. 250 Developers arbeiten an der App
-- 23 Sprachen werden unterstützt
-
-Quelle[@bmwgroupHighlightsMyBMW]:
-
+- 23 Sprachen werden unterstützt -->
+<!-- Quelle[@bmwgroupHighlightsMyBMW]:
 - Funktionen wie: Aus Ferne Fahrzeugstatus, ladestatus, Reichweite, Türen/Fenster überprüfen; Fahrten planen; Klimatisierung; Software-Upgrades buchen
 - universelle Schnittstelle zum Fahrzeug und weiteren Produkten und Services von BMW
 - App ist optimiert für Fahrzeuge ab dem Baujahr 2014
-- Verfügbarkeit der Funktionen ist abhängig von Fahrzeugausstattung, ConnectedDrive Vertrag und Ländern
-
+- Verfügbarkeit der Funktionen ist abhängig von Fahrzeugausstattung, ConnectedDrive Vertrag und Ländern -->
 Quelle[@julichUpdateFuerFreude2021]:
-
 - My BMW App verbindet Kunden über das Smartphone mit Ihrem Fahrzeug und macht es zu einer intelligenten Schnittstelle
 - Remote Software Upgrade
     - Mit dem BMW Operating System 7 und Remote Software Upgrade seit 2018
@@ -27,9 +31,7 @@ Quelle[@julichUpdateFuerFreude2021]:
     - Ablauf: Installationsdateien im Hintergrund vorbereitet, Installation selber dauert unter 20 Minuten
     - Mittlerweile ist RSU für über 30 BMW Modelle verfügbar
     - Verfügbarkeit ist abhängig von Fahrzeugmodell, Ausstattung und jeweiligem Land
-
 Quelle [@bmwHowErsteSchritteMit2024]:
-
 - Mobiler Zugriff auf Fahrzeug, BMW Services und Stores
 - Einloggen mit BMW ID
 - Fahrzeug-Tab (Vehicle Tab): Überblick über Fahrzeugstatus und Remote-Funktionen, "Meine Fahrten" mit Informationen über Fahrten und Fahrverhalten, Charging Hub für Informationen über Elektrofahrzeuge
