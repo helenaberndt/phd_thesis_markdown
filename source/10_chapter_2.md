@@ -145,3 +145,21 @@ Eine gute Implementierung ist besonders bei Mobilen Applikationen wichtig, da si
 - Verwendungen und Beispiele: Universal Logins (z.b. mit Google-Konto), Internet of Things (Smart Home Objekte), Vergleichsseiten z.B. für Flüge, Navigations-Apps (Daten über Tempolimit etc.)  etc. -->
 
 # Flutter
+
+Quelle [tashildarApplicationDevelopmentUsing2020]:
+- damit App möglichste viele Kunden erreicht, müssen Apps mit den zwei unabhängigen Plattformen IOS und Android familiarizen, diese sind sehr unterschiedlich, weshalb es oft verschiedene Entwickler mit einem unterschiedlichen Skill-Set braucht, Firmen haben also oft Schwierigkeiten mit der Komplexität der Entwicklung plattformübergreifenden Anwendungen umzugehen
+- eigentlich: 
+    - Entwickler müssen bzw. mussten wegen der verschiedenen Plattformen Apps mehrfach bauen oder eine Lösung mit niedrigerer Qualität akzeptieren, wenn sie ähnliche Ansätze für verschiedene Plattformen verwenden müssen (z.b. Native Speed und Accuracy for portability) -> mit Flutter: Flutter ist abhängig von den OEM widets des Devices, anstatt, dass web views konsumiert werden; benutzt eine high-performance rendering enging, um jedes component einzeln genutzt werden kann
+- Entwicklung: in zweiten Hälfte von 2016 hat Google eine mobile SDK angekündigt namens 'Flutter'
+- Plattformübergreifendes Framework, das hochperformante Mobile Anwendungen baut
+- Features von Flutter:
+    - Flutter kann auf beiden Plattformen, also iOS und Android laufen. Das reduziert die Kosten und Komplexität der Appentwicklung
+    - Just-in-time compilation: bei der der Computercode, der die Kompilierung umfasst, während der Programmausführung zur Laufzeit und nicht vor der Ausführung ausgeführt wird
+    - Hot-Reload: 
+        - Hilft beim Entwickeln (rumexperiementieren, UI bauen, features hinzufügen, Bugs bzw. Fehler lösen)
+        - Funktionsweise: Aktualisierte Quell-Dateien  werden in die laufende Dart Virutal Machine (Dart VM) eingefügt, die VM updated dann Klassen mit der neuen Version der Felder und Funktionen; das Flutter Framework baut dann automatisch den Widget-Tree neu, wodurch der Entwickler seine Änderunden schnell sehen kann; ohne Änderung der inneren Struktur der Applikation. Transaktionen und Aktionen der App sind well-preserved
+- Dart:
+    - Jede flutter-App ist mit Dart geschrieben, programmiert worden
+    - Dart sollte ursprünglich JavaScript ersetzen und nachfolgen
+    - Dart hat eine Java-ähnliche Syntax
+
