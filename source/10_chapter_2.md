@@ -98,7 +98,7 @@ Eine gute Implementierung ist besonders bei Mobilen Applikationen wichtig, da si
         - Bild davon: 
         ![Source: Source: comScore MMX Multi-Platform, January 2017 (falls ich des brauche) \label{martinMobilesHierarchiyNeeds2017_composition}](source/figures/selvarajMasteringRESTAPIs2024_RESTAPI_image.png){ width=100% }       -->
     
-APIs in Mobile Apps:
+<!-- APIs in Mobile Apps: -->
 
 <!-- - Quelle [@maMashDroidApproach2015]: unused
     - Fast alle "networked Mobile Apps" greifen auf RESTful Web services/APIs zu und verwenden HTTP(s) als Transfer-Protokol
