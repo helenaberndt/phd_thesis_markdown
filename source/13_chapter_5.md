@@ -33,6 +33,6 @@ Quelle [@selvarajMasteringRESTAPIs2024]:
 
 
 
-## UI
+## Benutzeroberfläche
 
 Mehr in Quelle [@nunkesserAppEntwicklungFuerMobile2023] ab Seite 122 ... 

@@ -2,13 +2,17 @@
 
 ## Die MyBMW App
 
-Im Jahr 2020 wurde von der BMW Group die MyBMW- bzw. Mini-App publiziert, die Kunden einen digitalen Zugang zu ihrem Auto ermöglicht. Ihre Entwicklung basierte auf dem Feedback und den Erkenntnissen aus dem Nutzerverhalten der vorherigen Generationen der BMW i Remote App und der BMW Connected App. [koenigYourWorldMy2020]
-Zum aktuellen Zeitpunkt benutzen über 13 Millionen Nutzer die App. Sie wird etwa fünf Mal im Jahr durch Updates aktualisiert. [@tholundUmfangreicheUpdatesMy2024]
+Im Jahr 2020 hat die BMW Group die MyBMW- bzw. Mini-App veröffentlicht, die den Kunden einen digitalen Zugang zu ihrem Fahrzeug ermöglicht. Die Entwicklung basiert auf dem Feedback und den Erkenntnissen aus dem Nutzerverhalten der Vorgängergenerationen, der BMW i Remote App und der BMW Connected App. [koenigYourWorldMy2020]
 
-Für die Entwicklung der App wurde Flutter verwendet, ein Open-Source-Framework welches nativ kompilierte und plattformübergreifende Anwendungen aus einer einzigen Code-Basis erstellt. [flutterFlutterBuildApps] Auf dieser Grundlage ist es möglich, die App sowohl für Android und IOS, sowie für die verschiedenen Skins und Regionen zu bauen. Die Skins repräsentieren die Marken BMW, BMW M, Mini und Toyota. Darüber hinaus existieren spezifische Versionen für ausgewählte Regionen, wie Nordamerika oder Korea. Daraus resultieren ca. 30 Apps, die den Kunden in Apps Stores angeboten werden. Das Team von ca. 250 Entwicklern, von denen einige bereits seit 2018 an der App arbeiten, stellt eines der größten Flutter-Entwicklungsteams dar. [@tasiorDevelopersCars]
-Die App bieten den Kunden eine universelle Schnittstelle zum Fahrzeug. So können Remote-Funktionen ausgeführt werden, mit denen aus der Ferne über das Mobiltelefon der Fahrzeug- oder Ladestatus, die Reichweite oder Türen und Fenster des Autos überprüft werden können. Dabei sind die Funktionen optimiert für Fahrzeuge ab dem Baujahr 2014 und abhängig von Fahrzeugausstattung und länderspezifischen Vorgaben. [@bmwgroupHighlightsMyBMW]
-Mit der App können Kunden nach Anmeldung mit ihrer BMW-ID einen mobilen Zugriff auf ihr Fahrzeug, BMW Services und Store haben. Dabei ist die App in mehrere Unterseiten (Tabs) aufgeteilt. Im Fahrzeug-Tab kann der Kunde einen Überblick über den aktuellen Zustand seines Autos bekommen, also Fahrzeugstatus und Remote-Funktionen, so wie unter anderem Zugriff auf die Funktionen 'Meine Fahrten'. In dem Karten-Tab können Ziele zur Navigation gesucht und ausgewählt werden. Der BMW-Services- und Store-Tab gibt den Kunden direkten Zugriff auf Updates und Finanzdienstleistungen und bietet Kontakt zu Service Partnern. Im Profil-Tab können persönliche Einstellungen vorgenommen werden. [@bmwHowErsteSchritteMit2024]
-Ein besonderes Feature ist das Remote Software Upgrade. Damit können Updates für die Fahrzeug-Software direkt 'over-the-air' auf das Auto oder erst auf die MyBMW-App und dann auf das Auto geladen werden. [@julichUpdateFuerFreude2021] 
+Derzeit nutzen mehr als 13 Millionen Nutzer die App. Sie wird etwa fünf Mal im Jahr durch Updates aktualisiert. [@tholundUmfangreicheUpdatesMy2024]
+
+Für die Entwicklung der App wurde Flutter verwendet, ein Open-Source-Framework, das nativ kompilierte und plattformübergreifende Anwendungen aus einer einzigen Codebasis erstellt. [flutterFlutterBuildApps] Auf dieser Grundlage ist es möglich, die App sowohl für Android und iOS als auch für die verschiedenen Skins und Regionen zu bauen. Die Skins repräsentieren die Marken BMW, BMW M, Mini und Toyota. Zusätzlich gibt es spezifische Versionen für ausgewählte Regionen, wie Nordamerika oder Korea. Daraus resultieren ca. 30 Apps, die den Kunden in Apps Stores angeboten werden. Das Team von ca. 250 Entwicklern, von denen einige bereits seit 2018 an der App arbeiten, ist eines der größten Flutter Entwicklungsteams. [@tasiorDevelopersCars]
+
+Die App bietet dem Kunden eine universelle Schnittstelle zum Fahrzeug. Damit können Remote-Funktionen ausgeführt werden, mit denen der Fahrzeug- oder Ladestatus, die Reichweite oder die Türen und Fenster des Autos aus der Ferne über das Mobiltelefon überprüft werden können. Die Funktionen sind optimiert für Fahrzeuge ab dem Baujahr 2014 und abhängig von Fahrzeugausstattung und länderspezifischen Vorgaben. [@bmwgroupHighlightsMyBMW]
+
+Mit der App können Kunden nach Anmeldung mit ihrer BMW-ID auf ihr Fahrzeug, BMW Services und Store zugreifen. Dabei ist die App in mehrere Unterseiten (Tabs) aufgeteilt. Im Fahrzeug-Tab kann sich der Kunde einen Überblick über den aktuellen Zustand seines Autos verschaffen, also Fahrzeugstatus und Remote-Funktionen, sowie unter anderem auf die Funktion 'Meine Fahrten' zugreifen. Im Karten-Tab können Ziele zur Navigation gesucht und ausgewählt werden. Der BMW-Services- und Store-Tab gibt den Kunden direkten Zugriff auf Updates und Finanzdienstleistungen und bietet Kontakt zu Service Partnern. Im Profil-Tab können persönliche Einstellungen vorgenommen werden. [@bmwHowErsteSchritteMit2024]
+
+Ein besonderes Feature ist das Remote Software Upgrade. Damit können Updates für die Fahrzeugsoftware direkt 'over-the-air' ins Fahrzeug oder zunächst in die MyBMW-App und dann auf das Auto geladen werden. [@julichUpdateFuerFreude2021] 
 
 
 <!-- Quelle [koenigYourWorldMy2020]:
@@ -51,11 +55,41 @@ Ein besonderes Feature ist das Remote Software Upgrade. Damit können Updates f�
 - Über 13 Millionen Nutzer weltweit (My BMW und Mini)
 - fünf Updates pro Jahr -->
 
+## Flutter
+
+Damit Apps möglichst viele Kunden erreichen, müssen sie mit den unabhängigen Plattformen iOS und Android kompatibel sein. Dies stellt Unternehmen oftmals vor Schwierigkeiten, da sie mit der Komplexität plattformübergreifender Anwendungen umgehen müssen. Entwickler benötigen oft unterschiedliche Skillsets und müssen Apps aufgrund der unterschiedlichen Plattformen mehrfach bauen.
+Mit Flutter, das 2016 von Google als mobiles SDK angekündigt worden ist, haben Entwickler nun die Möglichkeit ein plattformübergreifendes Framework zu nutzen, das hochperformante mobile Anwendungen für beide Plattformen, iOS und Android, baut.
+Flutter-Apps werden in der Programmiersprache Dart geschrieben, die ursprünglich JavaScript ersetzen sollte und deshalb eine Java-ähnliche Syntax hat.
+Entwickler können nur die 'just-in-time' Kompilierung verwenden, wobei der Computercode während der Programmausführung zur Laufzeit kompiliert wird. Darüber hinaus hilft die 'Hot-Reload' Funktion den Entwicklern, Benutzeroberflächen zu bauen oder Features hinzuzufügen, ohne dass diese Änderungen lange neu geladen werden müssen. Denn die aktualisierten Quelldaten werden in die laufende Dart Virtual Machine eingefügt, die die betroffenen Klassen aktualisiert und den Widget-Tree automatisch neu baut.
+Flutter erleichtert somit die Entwicklung von Apps, indem es den Entwicklern zeitsparende Tools bietet und durch die plattformübergreifende Entwicklung wertvolle Ressourcen schont. [tashildarApplicationDevelopmentUsing2020]
+
+
+<!--Quelle [tashildarApplicationDevelopmentUsing2020]: -->
+<!-- - damit App möglichste viele Kunden erreicht, müssen Apps mit den zwei unabhängigen Plattformen IOS und Android familiarizen, diese sind sehr unterschiedlich, weshalb es oft verschiedene Entwickler mit einem unterschiedlichen Skill-Set braucht, Firmen haben also oft Schwierigkeiten mit der Komplexität der Entwicklung plattformübergreifenden Anwendungen umzugehen -->
+<!-- - eigentlich: 
+    - Entwickler müssen bzw. mussten wegen der verschiedenen Plattformen Apps mehrfach bauen oder eine Lösung mit niedrigerer Qualität akzeptieren, wenn sie ähnliche Ansätze für verschiedene Plattformen verwenden müssen (z.b. Native Speed und Accuracy for portability)
+    - mit Flutter: Flutter ist abhängig von den OEM widets des Devices, anstatt, dass web views konsumiert werden; benutzt eine high-performance rendering enging, um jedes component einzeln genutzt werden kann -->
+<!-- - Entwicklung: in zweiten Hälfte von 2016 hat Google eine mobile SDK angekündigt namens 'Flutter' -->
+<!-- - Plattformübergreifendes Framework, das hochperformante Mobile Anwendungen baut -->
+<!-- - Features von Flutter:
+    - Flutter kann auf beiden Plattformen, also iOS und Android laufen. Das reduziert die Kosten und Komplexität der Appentwicklung
+    - Just-in-time compilation: bei der der Computercode, der die Kompilierung umfasst, während der Programmausführung zur Laufzeit und nicht vor der Ausführung ausgeführt wird
+    - Hot-Reload: 
+        - Hilft beim Entwickeln (rumexperiementieren, UI bauen, features hinzufügen, Bugs bzw. Fehler lösen)
+        - Funktionsweise: Aktualisierte Quell-Dateien  werden in die laufende Dart Virutal Machine (Dart VM) eingefügt, die VM updated dann Klassen mit der neuen Version der Felder und Funktionen; das Flutter Framework baut dann automatisch den Widget-Tree neu, wodurch der Entwickler seine Änderunden schnell sehen kann; ohne Änderung der inneren Struktur der Applikation. Transaktionen und Aktionen der App sind well-preserved -->
+<!-- - Dart:
+    - Jede flutter-App ist mit Dart geschrieben, programmiert worden
+    - Dart sollte ursprünglich JavaScript ersetzen und nachfolgen
+    - Dart hat eine Java-ähnliche Syntax -->
+
 
 ## Suchfunktionen in Mobilen Anwendungen
 
-Suchfunktionen stellen in einigen mobilen Anwendungen eine wichtige Funktion dar. In den letzten Jahren wurden in diesem Bereich einige interessante Erkenntnisse gewonnen. 
-So wurde 2012 festgestellt, dass Nutzer bei der Verwendung von mobilen Telefonen weniger Anfragen per Sitzung schicken, als bei der Verwendung eines Desktop PCs. Das impliziert, dass Nutzer die Suche am Handy als eine größere Hürde sehen. [@komakiHowDoesMobile2012]
+Suchfunktionen sind eine wichtig Funktion in einigen mobilen Anwendungen. In den letzten Jahren wurden in diesem Bereich einige interessante Erkenntnisse gewonnen. 
+
+So wurde 2012 festgestellt, dass Nutzer bei der Verwendung von Mobiltelefonen weniger Suchanfragen pro Sitzung stellen, als bei der Nutzung eines Desktop PCs. Das impliziert, dass Nutzer die mobile Suche als eine größere Hürde empfinden. [@komakiHowDoesMobile2012]
+
+_Missing: Hier noch mehr Quellen suchen_
 
 <!-- Quelle [@komakiHowDoesMobile2012]:
 - In Studie: Mehr Anfragen per Session an einem Desktop PC als an einem Mobilen Telefon, was impliziert, dass Mobile Nutzer weniger dazu bereit sind Themen in Tiefe zu erkunden wegen größeren Hürden beim Suchen, wie Query-Eingabe
@@ -78,12 +112,13 @@ So wurde 2012 festgestellt, dass Nutzer bei der Verwendung von mobilen Telefonen
 
 ## API-Entwicklung
 
-APIs, Application Programming Interfaces, sorgen für eine nahtlose Kommunikation zwischen Software Komponenten und Services. Sie sind unverzichtbar für die Verbindung verschiedener Systeme und ermöglichen die Nutzung von Drittanbieterdiensten, wie Services, Daten und Funktionalitäten. [@selvarajMasteringRESTAPIs2024]
-Sie vereinfachen und beschleunigen Entwicklung von Anwendungen und Software. Daten können gemeinsam genutzt werden, wobei nur notwendige Informationen freigegeben werden und systeminterne Details verborgen bleiben können. [@ibmWhatAPIApplication2024]
+APIs sorgen für eine nahtlose Kommunikation zwischen Software Komponenten und Services. Sie sind unverzichtbar für die Verbindung verschiedener Systeme und ermöglichen die Nutzung von Diensten, Daten und Funktionalitäten Dritter. [@selvarajMasteringRESTAPIs2024]
 
-**Missing**: Mehr zu internen APIs
+Sie vereinfachen und beschleunigen die Entwicklung von Anwendungen und Software. Daten können gemeinsam genutzt werden, wobei nur die notwendigen Informationen freigegeben werden und systeminterne Details verborgen bleiben können. [@ibmWhatAPIApplication2024]
 
-Eine gute Implementierung ist besonders bei Mobilen Applikationen wichtig, da sich API-Instabilität und Fehleranfälligkeit auf den Erfolg der Software auswirken können. Google Play Bewertungen haben gezeigt, dass APIs, die von erfolgreichen Apps verwendet werden weniger fehleranfällig sind. Denn Fehleranfällige APIs können zu Fehlfunktionen und Abstürzen führen. [@linares-vasquezAPIChangeFault2013]
+_Missing: Mehr zu internen APIs_
+
+Eine gute Implementierung ist besonders bei mobilen Applikationen wichtig, da Instabilität und Fehleranfälligkeit der API den Erfolg der Software beeinträchtigen können. Google Play-Bewertungen haben gezeigt, dass APIs, die von erfolgreichen Apps verwendet werden, weniger fehleranfällig sind. APIs, die zu Fehlern neigen, können zu Fehlfunktionen und Abstürzen führen. [@linares-vasquezAPIChangeFault2013]
 
 
 <!-- Quelle [@selvarajMasteringRESTAPIs2024]:
@@ -144,22 +179,4 @@ Eine gute Implementierung ist besonders bei Mobilen Applikationen wichtig, da si
         - Meist verbreitet sind Web-APIs, auch dort gibt es offene APIs (quelloffene Schnittstelle zu Anwendungsprogrammierung), Partner APIs (verbinden strategische Geschäftspartner über Entwicklungsportal), Interne APIs (bleiben für externe Benutzer verborgen), zusammengesetzte (composite) API (kombinieren mehrere Daten- oder Service-APIs, damit mit einzelnem Aufruf Zugriff auf mehrere Eckpunkte)
 - Verwendungen und Beispiele: Universal Logins (z.b. mit Google-Konto), Internet of Things (Smart Home Objekte), Vergleichsseiten z.B. für Flüge, Navigations-Apps (Daten über Tempolimit etc.)  etc. -->
 
-# Flutter
-
-Quelle [tashildarApplicationDevelopmentUsing2020]:
-- damit App möglichste viele Kunden erreicht, müssen Apps mit den zwei unabhängigen Plattformen IOS und Android familiarizen, diese sind sehr unterschiedlich, weshalb es oft verschiedene Entwickler mit einem unterschiedlichen Skill-Set braucht, Firmen haben also oft Schwierigkeiten mit der Komplexität der Entwicklung plattformübergreifenden Anwendungen umzugehen
-- eigentlich: 
-    - Entwickler müssen bzw. mussten wegen der verschiedenen Plattformen Apps mehrfach bauen oder eine Lösung mit niedrigerer Qualität akzeptieren, wenn sie ähnliche Ansätze für verschiedene Plattformen verwenden müssen (z.b. Native Speed und Accuracy for portability) -> mit Flutter: Flutter ist abhängig von den OEM widets des Devices, anstatt, dass web views konsumiert werden; benutzt eine high-performance rendering enging, um jedes component einzeln genutzt werden kann
-- Entwicklung: in zweiten Hälfte von 2016 hat Google eine mobile SDK angekündigt namens 'Flutter'
-- Plattformübergreifendes Framework, das hochperformante Mobile Anwendungen baut
-- Features von Flutter:
-    - Flutter kann auf beiden Plattformen, also iOS und Android laufen. Das reduziert die Kosten und Komplexität der Appentwicklung
-    - Just-in-time compilation: bei der der Computercode, der die Kompilierung umfasst, während der Programmausführung zur Laufzeit und nicht vor der Ausführung ausgeführt wird
-    - Hot-Reload: 
-        - Hilft beim Entwickeln (rumexperiementieren, UI bauen, features hinzufügen, Bugs bzw. Fehler lösen)
-        - Funktionsweise: Aktualisierte Quell-Dateien  werden in die laufende Dart Virutal Machine (Dart VM) eingefügt, die VM updated dann Klassen mit der neuen Version der Felder und Funktionen; das Flutter Framework baut dann automatisch den Widget-Tree neu, wodurch der Entwickler seine Änderunden schnell sehen kann; ohne Änderung der inneren Struktur der Applikation. Transaktionen und Aktionen der App sind well-preserved
-- Dart:
-    - Jede flutter-App ist mit Dart geschrieben, programmiert worden
-    - Dart sollte ursprünglich JavaScript ersetzen und nachfolgen
-    - Dart hat eine Java-ähnliche Syntax
 

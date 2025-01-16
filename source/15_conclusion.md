@@ -8,6 +8,6 @@ Ein Kapitel, das die Arbeit durch Zusammenfassung der Lernpunkte und Skizzierung
 
 Zusammenfassend
 
-## Zukünftige Arbeit / Ausblick
+## Ausblick
 
 Es gibt mehrere mögliche Richtungen, um diese Arbeit zu erweitern. 

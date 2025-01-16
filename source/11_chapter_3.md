@@ -1,10 +1,17 @@
-# Vorbereitung und Analyse / Explorative Phase
+# Vorbereitung und Analyse
+ <!-- / Explorative Phase -->
 
-## Recherche und Analyse ähnlicher Suchfunktionen
+## Recherche und Analyse vergleichbarer Suchfunktionen
 
-Informationen zu, Anforderungsmanagement in [@nunkesserAppEntwicklungFuerMobile2023] (Seite 41)
+<!-- Informationen zu, Anforderungsmanagement in [@nunkesserAppEntwicklungFuerMobile2023] (Seite 41) -->
 
-### Analyse des Suchfunktions-Angebots innerhalb Automobil-Apps der Wettbewerber
+Um einen Vergleichswert zwischen bereits bestehenden Suchfunktionen in vergleichbaren Apps wurden Apps aus der Automobilbranche und Apps aus anderen Bereichen mit Suchfunktion evaluiert.
+
+### Suchfunktionen in Automotive Apps
+
+Die Automarken Mercedes, Audi, Tesla, Volkswagen und Volvo stellen Ihren Kunden Apps zur Verfügung, die mit der MyBMW App vergleichbar sind. So können bei den Wettbewerber-Apps gleiche Grundfunktionalitäten ausgeführt werden: über Remote-Funktionen kann das aktuelle Klima eingesehen und gesteuert, Fahrzeuge können über das Handy entriegelt oder der Fahrzeugstatus abgerufen werden. Außerdem können Kunden den aktuellen Standort des Autos einsehen und Routen planen. Nach Sichtung der über den App Store sichtbaren Funktionen konnte für keines der App-Beispiele eine Suchfunktion ausgemacht werden, die Inhalte der Apps nach Stichwörtern durchsuchen kann. [@AppStoreMercedesBenz2024],[@AppStoreMyAudi2024],[@AppStoreTesla2024],[@AppStoreVolkswagen2024],[@AppStoreVolvo2024]
+
+<!-- Info: das sind Wettbewerber
 
 Quellen: [@AppStoreMercedesBenz2024],[@AppStoreMyAudi2024],[@AppStoreTesla2024],[@AppStoreVolkswagen2024],[@AppStoreVolvo2024]
 
@@ -13,20 +20,31 @@ Quellen: [@AppStoreMercedesBenz2024],[@AppStoreMyAudi2024],[@AppStoreTesla2024],
     - Remote Funktionen: Klima einsehen und steuern, Fahrzeug entriegeln etc.
     - Fahrzeugstatus abrufen: Reifendruck, Reichweite etc.
     - Routen planen, Standort einsehen
-    - aber: keine der Apps hat Funktion, mit der die App nach Stichwörtern durchsucht werden kann
+    - aber: keine der Apps hat Funktion, mit der die App nach Stichwörtern durchsucht werden kann -->
 
-### Analyse des Suchfunktions-Angebots innerhalb Apps anderer Branchen
+### Suchfunktionen in Apps anderer Bereiche
 
-Beispiele: 
+<!-- ToDo: hier klären, wie diese "eigenen" Aufnahmen zitiert werden -->
 
-App 'Einstellungen' von Apple für iPhone [@EinstellungenApp2024]
-- Suche nach Stichwörtern möglich, alle Ergebnisse aufgelistet, bei Auswahl davon "springt" man in den richtigen Ort (+Pfad) in der App 
+Bei Apps, die keine Ähnlichkeit zur MyBMW-App aufzeigen, sind teilweise Suchfunktionen für den Nutzer verfügbar.
 
-App 'Instagram', Einstellungen [@InstagramEinstellungen]
-- Instagram-Einstellungen: Liste von Einstellungsmöglichkeiten, Suchbegriffe von dieser Liste eingeben und die werden angezeigt, nichts "dahinter"
+So kann die 'Einstellungen'-App von Apple für iOS nach Suchbegriffen durchsucht werden, indem in das am Seitenanfang befindende Suchfeld Begriffe eingegeben werden können. Dabei werden alle Inhalte der App durchsucht. In der Version der Softwarestufe iOS 17 erscheinen während des Tippens Suchergebnisse - die Suche muss als nicht explizit getätigt werden. Untereinander werden passende Ergebnisse angezeigt, wobei der Titel des zugehörigen Feldes innerhalb der App, ein zugehöriges Symbol und teilweise der Pfad angegeben wird. Beim Klicken auf ein Ergebnis wird die entsprechende Seite geöffnet, beziehungsweise der gesamt Pfad, wobei das zugehörige Feld kurzzeitig grau hervorgehoben wird. Navigiert man wieder zurück, kommt man zunächst auf die Oberseite, bevor man dann auf das Suchfenster zurück kommt.   [@EinstellungenApp2024]
+Ab iOS 18 werden vor der Eingabe in das Suchfeld Such-Vorschläge angezeigt und darunter der Suchverlauf der betätigten Eingabe. [EinstellungenAppIPhone2025]
 
-Chrome, Einstellungen [@ChromeEinstellungen2024]
-- Bei Eingabe von Keyword: Ergebnisse in Kategorien unterteilt + Anzeige, wie viele Ergebnisse pro Suchergebis sind
+Die 'Einstellungen' App von Android kann ebenfalls durchsucht werden. Nach Klicken auf ein Such-Icon wird eine Seite geöffnet, in der vergangene Suchen und allgemeine Suchvorschläge. Diesen Vorschläge geht ein Rauten-Symbol vor, wodurch nach Themen wie 'beliebt' und keinen konkreten Begriffen gesucht werden kann. Während der Eingabe in das Suchfeld werden dann anstelle dessen die Suchergebnisse angezeigt. Diese sind in beliebte Vorschläge <!-- Top Hits --> und restliche Ergebnisse aufgeteilt, die in die zugehörigen Kategorien gruppiert sind. Drückt man auf ein Ergebnis, öffnet sich die entsprechende Seite. Bei Betätigung der 'Zurück' Taste des Handys, gelangt man in die Suchfunktion, drückt man den 'Zurück' Button, geht man dem der Seite entsprechenden Pfad entlang zurück.  [EinstellungenAppAndroid]
+
+<!-- App 'Einstellungen' von Apple für iPhone [@EinstellungenApp2024]
+- Suche nach Stichwörtern möglich, alle Ergebnisse aufgelistet, bei Auswahl davon "springt" man in den richtigen Ort (+Pfad) in der App  -->
+Die App 'Instagram' bietet für den Einstellungen-Bereich eine Suchfunktion an, mit der die Inhalte dieses Bereiches durchsucht werden können. Bei der Eingabe von Suchbegriffen werden die Suchergebnisse in verschiedenen Gruppen untereinander angezeigt. Diese Gruppierung entspricht der Kategorisierung, die in den Einstellungen verwendet wird. Beim Klicken auf ein Ergebnis wir direkt die entsprechende Unterseite geöffnet. Es fällt auf, dass nicht alle in den Einstellungen gezeigten Inhalte ebenfalls durch die Suche auffindbar sind. [@InstagramEinstellungen]
+
+<!-- App 'Instagram', Einstellungen [@InstagramEinstellungen]
+- Instagram-Einstellungen: Liste von Einstellungsmöglichkeiten, Suchbegriffe von dieser Liste eingeben und die werden angezeigt, nichts "dahinter" -->
+
+
+<!-- Chrome, Einstellungen [@ChromeEinstellungen2024]
+- Bei Eingabe von Keyword: Ergebnisse in Kategorien unterteilt + Anzeige, wie viele Ergebnisse pro Suchergebis sind. Nicht mobil!!-->
+
+
 
 ## Ist-Analyse der vorhandenen Daten und Datenquellen
 
