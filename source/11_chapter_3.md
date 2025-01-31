@@ -1,4 +1,4 @@
-# Vorbereitung und Analyse
+# Vorbereitung und Analyse der Ausganssituation
  <!-- / Explorative Phase -->
 
 ## Recherche und Analyse vergleichbarer Suchfunktionen
@@ -28,14 +28,15 @@ Quellen: [@AppStoreMercedesBenz2024],[@AppStoreMyAudi2024],[@AppStoreTesla2024],
 
 Bei Apps, die keine Ähnlichkeit zur MyBMW-App aufzeigen, sind teilweise Suchfunktionen für den Nutzer verfügbar.
 
-So kann die 'Einstellungen'-App von Apple für iOS nach Suchbegriffen durchsucht werden, indem in das am Seitenanfang befindende Suchfeld Begriffe eingegeben werden können. Dabei werden alle Inhalte der App durchsucht. In der Version der Softwarestufe iOS 17 erscheinen während des Tippens Suchergebnisse - die Suche muss als nicht explizit getätigt werden. Untereinander werden passende Ergebnisse angezeigt, wobei der Titel des zugehörigen Feldes innerhalb der App, ein zugehöriges Symbol und teilweise der Pfad angegeben wird. Beim Klicken auf ein Ergebnis wird die entsprechende Seite geöffnet, beziehungsweise der gesamt Pfad, wobei das zugehörige Feld kurzzeitig grau hervorgehoben wird. Navigiert man wieder zurück, kommt man zunächst auf die Oberseite, bevor man dann auf das Suchfenster zurück kommt.   [@EinstellungenApp2024]
-Ab iOS 18 werden vor der Eingabe in das Suchfeld Such-Vorschläge angezeigt und darunter der Suchverlauf der betätigten Eingabe. [EinstellungenAppIPhone2025]
+So kann die 'Einstellungen'-App von Apple für iOS nach Suchbegriffen durchsucht werden, indem in das am Seitenanfang befindende Suchfeld Begriffe eingegeben werden können. Dabei werden alle Inhalte der App durchsucht. In der Version der Softwarestufe iOS 17 erscheinen während des Tippens Suchergebnisse - die Suche muss als nicht explizit getätigt werden. Untereinander werden passende Ergebnisse angezeigt, wobei der Titel des zugehörigen Feldes innerhalb der App, ein zugehöriges Symbol und teilweise der Pfad angegeben wird. Beim Klicken auf ein Ergebnis wird die entsprechende Seite geöffnet, beziehungsweise der gesamt Pfad, wobei das zugehörige Feld kurzzeitig grau hervorgehoben wird. Navigiert man wieder zurück, kommt man zunächst auf die Oberseite, bevor man dann auf das Suchfenster zurück kommt.   [@EinstellungenAppIPhone2024]
 
-Die 'Einstellungen' App von Android kann ebenfalls durchsucht werden. Nach Klicken auf ein Such-Icon wird eine Seite geöffnet, in der vergangene Suchen und allgemeine Suchvorschläge. Diesen Vorschläge geht ein Rauten-Symbol vor, wodurch nach Themen wie 'beliebt' und keinen konkreten Begriffen gesucht werden kann. Während der Eingabe in das Suchfeld werden dann anstelle dessen die Suchergebnisse angezeigt. Diese sind in beliebte Vorschläge <!-- Top Hits --> und restliche Ergebnisse aufgeteilt, die in die zugehörigen Kategorien gruppiert sind. Drückt man auf ein Ergebnis, öffnet sich die entsprechende Seite. Bei Betätigung der 'Zurück' Taste des Handys, gelangt man in die Suchfunktion, drückt man den 'Zurück' Button, geht man dem der Seite entsprechenden Pfad entlang zurück.  [EinstellungenAppAndroid]
+Ab iOS 18 werden vor der Eingabe in das Suchfeld Such-Vorschläge angezeigt und darunter der Suchverlauf der betätigten Eingabe. [@EinstellungenAppIPhone2025]
+
+Die 'Einstellungen' App von Android kann ebenfalls durchsucht werden. Nach Klicken auf ein Such-Icon wird eine Seite geöffnet, in der vergangene Suchen und allgemeine Suchvorschläge. Diesen Vorschläge geht ein Rauten-Symbol vor, wodurch nach Themen wie 'beliebt' und keinen konkreten Begriffen gesucht werden kann. Während der Eingabe in das Suchfeld werden dann anstelle dessen die Suchergebnisse angezeigt. Diese sind in beliebte Vorschläge <!-- Top Hits --> und restliche Ergebnisse aufgeteilt, die in die zugehörigen Kategorien gruppiert sind. Drückt man auf ein Ergebnis, öffnet sich die entsprechende Seite. Bei Betätigung der 'Zurück' Taste des Handys, gelangt man in die Suchfunktion, drückt man den 'Zurück' Button, geht man dem der Seite entsprechenden Pfad entlang zurück.  [@EinstellungenAppAndroid]
 
 <!-- App 'Einstellungen' von Apple für iPhone [@EinstellungenApp2024]
 - Suche nach Stichwörtern möglich, alle Ergebnisse aufgelistet, bei Auswahl davon "springt" man in den richtigen Ort (+Pfad) in der App  -->
-Die App 'Instagram' bietet für den Einstellungen-Bereich eine Suchfunktion an, mit der die Inhalte dieses Bereiches durchsucht werden können. Bei der Eingabe von Suchbegriffen werden die Suchergebnisse in verschiedenen Gruppen untereinander angezeigt. Diese Gruppierung entspricht der Kategorisierung, die in den Einstellungen verwendet wird. Beim Klicken auf ein Ergebnis wir direkt die entsprechende Unterseite geöffnet. Es fällt auf, dass nicht alle in den Einstellungen gezeigten Inhalte ebenfalls durch die Suche auffindbar sind. [@InstagramEinstellungen]
+Die App 'Instagram' bietet für den Einstellungen-Bereich eine Suchfunktion an, mit der die Inhalte dieses Bereiches durchsucht werden können. Bei der Eingabe von Suchbegriffen werden die Suchergebnisse in verschiedenen Gruppen untereinander angezeigt. Diese Gruppierung entspricht der Kategorisierung, die in den Einstellungen verwendet wird. Beim Klicken auf ein Ergebnis wir direkt die entsprechende Unterseite geöffnet. Es fällt auf, dass nicht alle in den Einstellungen gezeigten Inhalte ebenfalls durch die Suche auffindbar sind. [@InstagramEinstellungen2025]
 
 <!-- App 'Instagram', Einstellungen [@InstagramEinstellungen]
 - Instagram-Einstellungen: Liste von Einstellungsmöglichkeiten, Suchbegriffe von dieser Liste eingeben und die werden angezeigt, nichts "dahinter" -->
@@ -48,9 +49,17 @@ Die App 'Instagram' bietet für den Einstellungen-Bereich eine Suchfunktion an, 
 
 ## Ist-Analyse der vorhandenen Daten und Datenquellen
 
-Explore Tab:
-<!-- aktueller: Könnte ich hernehmen und erweitern, wo die Daten herkommen (Theresa gefragt)
-- neuer: gibt es noch nicht. ich könnte ihn mir "nachbasteln" und eigene Daten (z.B. in JSON) selber erzeugen -->
+Die Daten, die an die Suchfunktion angebunden werden, sollen zur Exploration der aus verschiedenen Quellen kommen.
+
+Als Fall, in dem Daten von anderen Diensten bereits genutzt und damit bereitgestellt werden, werden die Artikel des Explore-Tabs durchsuchbar gemacht. Die Artikel werden über den 'Context' der App geladen und können anschließend weiter verarbeitet werden. 
+
+Um Daten einzubinden, die lokal in der Anwendung vorliegen, wird eine lokale JSON-Datei in die Suche eingebunden. Diese stellen die 'My Highlight'-Daten dar, also besonders hervorgehobene Änderungen, die Kunden durch Remote Software Upgrades auf ihr Fahrzeug gespielt bekommen.
+
+Viele Textdaten der MyBMW-App sind in 'String Files' gespeichert. Um die Anwendung in verschiedenen Sprachen darstellen zu können, werden die Texte dann in der entsprechenden Sprache geladen. Die jeweiligen Texte sind mit einer ID versehen, über die sie einem Dienst innerhalb der App zugeordnet werden können. Über diese 'String Files' werden zwei Dienste an die Suchfunktion angebunden. Viele Inhalte der App sind auf diese Art gespeichert.
+
+<!-- Explore Tab:
+aktueller: Könnte ich hernehmen und erweitern, wo die Daten herkommen (Theresa gefragt)
+- neuer: gibt es noch nicht. ich könnte ihn mir "nachbasteln" und eigene Daten (z.B. in JSON) selber erzeugen
 - Ich nehme die aktuellen Daten her
 
 Nach Gespräch mit Jonas:
@@ -64,3 +73,4 @@ My Highlights:
 
 Release Notes:
 - gerade im Umbau -> erst mal lassen, sollen aber das gleiche Format wie My Highlights bekommen
+ -->

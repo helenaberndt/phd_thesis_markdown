@@ -1,8 +1,12 @@
 # Einleitung
 
+<!-- Vielleicht Zitat auch einfach vor Hintergrund noch einfach so hinschreiben. -->
+
+Bei Veröffentlichung der MyBMW im Jahre 2020 sagte der damalige Senior Vice President BMW Group Connected Company Customer über die neue App Generation, dass die BMW Group "einen weiteren Schritt in der Gestaltung des digitalen Kundenerlebnisses rund um [die] Fahrzeuge [geht] und [..] damit dem gestiegenen Kundenanspruch an digitale Dienste und Funktionen gerecht [wird]" [@koenigYourWorldMy2020].
+
 ## Hintergrund
 
-Bei Veröffentlichung der MyBMW im Jahre 2020 sagte der damalige Senior Vice President BMW Group Connected Company Customer über die neue App Generation, dass die BMW Group "einen weiteren Schritt in der Gestaltung des digitalen Kundenerlebnisses rund um [die] Fahrzeuge [geht] und [..] damit dem gestiegenen Kundenanspruch an digitale Dienste und Funktionen gerecht [wird]" [@koenigYourWorldMy2020]. 
+### BMW Group 
 
 Die BMW Group hatte ihre Anfänge im Jahre 1916, damals noch unter dem Namen 'Bayerische Flugzeug-Werke AG'. Durch Krisenjahre hindurch spezialisierte sich die AG auf die Produktion von Autos und Motorrädern unter der Marke BMW. Seit 1998 gehört auch Rolls Royce zur BMW Group und im Jahre 2001 kam der erste Mini unter der Leitung der BMW Group auf den Markt. Mit dem i3 brachte die BMW Group 2013 das erste voll elektrisch angetriebene Großserienmodell heraus. [@BMWGeschichte]
 
@@ -10,35 +14,40 @@ Langfristiges Denken und verantwortungsvolles Handeln sind jeher die Grundlage d
 
 Ende 2023 waren weltweit fast 155.000 Menschen in über 70 Produktions- und Vertriebsstandorten sowie an Forschungsstandorten in mehr als 17 Ländern beschäftigt. Über das Jahr 2023 wurden über 2,5 Millionen Autos und fast 155.000 Motorräder ausgeliefert. Das Unternehmen verzeichnete damit ein Ergebnis vor Steuern von nahezu 17 Milliarden €. [@bmwgroupJahresbericht20242024]
 
- <!-- - BMW -->
-    <!-- Quelle: [koenigYourWorldMy2020]
-        - Zitat von Peter Henrich, damaliger Senior Vice President BMW Group Connected Company Customer: „Mit der neuen App-Generation gehen wir einen weiteren Schritt in der Gestaltung des digitalen Kundenerlebnisses rund um unsere Fahrzeuge und werden damit dem gestiegenen Kundenanspruch an digitale Dienste und Funktionen gerecht. Mit der My BMW App und der MINI App integrieren wir unsere Fahrzeuge nahtlos in den digitalen Lifestyle unserer Kunden. Die Apps bieten viele nützliche Inhalte sowohl für den täglichen Gebrauch des Fahrzeugs als auch in der persönlichen Interaktion mit uns als Marke, die wir kontinuierlich weiter ausbauen.“''' -->
-    <!-- - Quelle: [@BMWGeschichte]
-        - Anfänge im Jahr 1916, damals noch Bayerische Flugzeug-Werke AG
-        - seitdem durch verschiedene Krisen Autos und Motorräder
-        - 1998: Verantwortung und Rechte an Rolls Royce
-        - 2001: erster Mini unter Leitung von BMW
-        - mit i3 2013 erstes vollelektrisch angetriebenes Großserienmodell der BMW Group -->
-    <!-- - Quelle: [@bmwgroupJahresbericht20242024]
-        - 154.950 Mitarbeiter Ende 2024
-        - 2.554.183 Auslieferungen im Segment Automobile
-        - 209.066 Auslieferungen im Segment Motorräder
-        - Vertriebsstandort und Standorte Finanzdienstleister: 41 weltweit
-        - 32 Produktionsstandorte
-        - 17 Länder mit Forschungs- und Entwicklungssstandorten
-        - Ergebnis vor Steuern: 17,096 Mrd € -->
-    <!-- - Quelle: [@tholundUmfangreicheUpdatesMy2024] (unten im Impressum?)
-        - Die BMW Group ist mit ihren Marken BMW, MINI, Rolls-Royce und BMW Motorrad der weltweit führende Premium-Hersteller von Automobilen und Motorrädern und Anbieter von Premium-Finanz- und Mobilitätsdienstleistungen. Das BMW Group Produktionsnetzwerk umfasst über 30 Produktionsstandorte weltweit; das Unternehmen verfügt über ein globales Vertriebsnetzwerk mit Vertretungen in über 140 Ländern.
-        - Im Jahr 2023 erzielte die BMW Group einen weltweiten Absatz von über 2,55 Mio. Automobilen und über 209.000 Motorrädern. Das Ergebnis vor Steuern im Geschäftsjahr 2023 belief sich auf 17,1 Mrd. €, der Umsatz auf 155,5 Mrd. €. Zum 31. Dezember 2023 beschäftigte das Unternehmen weltweit 154.950 Mitarbeiterinnen und Mitarbeiter.
-        - Seit jeher sind langfristiges Denken und verantwortungsvolles Handeln die Grundlage des wirtschaftlichen Erfolges der BMW Group. Das Unternehmen hat frühzeitig die Weichen für die Zukunft gestellt und rückt Nachhaltigkeit und Ressourcenschonung konsequent ins Zentrum seiner Ausrichtung, von der Lieferkette über die Produktion bis zum Ende der Nutzungsphase aller Produkte. -->
+ <!-- - BMW 
+        - Quelle: [koenigYourWorldMy2020]
+        - Zitat von Peter Henrich, damaliger Senior Vice President BMW Group Connected Company Customer: „Mit der neuen App-Generation gehen wir einen weiteren Schritt in der Gestaltung des digitalen Kundenerlebnisses rund um unsere Fahrzeuge und werden damit dem gestiegenen Kundenanspruch an digitale Dienste und Funktionen gerecht. Mit der My BMW App und der MINI App integrieren wir unsere Fahrzeuge nahtlos in den digitalen Lifestyle unserer Kunden. Die Apps bieten viele nützliche Inhalte sowohl für den täglichen Gebrauch des Fahrzeugs als auch in der persönlichen Interaktion mit uns als Marke, die wir kontinuierlich weiter ausbauen.“''' 
+        - Quelle: [@BMWGeschichte]
+            - Anfänge im Jahr 1916, damals noch Bayerische Flugzeug-Werke AG
+            - seitdem durch verschiedene Krisen Autos und Motorräder
+            - 1998: Verantwortung und Rechte an Rolls Royce
+            - 2001: erster Mini unter Leitung von BMW
+            - mit i3 2013 erstes vollelektrisch angetriebenes Großserienmodell der BMW Group
+        - Quelle: [@bmwgroupJahresbericht20242024]
+            - 154.950 Mitarbeiter Ende 2024
+            - 2.554.183 Auslieferungen im Segment Automobile
+            - 209.066 Auslieferungen im Segment Motorräder
+            - Vertriebsstandort und Standorte Finanzdienstleister: 41 weltweit
+            - 32 Produktionsstandorte
+            - 17 Länder mit Forschungs- und Entwicklungssstandorten
+            - Ergebnis vor Steuern: 17,096 Mrd €
+        - Quelle: [@tholundUmfangreicheUpdatesMy2024] (unten im Impressum?)
+            - Die BMW Group ist mit ihren Marken BMW, MINI, Rolls-Royce und BMW Motorrad der weltweit führende Premium-Hersteller von Automobilen und Motorrädern und Anbieter von Premium-Finanz- und Mobilitätsdienstleistungen. Das BMW Group Produktionsnetzwerk umfasst über 30 Produktionsstandorte weltweit; das Unternehmen verfügt über ein globales Vertriebsnetzwerk mit Vertretungen in über 140 Ländern.
+            - Im Jahr 2023 erzielte die BMW Group einen weltweiten Absatz von über 2,55 Mio. Automobilen und über 209.000 Motorrädern. Das Ergebnis vor Steuern im Geschäftsjahr 2023 belief sich auf 17,1 Mrd. €, der Umsatz auf 155,5 Mrd. €. Zum 31. Dezember 2023 beschäftigte das Unternehmen weltweit 154.950 Mitarbeiterinnen und Mitarbeiter.
+            - Seit jeher sind langfristiges Denken und verantwortungsvolles Handeln die Grundlage des wirtschaftlichen Erfolges der BMW Group. Das Unternehmen hat frühzeitig die Weichen für die Zukunft gestellt und rückt Nachhaltigkeit und Ressourcenschonung konsequent ins Zentrum seiner Ausrichtung, von der Lieferkette über die Produktion bis zum Ende der Nutzungsphase aller Produkte. -->
+
+### Automobilindustrie
 
 Die BMW Group ist Teil der Automobilindustrie und damit ein wesentlicher Faktor für den Wohlstand Europas. Nach Angaben der Webseite der Europäischen Kommission, schafft dieser Sektor 13.8 Millionen direkte und indirekte Jobs, was einen Anteil von 6,1% der gesamten EU-Beschäftigung ausmacht. [@AutomotiveIndustryEuropean]
 
 Aus einem wirtschaftlichen Blickwinkel generiert die Automobilindustrie einen Umsatz, der über 7 % des Brutto-Inland-Produktes der EU entspricht. Viele Unternehmen der Automobilbranche werden von digitalen Technologien beeinflusst und müssen ihre Geschäftsmodelle erneuern, um die neuen Möglichkeiten der Digitalisierung auszuschöpfen. [@miguelImpactDynamicCapabilities2022]
 
-Es wird davon ausgegangen, dass Geschäftsmodelle wie Konnektivitätsdienste und Funktionserweiterungen die Einnahmequellen um etwa 30 % steigern könnten, besonders durch 'On-demand' Mobilitätsdienste und datengesteuerte Dienste. [@gaoUmsatzAutoindustrieKann2024] 
+Es wird davon ausgegangen, dass Geschäftsmodelle wie Konnektivitätsdienste und Funktionserweiterungen die Einnahmequellen um etwa 30 % steigern könnten, besonders durch 'On-demand' Mobilitätsdienste und datengesteuerte Dienste. [@gaoUmsatzAutoindustrieKann2024]
+
+In der Automobilindustrie zeichnet sich die Entwicklung ab, dass die Digitalisierung und die Personalisierung in Zukunft noch mehr an Bedeutung gewinnen werden. So soll das "connected car" - das vernetzte Fahrzeug - eine Erweiterung und ein Ausdruck der Individualität und des Stils des Kunden sein. Andere prognostizierte Trends stellen das personalisierte Fahrerlebnis unter Einbeziehung des IoT - einschließlich Mobiltelefonen - sowie die Sicherheit und das Wohlbefinden des Kunden in den Mittelpunkt. Geschäftsstrategien schlagen beispielsweise vor, Kundendaten genauer zu analysieren, um Bedürfnisse, Verhalten und Präferenzen besser zu verstehen und personalisierte Lösungen anbieten zu können. Die zunehmende Verbreitung mobiler Geräte verbessert dabei die Datenanalyse. [@deryabinaImpactDigitalTransformation2022]
 
 Unternehmen der Automobilbranche müssen sich auf die Erwartungshaltung der Kunden einstellen, dass etablierte IT-Strukturen mit der mobilen, App-orientierten Welt verbunden werden. Einige Technologien, wie regelmäßige "over the air" Updates haben sich dabei schon zu einem Benchmark in der Industrie etabliert. Kunden sind auch bereit, für bereichernde Dienste zu zahlen: in den USA und Europa ca. 20 € pro Monat, in China 40 €. [@winkelhakeDigitaleTransformationAutomobilindustrie2024]
+
 
 <!-- - Automobilindustrie
     <!-- - Quelle: [@AutomotiveIndustryEuropean]
@@ -51,7 +60,15 @@ Unternehmen der Automobilbranche müssen sich auf die Erwartungshaltung der Kund
         - Automobilbranche wird durch digitale Technologien beeinflusst, also müssen Unternehmen Geschäftsmodelle durch Entwicklung ihrer dynamischen Fähigkeiten erneuern 
         - Digitalisierung schafft Möglichkeit für Unternehmen mit Kunden zu interagieren, was neue Geschäftsmodelle schaffen kann und neue Wege wie Unternehmen mit Kunden/Verbrauchern in Kontakt bleien und so Werte für sie schaffen kann
         - Erfolg von Unternehmen u. a. vorallem davon ab, die Wettbewerbsfähigkeit auf dem Markt zu steigern, um Kundenzufriedenheit zui erreichen
-        - Die Automobilindustrie wird größtenteils durch digitale Innovationen angetrieben (Soziale Netzwerke, Autonomes Autos, Connectivity, Big Data). Dadurch müssen Business Models mit der Technologie, Advances und deren Effekten mithalten. Z.B. Car sharing Plattformen oder Telematic services -->
+        - Die Automobilindustrie wird größtenteils durch digitale Innovationen angetrieben (Soziale Netzwerke, Autonomes Autos, Connectivity, Big Data). Dadurch müssen Business Models mit der Technologie, Advances und deren Effekten mithalten. Z.B. Car sharing Plattformen oder Telematic services
+        - Quelle: [@deryabinaImpactDigitalTransformation2022]:
+            - "Connected cars", also vernetzte Fahrzeuge werden eine Erweiterung und Ausdruck von der Persönlichkeit und dem Stil von Kunden sein
+            - Teil der Digitaliserung / Emerging Trends im Feld von Personalisierung von Diensten und individuelle Lösung für Kunden: Personalisierte Fahrerfahrung, Car Sharing, Integration mit IoT (darunter Integration von den Mobil Telefonen der Beifahrer und Verbindung zu Smart Homes), mehr Apps für Autos selber, mehr Funktionen für Sicherheit und Wohlbefinden (physische Auffassung erfassen um dann Fatigue)
+            - Fokus auf Kunden und Kundenerlebnis
+            - Eine Buisness Strategie: Kundeneinblicke analysieren Kunden -> Kundenanforderungen, -verhalten und -präferenzen verstehen ist wichtig um personalisierte Lösungen anbieten zu können
+            - Die zunehmende Verbreitung mobiler Geräte und  verbesserte Datenanalyse haben die richtigen Synergien für die Kunden geschaffen, indem sie stärkere Partnerschaften mit der Automobilindustrie eingegangen sind, um die Wahlmöglichkeiten und Kaufbedürfnisse der Kunden zu berücksichtigen und den allgemeinen Kundenservice und die Kundenbindung zu verbessern  -->
+
+### Digitalisierung <!-- Digitale Produktge -->
 
 Eine Möglichkeit, digitale Innovationen zu fördern, ist die Entwicklung und der Vertrieb von Apps, wie es die BMW Group mit der MyBMW App bereits umgesetzt hat. Diese Applikation bietet den Kunden eine universelle Schnittstelle zu ihrem Fahrzeug und vielen weiteren Produkten und Dienstleistungen von BMW. [@bmwgroupHighlightsMyBMW]
 
@@ -142,6 +159,14 @@ Die Implementierung einer Suchfunktion ist eine Methode zur Optimierung einer mo
 
 ## Ziele dieser Bachelorarbeit
 
+- Forschungsfrage
+    ○ Worum geht es in der wissenschaflichten Arbeit?
+    ○ Was will ich aufzeigen?
+    ○ Warum ist dies wichtig? (Relevanz)
+    ○ Was will ich damit erreichen? (Ziel)
+        - Formulierung mit Thema, Forschungsfrage, Ziel oder Berechtigung der Forschungsfrage (Ich untersuche den Zusammenhang zwischen Studienzufriedenheit und Prüfungsleis‐ tungen bei angehenden Absolventen [Thema]. Damit will ich herausfinden, wie sich die Zufriedenheit auf die Leistungen von Studierenden in dem letzten Studiensemester bei verschiedenen Prüfungsformen auswirkt [Forschungsfrage]. Daraus sollen konkrete Maßnahmen für Studierende und Absolventen abgeleitet werden, um die Prüfungsleis‐ tung zu optimieren [Ziel oder Berechtigung der Forschungsfrage]. 
+    Leitfragen für Forschungsfragen: für Gestaltung -> Welche Massnahmen können ergriffen werden, um ein Ziel zu erreichen?
+
 <!-- erst am Ende machen! -->
 
 <!-- - Erstellung Suchfunktion
@@ -149,12 +174,16 @@ Die Implementierung einer Suchfunktion ist eine Methode zur Optimierung einer mo
 
 Erstellung von Suchfunktion die prototypsich zwei Quellen der App vereint und damit Grundlage für eine App-umfassende Suchfunktion bildet. -->
 
+Erstellung prototypischer Suchfunktion, die exemplarisch mehrere Quellen vereint und so durchsuchbar macht. Diese Ansätze bieten eine Grundlage für eine App-umfassende Suchfunktion.
+
 ## Abgrenzung
 <!-- erst am Ende machen! -->
 
 <!-- - Prototypisch ?
 
 - Erst mal nur zwei Quellen. UI prototysich -->
+
+Nur 3 Quellen, kein Fokus auf UI
 
 ## Aufbau der Arbeit
 <!-- erst am Ende machen! -->
@@ -164,3 +193,11 @@ Erstellung von Suchfunktion die prototypsich zwei Quellen der App vereint und da
         - Nach Einführung des iPhones 2007: nach nur einem Jahr wurden eine Milliarde Apps nach Start des iOS App Stores 2008 heruntergeladen
         - Vorgehensweise: Ideenfindung über Design Thinking, Ausarbeitung und Umsetzung über Agile Methoden und Vermarktung über Lean Startup
         - Lebenszyklus von Projekten -->
+
+Kapitel 1: Hinführung zum Thema mit Motivation und Zielen
+Kapitel 2: Grundlagen des Projektumfeldes
+Kapitel 3: Vorbereitung und Analyse vergleichbarer existierender Produkte
+Kapitel 4: Konzeption der Suchfunktion und API
+Kapitel 5: Implementierung der API, Suchfunktion und Benutzeroberfläche
+Kapitel 6: Anforderungsabgleich, Bewertung und Evaluierung des Konzeptes der Suchfunktion
+Kapitel 7: Zusammenfassung der Arbeit und Ausblick

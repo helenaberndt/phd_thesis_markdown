@@ -12,3 +12,9 @@
 \newpage
 \setcounter{page}{1}
 \renewcommand{\thepage}{\arabic{page}}
+
+
+<!-- todo zusätzlich:
+AG: Aktien Gesellschaft 
+IoT: Internet of Things
+-->

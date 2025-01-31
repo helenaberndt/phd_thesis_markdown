@@ -2,29 +2,35 @@
 
 ## Anforderungsabgleich
 
-Sed vulputate tortor at nisl blandit interdum. Cras sagittis massa ex, quis eleifend purus condimentum congue. Maecenas tristique, justo vitae efficitur mollis, mi nulla varius elit, in consequat ligula nulla ut augue. Phasellus diam sapien, placerat sit amet tempor non, lobortis tempus ante.
 
 ## Bewertung des Konzepts anhand von Beispielszenarien
 
-Donec imperdiet, lectus vestibulum sagittis tempus, turpis dolor euismod justo, vel tempus neque libero sit amet tortor. Nam cursus commodo tincidunt.
 
 ## Evaluierung der Suchfunktion
 
-Die Tabelle \ref{tabellenreferenz} zeigt uns wie man eine Tabelle hinzufügt. Integer tincidunt sed nisl eget pellentesque. Mauris eleifend, nisl non lobortis fringilla, sapien eros aliquet orci, vitae pretium massa neque eu turpis. Pellentesque tincidunt aliquet volutpat. Ut ornare dui id ex sodales laoreet.
 
 ### Evaluierung der Suchergebnisse
 
 ### Nutzerbefragung zur Suchfunktion
 
-<!-- ## Evaluierung der Ausführungszeit von Suchanfragen -->
+Infos zur Nutzerbefragung: [@richterUsabilityUndUX2016]:
+- Benutzerbefragungen mit Fragebögen sind wichtige Methode, um Antworten von einer größeren Anzahl Personen zu erhalten (sic) 
+- Fragebögen werden zur Analyse von Benutzern und Kontext, und zur Beurteilung eines Systems (Evaluation) eingesetzt
+- quantitative Studie, weil Antworten mit Fragebogen zählbar sind
+- Für Erkenntisse in Usability und UX oke, aber eig immer hinterfragen, ob Usability-Tests oder Experten-Reviews nicht besser wäre
+- wichtig: Vergleichbarkeit: Ergebnisse können verdichtet, statistisch ausgewertet und miteinander verglichen werden
+- Gut für Beurteilung von verschiedenen Systemen
+- 
 
-Etiam sit amet mi eros. Donec vel nisi sed purus gravida fermentum at quis odio.
+
+<!-- 
+    Infos vom Wischhof: Nutzerbefragung erst hier dann wirklich vorstellen. Zuvor bei "Entscheidungen" alle Möglichkeiten aufzeigen und 
+    Dazuschreiben, dass Durchführung begleitet wurde
+ -->
 
 ## Vergleich mit Daten
 
 <!--Besserer Titel - was genau meinte ich da eigentlich?!-->
-
-Nullam porta tortor id vehicula interdum. Quisque pharetra, neque ut accumsan suscipit, orci orci commodo tortor, ac finibus est turpis eget justo. Cras sodales nibh nec mauris laoreet iaculis.
 
 
 
@@ -45,6 +51,7 @@ Aenean nec dapibus in mL/min^-1^. Mathematical formula can be inserted using Lat
 
 (@ref_for_eqn1) $f(x) = ax^3 + bx^2 + cx + d$
 
+Die Tabelle \ref{tabellenreferenz} zeigt uns wie man eine Tabelle hinzufügt.
 
 <!-- Eine ungeordnete Liste -->
 

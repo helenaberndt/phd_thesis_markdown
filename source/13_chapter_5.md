@@ -3,8 +3,8 @@
 ## Implementierung der API
 
 ### Vertiefte Hintergründe der API
-Quelle [@selvarajMasteringRESTAPIs2024]:
 
+<!-- Quelle [@selvarajMasteringRESTAPIs2024]:
 - Client-Server-Architektur: trennt die Verantwortlichkeiten zwischen Client und Server und ermöglicht damit skalierbare, maintainable und effiziente Systeme
     - Client: repräsentiert das user Interface oder die Applikation die mit dem Server interagiert, um Ressourcen anzufragen oder Operationen durchzuführen. Clients können sein: Web Browser, Mobile Apps, Desktop Applikationen, IoT-Geräte, entspricht der presentation layer
     - Server: Hosted die Ressourcen, verarbeitet / führt die Anforderungen (Requests) vom Client durch, speichert und managed die Daten, setzt Security Maßnahmen durch, stellt sicher, dass Requests ausgeführt werden 
@@ -25,7 +25,7 @@ Quelle [@selvarajMasteringRESTAPIs2024]:
         - Resource Identification: Resourcen sind der Core von RESTfulAPIs, jede Resource hat eine einzigartige URL, diese ist die Adresse um auf die Resource zuzugreifen und oder auf ihr Operationen durchzuführen
         - Standard HTTP Methoden: GET, POST, PUT, DELETE, welche zu den CRUD Operationen passen. Diese Uniformität vereinfacht die Struktur der API und die Benutzung; dabei werden auch Standard HTTP status Codes verwendet (200 für Erfolg, 404 not found, 500 server error) dadurch ist eine klare und konsistente Art gegeben, um den Client über das Ergebnis des Requests zu informieren
         - Die Nachrichten sollte selbst-erklärend (self-descriptive) sein, so dass der Server kein zusätzliches Wissen benötigt
-        - durch UIP: Simplicity, Predictability, Interoperability, Decoupling (Client und Server können unabhängig arbeiten), discoverability (Durch URLs können API Endpunkte leicht gefunden werden), -> intuitiv, effizient, accessible, driving broader adoption
+        - durch UIP: Simplicity, Predictability, Interoperability, Decoupling (Client und Server können unabhängig arbeiten), discoverability (Durch URLs können API Endpunkte leicht gefunden werden), -> intuitiv, effizient, accessible, driving broader adoption -->
 
 
 
@@ -36,3 +36,10 @@ Quelle [@selvarajMasteringRESTAPIs2024]:
 ## Benutzeroberfläche
 
 Mehr in Quelle [@nunkesserAppEntwicklungFuerMobile2023] ab Seite 122 ... 
+
+Quelle [@richterUsabilityUndUX2016]:
+User Experience Definition: "User Experience (UX): Hier steht das Gesamterlebnis der Benutzer bei der Verwendung von Produkten, Systemen und Diensten im Fokus. Nebst den funktionalen Aspekten werden dabei vermehrt auch emotionale und ästhetische Faktoren berücksichtigt. So liegt neben geschäftlichen Anwendungen ein Schwerpunkt des Gebietes auf Lösungen und Produkten im Consumer-Bereich, also etwa auf E-Services, Smartphone Apps und digitalen Geräten, aber auch für Spiele und Anwendungen im Unterhaltungsbereich spielen die genannten Faktoren eine entscheidende Rolle für den Produkterfolg. Aufgrund der umfassenderen Betrachtungsweise hat der Begriff UX sich in vielfältiger Weise durchgesetzt und löst immer mehr auch die Bezeichnung Usability als Qualitätsbegriff ab."
++ Mehr auf Seite 12
++ Seite 14 Tabelle
+
+Quelle [@deeBestPracticesInapp2024]:
