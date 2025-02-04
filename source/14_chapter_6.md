@@ -22,6 +22,8 @@ Infos zur Nutzerbefragung: [@richterUsabilityUndUX2016]:
 - Gut für Beurteilung von verschiedenen Systemen
 - 
 
+Mehr Infos: [@butzMenschMaschineInteraktion2022] Seite 125 - 130
+
 
 <!-- 
     Infos vom Wischhof: Nutzerbefragung erst hier dann wirklich vorstellen. Zuvor bei "Entscheidungen" alle Möglichkeiten aufzeigen und 

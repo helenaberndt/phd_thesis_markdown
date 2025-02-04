@@ -6,6 +6,8 @@ Bei Veröffentlichung der MyBMW im Jahre 2020 sagte der damalige Senior Vice Pre
 
 ## Hintergrund
 
+*todo: das nochmal insgesamt kürzen, hintergründe zu bmw eig so nicht notwendig*
+
 ### BMW Group 
 
 Die BMW Group hatte ihre Anfänge im Jahre 1916, damals noch unter dem Namen 'Bayerische Flugzeug-Werke AG'. Durch Krisenjahre hindurch spezialisierte sich die AG auf die Produktion von Autos und Motorrädern unter der Marke BMW. Seit 1998 gehört auch Rolls Royce zur BMW Group und im Jahre 2001 kam der erste Mini unter der Leitung der BMW Group auf den Markt. Mit dem i3 brachte die BMW Group 2013 das erste voll elektrisch angetriebene Großserienmodell heraus. [@BMWGeschichte]

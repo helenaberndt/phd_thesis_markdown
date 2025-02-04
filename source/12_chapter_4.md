@@ -1,16 +1,42 @@
 # Konzeption
 
 *todo: Forschungsfrage konkretisieren hier*
+<!-- Überblick über die Zielsetzung der Konzeption der Suchfunktion.
+Erläuterung der Relevanz der Suchfunktion innerhalb der MyBMW-App.
+Beschreibung des strukturellen Aufbaus der Konzeption. -->
+
+
+
+Quelle [@deeBestPracticesInapp2024]:Mobile Suche und Discovery - wie UX
+- "Less is more", simples Design für kleinen Bildschirm
+- man möchte relevante Inhalte (content) geben, der Nutzer nicht überfordert (overwhelm) oder dazu führt, dass Nutzer die Suche weiter verfeinern müssen
+- Im 'Search Transition Screen' Recent searches, Trending, Categories, Instant results, Query suggestions bzw. Autocomplete
+- Allgemein: Typo Tolerance
+- AI teilweise sinnvoll, z.B. bei Suchfunktion für personalisierte Einkaufs-Experience
+- best practices: Erwartungen von Nutzern an Schnelligkeit müssen erfüllt werden, Filter wenn sinnvoll, nach Relevanz sortiert, Suchtext in Ergebnissen mit Highlight/Markierung hervorheben
+
+
+aus Quelle [holstECommerceSearchField2014]: 
+- To a large extent users see the prominence of the search field as an indicator of how strongly the site “recommends” search as a way to find products, versus the alternative of navigating categories via the site menus. -----> If search is relatively crucial, such as in an eCommerce app (studies show that shoppers who start by searching tend to convert better), a search bar is the right choice. If search is more optional, you can tone down its emphasis by substituting a clickable contextual search icon
+- During our usability testing the subjects adopted search as their primary product finding strategy much more frequently on sites that had a very prominent search field, while the test sites with a muted search field design saw increased category navigation.
+
+aus Quelle [@petrockUSVoiceAssistant2019]:
+- (noch aus anderer): In 2019, according to eMarketer, 40% of all U.S. Internet users were speaking queries on their mobile devices, so it might make sense for your app to include voice as a search option.
+- in 2019: 40 % der Internet Nutzer habe Voice Assistancs benutzt
+
+
 
 ## Anforderungsanalyse der Suchfunktion
 
-Im "Requirements Engineering", also der Anforderungsanalyse, werden die Bedürfnisse der Benutzer, Auftraggeber und anderen Interessensgruppen analysiert, um eine geeignete Lösung zu entwickeln. Dabei wird eine Übereinkunft über die Funktionen des Systems, die Systemgrenzen und die Benutzerschnittstellen getroffen. Diese Informationen helfen auch den Entwickler, die Anforderungen besser zu verstehen. [@richterUsabilityUndUX2016]
+*todo: hier nochmal mehr stukturieren udn priorisieren? und sollen hier auch nicht-umgesetzte sachen stehen?*
+
+Im 'Requirements Engineering', also der Anforderungsanalyse, werden die Bedürfnisse der Benutzer, Auftraggeber und anderen Interessensgruppen analysiert, um eine geeignete Lösung zu entwickeln. Dabei wird eine Übereinkunft über die Funktionen des Systems, die Systemgrenzen und die Benutzerschnittstellen getroffen. Diese Informationen helfen auch den Entwickler, die Anforderungen besser zu verstehen. [@richterUsabilityUndUX2016]
 
 <!-- Requirements Engineering / Anforderungsanalyse [@richterUsabilityUndUX2016]:
 - Erarbeitung und Erhaltung von Übereinkunft der Stakeholder über Funktionen von System
 - Vermittelt Entwicklern besseres Verständnis der Anforderungen
 - Definition von Systemgrenzen und Benutzerschnittstellen (mit Fokus auf Bedürfnisse und Ziele der Benutzer)
-- Anforderungen ("Requirements") sind ein Teil der primären Disziplinen des Software Engineerings
+- Anforderungen ('Requirements') sind ein Teil der primären Disziplinen des Software Engineerings
 - Bedürnisse von Benutzern, Auftraggeber und weiteren Interessengruppen (Stakeholder) aufzuarbeiten, damit passende Lösung daraus erstellt werden kann
 - Aufbauend auf Bedürfnissen: Erarbeitung von Rahmenbedingungne und Qualitätsanfroderungen
 - Bei der Mobilen User Experience: Wer ist die anvisierte Zielgruppe und was sind deren Bedürfnisse? In welchem Kontext und in welchen Situationen wird die Anwendung verwendet? Welche Funktionen sind für die Benutzer in diesen Situationen wirklich nutzbringend?  -->
@@ -36,7 +62,7 @@ Im Folgenden werden die Anforderungen an die Suchfunktion in der MyBMW App erfas
 
 ### Systematische Erfassung der Anforderungen
 
-Die identifizierte Zielgruppe der Suchfunktion sind alle Nutzer der MyBMW App - insbesondere diejenigen, die Inhalte innerhalb der App suchen und schnell finden wollen. So können diese nach einem Stichwort, z.B. "Klima", suchen und bekommen dann die Ergebnisse der App-Inhalte angezeigt, in denen dieses Wort vorkommt.
+Die identifizierte Zielgruppe der Suchfunktion sind alle Nutzer der MyBMW App - insbesondere diejenigen, die Inhalte innerhalb der App suchen und schnell finden wollen. So können diese nach einem Stichwort, z.B. 'Klima', suchen und bekommen dann die Ergebnisse der App-Inhalte angezeigt, in denen dieses Wort vorkommt.
 
 <!-- - *Identifizierung der Zielgruppe und deren Bedürfnisse*
     - *Identifizieren Sie die Zielgruppe und deren Erwartungen an die Suchfunktion*
@@ -51,12 +77,13 @@ Die identifizierte Zielgruppe der Suchfunktion sind alle Nutzer der MyBMW App - 
         - allgemein: relevante Suchergebnisse, schnelle Reaktionszeit -->
 
 <!-- - *Analyse der Suchszenarien*
-    - Suche nach einem Stichwort, um zu sehen, ob in letzter Zeit Updates dafür waren -> z.B. "Klima" eingeben und schauen, ob es in den Release Notes vorgekommen ist, evtl. hierfür gleich Filter
-    - Schnelles Suchen nach Tutorial/genauerer Anleitung: z.B. "Navigation" eingeben und auf How-To-Video stoßen, zuvor ist die Filterung nach "Video" oder "Tutorial" möglich -->
+    - Suche nach einem Stichwort, um zu sehen, ob in letzter Zeit Updates dafür waren -> z.B. 'Klima' eingeben und schauen, ob es in den Release Notes vorgekommen ist, evtl. hierfür gleich Filter
+    - Schnelles Suchen nach Tutorial/genauerer Anleitung: z.B. 'Navigation' eingeben und auf How-To-Video stoßen, zuvor ist die Filterung nach 'Video' oder 'Tutorial' möglich -->
     
-Die funktionalen Anforderungen sind an die zu entwickelnde Suchfunktion sind wie folgt definiert. Nutzer sollen einen Suchbegriff in ein vorgegebenes Suchfeld eingeben können. Bevor eine Suchanfrage in die Suchleiste eingegeben wird, sollen Vorschläge und frühere Suchanfragen angezeigt werden. Bei der Eingabe eines Begriffs werden die zur Suche verfügbaren Quellen werden über die Schnittstelle durchsucht und anschließend jene Ergebnisse angezeigt, die den Suchbegriff beinhalten. Dabei sollen die verschiedenen Ergebnisse in reduzierter Form untereinander angezeigt werden. Dazu sollen jeweils ein Titel und Ausschnitte eines längeren Textes angezeigt werden. Beim Anklicken öffnet sich die dazugehörige Seite, und beim Verlassen der Seite werden wieder die Ergebnissen der Suchfunktion angezeigt. 
+<!-- todo: das vll stichpunktmäßig? -->
+Die funktionalen Anforderungen sind an die zu entwickelnde Suchfunktion sind wie folgt definiert. Die Suchfunktion soll der bestehenden 'Explore'-Seite hinzugefügt werden. Nach dem Anklicken eines Suchsymbols soll der Benutzer einen einzelnen Suchbegriff in ein vorgegebenes Suchfeld eingeben können. Dabei sollen kleine Rechtschreibfehler oder nicht exakte Übereinstimmungen zwischen Suchbegriff und durchsuchten Daten toleriert werden. Vor der Eingabe einer Suchanfrage in die Suchleiste sollen dem Nutzer Vorschläge und frühere Suchanfragen angezeigt werden. Bei der Eingabe eines Begriffs werden die zur Suche verfügbaren Quellen werden über die Schnittstelle durchsucht und anschließend jene Ergebnisse angezeigt, die den Suchbegriff beinhalten. Die Resultate der Suche werden dabei in reduzierter Form untereinander angezeigt. Zu jedem Ergebnis werden ein Titel und Ausschnitte eines längeren Textes dargestellt. Durch Anklicken wird die dazugehörige Seite geöffnet, während beim Verlassen der Seite wieder die Ergebnisse der Suchfunktion angezeigt werden. 
 
-Als nicht-funktionale Anforderung soll die Suchfunktion eine gute Performance aufweisen, d.h. die Suchergebnisse sollen schnell angezeigt werden. Außerdem soll die Suchfunktion benutzerfreundlich sein. Allerdings bildet das UX-Design keinen Schwerpunkt in der prototypischen Umsetzung der Suchfunktion. 
+Als nicht-funktionale Anforderung soll die Suchfunktion eine gute Performance aufweisen, d.h. die Suchergebnisse sollen schnell angezeigt werden. Außerdem soll die Suchfunktion benutzerfreundlich sein. Bei der prototypischen Umsetzung der Suchfunktion im Rahmen dieser Bachelorarbeit steht das UX-Design jedoch nicht im Vordergrund.
 
 <!-- - *Definition von Qualitätsanforderungen (Usability, Performance, Sicherheit etc.)*
 
@@ -97,19 +124,48 @@ Nicht-funktionale Anforderungen
     4. Verlauf
     5. Vorschläge -->
 
-Die Suche wird in das bestehende App-Umfeld eingepleft, es --> hier weiter. 
+Neben der Analyse der Anforderungen an die Suchfunktion, werden auch die technischen Rahmenbedingungen analysiert. So sollen die technischen Möglichkeiten und Grenzen untersucht, geeignete Bibliotheken gefunden und Schnittstellen geprüft werden. 
+Die Suchfunktion soll in die bestehende App-Umgebung der MyBMW-App integriert werden. Da die MyBMW-App mit Flutter entwickelt wurde, basiert die grundlegende technische Infrastruktur der Suchfunktion auf der Programmiersprache Dart.
 
-- *Analyse der technischen Rahmenbedingungen*
+Flutter stellt u.a. die Klasse 'SearchDelegate' zur Verfügung, die eine Suchseite erzeugt, die u.a. Vorschläge und Ergebnisse anzeigt und im Code Zugriff auf das aktuelle Suchwort, also 'query' ermöglicht [@SearchDelegateClassMaterial]. Diese Klasse vereint die genannten Anforderungen. Die Klasse 'SearchBar' stellt zum Vergleich nur das Eingabefeld für die Suchbegriffe zur Verfügung [@flutterSearchBarClassMaterial].
+
+Die Datenquellen für die Suchfunktion sind eine leicht zugängliche Quelle innerhalb der Anwendung, Daten aus einer lokalen JSON-Datei und der Inhalt von 'String Files'. Um die Daten aus der JSON-Datei lesen zu können, müssen diese zunächst in ein für Dart lesbares Format gebracht werden. Dies kann mit dem Dart-Package 'json_serializable' realisiert werden. Damit können Daten zwischen dem JSON-Format und der gewünschten und durch den Code definierten Struktur konvertiert werden. [@Json_serializableDartPackage]
+
+In allen Quellen werden für die Suchfunktion unterschiedliche Strings nach Übereinstimmungen durchsucht. Um kleine Abweichungen zwischen Such- und Vergleichswort zu tolerieren, kann das Dart Package 'Fuzzy' verwendet werden. Mit diesem wird ein für einen String-Vergleich ein sogenannter Fuzzy-Score erzeugt, der angibt, wie groß die Übereinstimmung ist. [@FuzzyDartPackage]
+
+<!-- - alles in sprache dart, weil App in flutter
+- hier: search delegate
+- Datenquellen: verschiedene lokale Quellen - anbindung aus quelle von app, lokaler jsondatei -> jsonSerialzable, durchsuchung der übersetzungs-files
+- verschiedene suchfunktionen - was sinnvoll hier
+- integration in bestehende systeme -> suchfunktion wird zu seite hinzugefügt -->
+<!-- - *Analyse der technischen Rahmenbedingungen*
     - *Untersuchen Sie die technischen Möglichkeiten und Grenzen der Plattform/App*
-        - Suchfunktion selber mit Flutter "SearchBar" [@flutterSearchBarClassMaterial] -> Ergebnisse der Query in Liste packen
+        - Suchfunktion selber mit Flutter 'SearchBar' [@flutterSearchBarClassMaterial] -> Ergebnisse der Query in Liste packen
         - Kann ich bei einem Ergebnis tatsächlich auf die Quelle / den Ort der Daten kommen? Muss ich bzw. wie speichere ich den Ort dieser Information
+        - Rechschreibung: Fuzzy
+        - Suchalgorithmen: Abgleich - nur reine Textsuche
     - *Prüfen Sie die Verfügbarkeit und Eignung von Bibliotheken/Frameworks für die Suchfunktion*
         - SearchBar von Flutter [@flutterSearchBarClassMaterial]
+        - SearchDeligate
     - *Identifizieren Sie mögliche Schnittstellen zu anderen Systemkomponenten*
+        - für eingabe mit Json: JsonSerializable -->
 
 ### Konzeptentwurf 
 
-- *Architekturdesign*
+Nach der systematischen Erfassung der Anforderungen an die Suchfunktion, werden diese nun im Rahmen des Konzeptentwurfs konkretisiert. Die Konzeption und der Aufbau der API, die die verschiedenen Quellen zusammenführt und an die die Suchanfragen gestellt werden, werden im nächsten Kapitel behandelt. Daher wird an dieser Stelle nicht näher darauf eingegangen.
+
+Der Ablauf der Suchfunktion aus Benutzersicht soll, wie bereits schon kurz dargestellt, wie folgt ablaufen. Durch Anklicken des Lupensymbols auf der 'Explore'-Seite, öffnet sich die Seite der Suchfunktion. In der Leiste am oberen Rand kann man zurück zur vorherigen Seite navigieren, einen Suchbegriff eingeben, oder den bisher eingegebenen löschen. Unterhalb der Leiste befinden sich Suchvorschläge, die von der Anwendungsseite aus gegeben werden und die zuletzt durchgeführten Suchanfragen. Eine Suchanfrage wird durchgeführt, indem ein Suchbegriff in das Suchfeld eingegeben und dann mit der Eingabetaste bestätigt wird. Anschließend werden die gefundenen Ergebnisse, die den Suchbegriff enthalten, nach Relevanz sortiert aufgelistet. Diese können je nach Quelle und damit Inhalt unterschiedlich aufgebaut sein. Wird ein Ergebnis angeklickt, öffnet sich die entsprechende Seite der App. Navigiert man zurück, gelangt man wieder auf die Ergebnisseite. (Siehe Abbildung \ref{fig:wireframe_1}) Dieser Aufbau ähnelt der Struktur, die von der Klasse 'SearchDelegate' von Flutter vorgeschlagen wird, in der Platz für Suchvorschläge und -ergebnisse vorgesehen ist [@SearchDelegateClassMaterial]. 
+
+![Quelle: eigene Zeichnung, 2025](source/figures/Wireframes_ba_1.png){#fig:wireframe_1 width=100%}
+
+Der Suchbegriff wird durch Ausführen der Suche an die API übergeben, die nach der Verarbeitung die passenden Ergebnisse aus den verschiedenen Quellen zurückgibt. Diese werden dann untereinander aufgelistet, wobei die verschiedenen Ergebnisse deutlich voneinander unterschieden werden. Die eigentliche Suchfunktion liegt also in der API, die im folgenden Kapitel konzipiert wird.
+
+Todo:
+nochmal viel genauer! - Fragen aus evalutaiton aufgreifen
+- Wie Verschläge und Suchverlauf (Text / Symbol), statisch oder rotierend
+- String Files: Sprachen (alle oder nur aktuelle), Darstellung (gruppiert / seperat)
+
+<!-- - *Architekturdesign*
     - *Entwerfen Sie die Systemarchitektur der Suchfunktion*
         - mit draw.io !
     - *Legen Sie die Schnittstellen und Datenflüsse zwischen den Komponenten fest*
@@ -118,9 +174,11 @@ Die Suche wird in das bestehende App-Umfeld eingepleft, es --> hier weiter.
 - *Interaktionsdesign*
     - *Konzipieren Sie das Nutzererlebnis und die Interaktionsabläufe der Suchfunktion*
     - *Erstellen Sie Wireframes oder Mockups zur Visualisierung des Designs*
-    - *Berücksichtigen Sie Aspekte wie Usability, Barrierefreiheit und Responsivität- Konzeption der Suchlogik und Ergebnispräsentation*
+    - *Berücksichtigen Sie Aspekte wie Usability, Barrierefreiheit und Responsivität- Konzeption der Suchlogik und Ergebnispräsentation* -->
 
 ## Konzeption der API
+
+
 
 ### Schnittstellen-Design
 

@@ -2,11 +2,18 @@
 
 ## Suchfunktionen in Mobilen Anwendungen
 
-Suchfunktionen sind eine wichtig Funktion in einigen mobilen Anwendungen. In den letzten Jahren wurden in diesem Bereich einige interessante Erkenntnisse gewonnen. 
+Suchfunktionen in mobilen Anwendungen sind heutzutage äußerst wichtig, da viele Nutzer regelmäßig mit ihren mobilen Geräten nach Produkten, Dienstleistungen und Informationen suchen. Unternehmen müssen daher sicherstellen, dass ihre mobilen Anwendungen ein gutes Such- und Entdeckungserlebnis bieten, um die Erwartungen der Zielgruppe zu erfüllen. [@deeBestPracticesInapp2024]
 
-So wurde 2012 festgestellt, dass Nutzer bei der Verwendung von Mobiltelefonen weniger Suchanfragen pro Sitzung stellen, als bei der Nutzung eines Desktop PCs. Das impliziert, dass Nutzer die mobile Suche als eine größere Hürde empfinden. [@komakiHowDoesMobile2012]
+2012 wurde festgestellt, dass Nutzer weniger Suchanfragen pro Sitzung stellen, wenn sie ein Mobiltelefon verwenden, als wenn sie einen Desktop-PC verwenden. Dies deutet darauf hin, dass Nutzer die mobile Suche als größere Hürde empfinden.[@komakiHowDoesMobile2012]
 
-_Missing: Hier noch mehr Quellen suchen_
+<!-- Quelle [@gettoStateMobileUX2020]:
+- Allgemein: There is also strong consensus that mobile applications should meet the same criteria for usability as desktop applications -->
+
+Trotzdem besteht ein starker Konsens darüber, dass mobile Anwendungen die gleichen Usability-Anforderungen erfüllen sollten wie Desktop-Anwendungen. [@gettoStateMobileUX2020]
+
+Bei der mobilen Suche muss die Balance gefunden werden, dem Nutzer die relevanten, gesuchten Inhalte, die er sucht, zu liefern, ihn aber nicht zu überfordern, was dazu führen kann, dass die Suche verfeinert und wiederholt werden muss. Es ist sinnvoll, die Benutzerfreundlichkeit durch Funktionen wie Filter, Rechtschreibfehlertoleranz, Vorschläge und frühere Suchanfragen zu verbessern. [@deeBestPracticesInapp2024]
+
+_todo Missing: Hier noch mehr Quellen suchen_
 
 <!-- Quelle [@komakiHowDoesMobile2012]:
 - In Studie: Mehr Anfragen per Session an einem Desktop PC als an einem Mobilen Telefon, was impliziert, dass Mobile Nutzer weniger dazu bereit sind Themen in Tiefe zu erkunden wegen größeren Hürden beim Suchen, wie Query-Eingabe
@@ -29,7 +36,7 @@ _Missing: Hier noch mehr Quellen suchen_
 
 ## Flutter
 
-Damit Apps möglichst viele Kunden erreichen, müssen sie mit den unabhängigen Plattformen iOS und Android kompatibel sein. Dies stellt Unternehmen oftmals vor Schwierigkeiten, da sie mit der Komplexität plattformübergreifender Anwendungen umgehen müssen. Entwickler benötigen oft unterschiedliche Skillsets und müssen Apps aufgrund der unterschiedlichen Plattformen mehrfach bauen.
+Damit Apps möglichst viele Kunden erreichen, müssen sie mit den unabhängigen Plattformen iOS und Android kompatibel sein. Derzeit laufen etwa 70 % der Mobiltelefone weltweit mit dem Betriebssystem Android, 29 % mit iOS [@SmartphoneUsageOperating2024]. Dies stellt Unternehmen oftmals vor Schwierigkeiten, da sie mit der Komplexität plattformübergreifender Anwendungen umgehen müssen. Entwickler benötigen oft unterschiedliche Skillsets und müssen Apps aufgrund der unterschiedlichen Plattformen mehrfach bauen.
 Mit Flutter, das 2016 von Google als mobiles SDK angekündigt worden ist, haben Entwickler nun die Möglichkeit ein plattformübergreifendes Framework zu nutzen, das hochperformante mobile Anwendungen für beide Plattformen, iOS und Android, baut.
 Flutter-Apps werden in der Programmiersprache Dart geschrieben, die ursprünglich JavaScript ersetzen sollte und deshalb eine Java-ähnliche Syntax hat.
 Entwickler können nur die 'just-in-time' Kompilierung verwenden, wobei der Computercode während der Programmausführung zur Laufzeit kompiliert wird. Darüber hinaus hilft die 'Hot-Reload' Funktion den Entwicklern, Benutzeroberflächen zu bauen oder Features hinzuzufügen, ohne dass diese Änderungen lange neu geladen werden müssen. Denn die aktualisierten Quelldaten werden in die laufende Dart Virtual Machine eingefügt, die die betroffenen Klassen aktualisiert und den Widget-Tree automatisch neu baut.
@@ -69,6 +76,7 @@ Mit der App können Kunden nach Anmeldung mit ihrer BMW-ID auf ihr Fahrzeug, BMW
 
 Ein besonderes Feature ist das Remote Software Upgrade. Damit können Updates für die Fahrzeugsoftware direkt 'over-the-air' ins Fahrzeug oder zunächst in die MyBMW-App und dann auf das Auto geladen werden. [@julichUpdateFuerFreude2021] 
 
+*todo: hier Bilder?*
 
 <!-- Quelle [koenigYourWorldMy2020]:
 - Davor: BMW i Remote App 2013, BMW Connected App
@@ -116,7 +124,7 @@ APIs sorgen für eine nahtlose Kommunikation zwischen Software Komponenten und S
 
 Sie vereinfachen und beschleunigen die Entwicklung von Anwendungen und Software. Daten können gemeinsam genutzt werden, wobei nur die notwendigen Informationen freigegeben werden und systeminterne Details verborgen bleiben können. [@ibmWhatAPIApplication2024]
 
-_Missing: Mehr zu internen APIs_
+_todo Missing: Mehr zu internen APIs_
 
 Eine gute Implementierung ist besonders bei mobilen Applikationen wichtig, da Instabilität und Fehleranfälligkeit der API den Erfolg der Software beeinträchtigen können. Google Play-Bewertungen haben gezeigt, dass APIs, die von erfolgreichen Apps verwendet werden, weniger fehleranfällig sind. APIs, die zu Fehlern neigen, können zu Fehlfunktionen und Abstürzen führen. [@linares-vasquezAPIChangeFault2013]
 
