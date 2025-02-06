@@ -1,20 +1,24 @@
 # Einleitung
 
-<!-- Vielleicht Zitat auch einfach vor Hintergrund noch einfach so hinschreiben. -->
-
-Bei Veröffentlichung der MyBMW im Jahre 2020 sagte der damalige Senior Vice President BMW Group Connected Company Customer über die neue App Generation, dass die BMW Group "einen weiteren Schritt in der Gestaltung des digitalen Kundenerlebnisses rund um [die] Fahrzeuge [geht] und [..] damit dem gestiegenen Kundenanspruch an digitale Dienste und Funktionen gerecht [wird]" [@koenigYourWorldMy2020].
+„Mit der neuen App-Generation gehen wir einen weiteren Schritt in der Gestaltung des digitalen Kundenerlebnisses rund um unsere Fahrzeuge [...]. Mit der My BMW App [...]integrieren wir unsere Fahrzeuge nahtlos in den digitalen Lifestyle unserer Kunden.“ Mit diesen Worte des damaligen Senior Vice President der 'Connected Company' der BMW Group, Peter Henrich, wurde die MyBMW App im Jahr 2020 auf den Markt eingeführt. [@koenigYourWorldMy2020]
 
 ## Hintergrund
 
-*todo: das nochmal insgesamt kürzen, hintergründe zu bmw eig so nicht notwendig*
+Die BMW Group ist ein renommiertes Unternehmen der Automobilindustrie, das sich auf die Produktion von Fahrzeugen der Premiumklasse fokussiert. Das Portfolio der BMW Group umfasst die Marken BMW, Mini, Rolls Royce und BMW Motorrad. [@BMWGeschichte], [@tholundUmfangreicheUpdatesMy2024] Die BMW Group ist u. a. mit einer Absatzrate von 2,5 Millionen Autos im Jahr 2023 Fahrzeugen ein signifikanter Faktor für den Wohlstand Europas [@bmwgroupJahresbericht20242024]. Der Automobilsektor trägt mit einem Anteil von 6,1 % zur gesamten Beschäftigung in der EU bei [@AutomotiveIndustryEuropean] und generiert etwa 7 % des BIP in Europa [@miguelImpactDynamicCapabilities2022].
 
-### BMW Group 
+In der Automobilindustrie zeichnet sich eine Entwicklung ab, die eine zunehmende Relevanz der Digitalisierung in der Zukunft erwarten lässt. Das digitale Erlebnis eines Produktes ist für Marken zu einem entscheidenden Unterscheidungsmerkmal geworden [@strategy&DigitalAutoReport]. Es wird prognostiziert, dass Geschäftsmodelle, wie ewa Konnektivitäts-Dienste die Einnahmequellen um etwa 30 % steigern könnten. [@gaoUmsatzAutoindustrieKann2024], [@deryabinaImpactDigitalTransformation2022] Im Bezug auf diese Entwicklung haben bereits alle Premiumhersteller auf die Entwicklung reagiert und investieren nun u. a. in die Entwicklung und Bereitstellung vonApps, die oftmals Remote-Funktionen anbieten und es ermöglichen, auf das Auto bzw. die Daten aus der Ferne über das Handy zuzugreifen[@mollerMobileAppsConnected2019]. Daraus resultieren auch Geschäftsstrategien, die eine detaillierte Analyse der Kundendaten ermöglichen, um personalisierte Lösungen zu entwickeln [@deryabinaImpactDigitalTransformation2022].
+
+<!-- So ist das digitale Erlebnis eines Produktes ein entscheidendes Unterscheidungsmerkmal für Marken. Für Firmen der Automobilbranche kann es zum Beispiel wichtig sein, mobile Anwendungen zu entwickeln, die die Interaktion von Benutzern von Elektrofahrzeugen und der Ladeinfrastruktur erleichtern. Die dazugehörige Software kann Plattformen verwalten und betreiben und Ladenetze optimieren und so die Effizienz von Ladediensten verbessern. [@strategy&DigitalAutoReport]
+
+Eine Hochrechnung aus dem Jahr 2019 prognostizierte, dass im Jahr 2025 etwa 60 % aller Autos über eine Ausstattungen verfügen würden, die als 'basic' oder 'higher connectivity'  <!--toask: welche Begriffe hier dann? bezeichnet wird. Für die Folgejahre wurde eine steigende Tendenz prognostiziert. [@mollerFutureMobilityOur2019] -->
+
+<!-- ### BMW Group 
 
 Die BMW Group hatte ihre Anfänge im Jahre 1916, damals noch unter dem Namen 'Bayerische Flugzeug-Werke AG'. Durch Krisenjahre hindurch spezialisierte sich die AG auf die Produktion von Autos und Motorrädern unter der Marke BMW. Seit 1998 gehört auch Rolls Royce zur BMW Group und im Jahre 2001 kam der erste Mini unter der Leitung der BMW Group auf den Markt. Mit dem i3 brachte die BMW Group 2013 das erste voll elektrisch angetriebene Großserienmodell heraus. [@BMWGeschichte]
 
-Langfristiges Denken und verantwortungsvolles Handeln sind jeher die Grundlage des wirtschaftlichen Erfolges der BMW Group. Nachhaltigkeit und Ressourcenschonung werden dabei in allen Phasen der Entwicklung in den Mittelpunkt gerückt. Der Premium-Hersteller gehört mit seinen Marken zu den weltweit führenden Herstellern von Automobilen und Motorrädern. Darüber hinaus bietet die BMW Group auch Premium-Finanz- und Mobilitätsdienstleistungen an. Die Produkte werden an den über 30 Produktionsstandorten weltweit hergestellt und über ein globales Vertriebsnetzwerk mit Vertretungen in über 140 Ländern vertrieben. [@tholundUmfangreicheUpdatesMy2024] <!--Hier nochmal wegen Impressum schauen, bzw passt Zitat?-->
+Langfristiges Denken und verantwortungsvolles Handeln sind jeher die Grundlage des wirtschaftlichen Erfolges der BMW Group. Nachhaltigkeit und Ressourcenschonung werden dabei in allen Phasen der Entwicklung in den Mittelpunkt gerückt. Der Premium-Hersteller gehört mit seinen Marken zu den weltweit führenden Herstellern von Automobilen und Motorrädern. Darüber hinaus bietet die BMW Group auch Premium-Finanz- und Mobilitätsdienstleistungen an. Die Produkte werden an den über 30 Produktionsstandorten weltweit hergestellt und über ein globales Vertriebsnetzwerk mit Vertretungen in über 140 Ländern vertrieben. [@tholundUmfangreicheUpdatesMy2024] <!--Hier nochmal wegen Impressum schauen, bzw passt Zitat?
 
-Ende 2023 waren weltweit fast 155.000 Menschen in über 70 Produktions- und Vertriebsstandorten sowie an Forschungsstandorten in mehr als 17 Ländern beschäftigt. Über das Jahr 2023 wurden über 2,5 Millionen Autos und fast 155.000 Motorräder ausgeliefert. Das Unternehmen verzeichnete damit ein Ergebnis vor Steuern von nahezu 17 Milliarden €. [@bmwgroupJahresbericht20242024]
+Ende 2023 waren weltweit fast 155.000 Menschen in über 70 Produktions- und Vertriebsstandorten sowie an Forschungsstandorten in mehr als 17 Ländern beschäftigt. Über das Jahr 2023 wurden über 2,5 Millionen Autos und fast 155.000 Motorräder ausgeliefert. Das Unternehmen verzeichnete damit ein Ergebnis vor Steuern von nahezu 17 Milliarden €. [@bmwgroupJahresbericht20242024] -->
 
  <!-- - BMW 
         - Quelle: [koenigYourWorldMy2020]
@@ -38,18 +42,18 @@ Ende 2023 waren weltweit fast 155.000 Menschen in über 70 Produktions- und Vert
             - Im Jahr 2023 erzielte die BMW Group einen weltweiten Absatz von über 2,55 Mio. Automobilen und über 209.000 Motorrädern. Das Ergebnis vor Steuern im Geschäftsjahr 2023 belief sich auf 17,1 Mrd. €, der Umsatz auf 155,5 Mrd. €. Zum 31. Dezember 2023 beschäftigte das Unternehmen weltweit 154.950 Mitarbeiterinnen und Mitarbeiter.
             - Seit jeher sind langfristiges Denken und verantwortungsvolles Handeln die Grundlage des wirtschaftlichen Erfolges der BMW Group. Das Unternehmen hat frühzeitig die Weichen für die Zukunft gestellt und rückt Nachhaltigkeit und Ressourcenschonung konsequent ins Zentrum seiner Ausrichtung, von der Lieferkette über die Produktion bis zum Ende der Nutzungsphase aller Produkte. -->
 
-### Automobilindustrie
+<!-- ### Automobilindustrie
 
 Die BMW Group ist Teil der Automobilindustrie und damit ein wesentlicher Faktor für den Wohlstand Europas. Nach Angaben der Webseite der Europäischen Kommission, schafft dieser Sektor 13.8 Millionen direkte und indirekte Jobs, was einen Anteil von 6,1% der gesamten EU-Beschäftigung ausmacht. [@AutomotiveIndustryEuropean]
 
-Aus einem wirtschaftlichen Blickwinkel generiert die Automobilindustrie einen Umsatz, der über 7 % des Brutto-Inland-Produktes der EU entspricht. Viele Unternehmen der Automobilbranche werden von digitalen Technologien beeinflusst und müssen ihre Geschäftsmodelle erneuern, um die neuen Möglichkeiten der Digitalisierung auszuschöpfen. [@miguelImpactDynamicCapabilities2022]
+Aus einem wirtschaftlichen Blickwinkel generiert die Automobilindustrie einen Umsatz, der über 7 % des Brutto-Inland-Produktes der EU entspricht. Viele Unternehmen der Automobilbranche werden von digitalen Technologien beeinflusst und müssen ihre Geschäftsmodelle erneuern, um die neuen Möglichkeiten der Digitalisierung auszuschöpfen. [@miguelImpactDynamicCapabilities2022] 
 
 Es wird davon ausgegangen, dass Geschäftsmodelle wie Konnektivitätsdienste und Funktionserweiterungen die Einnahmequellen um etwa 30 % steigern könnten, besonders durch 'On-demand' Mobilitätsdienste und datengesteuerte Dienste. [@gaoUmsatzAutoindustrieKann2024]
 
 In der Automobilindustrie zeichnet sich die Entwicklung ab, dass die Digitalisierung und die Personalisierung in Zukunft noch mehr an Bedeutung gewinnen werden. So soll das "connected car" - das vernetzte Fahrzeug - eine Erweiterung und ein Ausdruck der Individualität und des Stils des Kunden sein. Andere prognostizierte Trends stellen das personalisierte Fahrerlebnis unter Einbeziehung des IoT - einschließlich Mobiltelefonen - sowie die Sicherheit und das Wohlbefinden des Kunden in den Mittelpunkt. Geschäftsstrategien schlagen beispielsweise vor, Kundendaten genauer zu analysieren, um Bedürfnisse, Verhalten und Präferenzen besser zu verstehen und personalisierte Lösungen anbieten zu können. Die zunehmende Verbreitung mobiler Geräte verbessert dabei die Datenanalyse. [@deryabinaImpactDigitalTransformation2022]
 
 Unternehmen der Automobilbranche müssen sich auf die Erwartungshaltung der Kunden einstellen, dass etablierte IT-Strukturen mit der mobilen, App-orientierten Welt verbunden werden. Einige Technologien, wie regelmäßige "over the air" Updates haben sich dabei schon zu einem Benchmark in der Industrie etabliert. Kunden sind auch bereit, für bereichernde Dienste zu zahlen: in den USA und Europa ca. 20 € pro Monat, in China 40 €. [@winkelhakeDigitaleTransformationAutomobilindustrie2024]
-
+-->
 
 <!-- - Automobilindustrie
     <!-- - Quelle: [@AutomotiveIndustryEuropean]
@@ -70,16 +74,25 @@ Unternehmen der Automobilbranche müssen sich auf die Erwartungshaltung der Kund
             - Eine Buisness Strategie: Kundeneinblicke analysieren Kunden -> Kundenanforderungen, -verhalten und -präferenzen verstehen ist wichtig um personalisierte Lösungen anbieten zu können
             - Die zunehmende Verbreitung mobiler Geräte und  verbesserte Datenanalyse haben die richtigen Synergien für die Kunden geschaffen, indem sie stärkere Partnerschaften mit der Automobilindustrie eingegangen sind, um die Wahlmöglichkeiten und Kaufbedürfnisse der Kunden zu berücksichtigen und den allgemeinen Kundenservice und die Kundenbindung zu verbessern  -->
 
-### Digitalisierung <!-- Digitale Produktge -->
 
-Eine Möglichkeit, digitale Innovationen zu fördern, ist die Entwicklung und der Vertrieb von Apps, wie es die BMW Group mit der MyBMW App bereits umgesetzt hat. Diese Applikation bietet den Kunden eine universelle Schnittstelle zu ihrem Fahrzeug und vielen weiteren Produkten und Dienstleistungen von BMW. [@bmwgroupHighlightsMyBMW]
+## Motivation
 
-Weltweit nutzen inzwischen mehr als drei Viertel der über 10-jährigen Bevölkerung ein Mobiltelefon, in Europa sind es 93 %. [@MeasuringDigitalDevelopment]
+Die Entwicklung und der Vertrieb von Apps stellen eine Möglichkeit dar, digitale Innovationen zu fördern, wie es die BMW Group mit der MyBMW App bereits umgesetzt hat. Diese Applikation bietet den Kunden eine universelle Schnittstelle zu ihrem Fahrzeug sowie zu einer Vielzahl weiterer Produkte und Dienstleistungen von BMW [@bmwgroupHighlightsMyBMW].
+
+Die Bereitstellung einer mobilen Anwendung knüpft an eine Entwicklung an, in der die Bedeutung von Apps kontinuierlich zunimmt. Weltweit nutzen mehr als drei Viertel der über 10-jährigen Bevölkerung ein Mobiltelefon, in Europa sind es 93 % [@MeasuringDigitalDevelopment]. Die jährlichen Downloads von Apps haben sich in den letzten Jahren verdoppelt und steigen weiterhin an [@jeanrenaudGlobaleAusgabenFuer2023]. 
+
+Der Wettbewerb auf dem App-Markt ist sehr intensiv. Einige wenige Apps dominieren den Großteil des Marktes, was sich daran zeigt, dass Nutzer bis zu 95 % ihrer Zeit mit ihren persönlichen Top-10-Apps verbringen [@martinGlobalMobileReport2017]. Insgesamt sind Apps zum Hauptkonsumenten von internetbasierten Diensten geworden [@maMashDroidApproach2015].
+
+Die zuvor dargestellten Punkte verdeutlichen die Notwendigkeit, dass insbesondere Unternehmen der Automobilindustrie die Entwicklung von Apps vorantreiben müssen, um ihre Kunden zu überzeugen. Dabei ist auch die kontinuierliche Weiterentwicklung von Apps von entscheidender Bedeutung, um das Kundenerlebnis langfristig zu optimieren und die Kundenzufriedenheit zu erhöhen. Die Implementierung einer Suchfunktion ist eine Methode zur Optimierung einer mobilen Anwendung. Sie ermöglicht es Kunden, Inhalte innerhalb der App effizienter zu finden, was zu einer Verbesserung des Nutzungserlebnisses und der Benutzerzufriedenheit führt.
+
+<!-- Eine Möglichkeit, digitale Innovationen zu fördern, ist die Entwicklung und der Vertrieb von Apps, wie es die BMW Group mit der MyBMW App bereits umgesetzt hat. Diese Applikation bietet den Kunden eine universelle Schnittstelle zu ihrem Fahrzeug und vielen weiteren Produkten und Dienstleistungen von BMW. [@bmwgroupHighlightsMyBMW] -->
+
+<!-- Weltweit nutzen inzwischen mehr als drei Viertel der über 10-jährigen Bevölkerung ein Mobiltelefon, in Europa sind es 93 %. [@MeasuringDigitalDevelopment]
 Auch die App-Nutzung ist in den letzten Jahren gestiegen, was unter anderem an der Anzahl der App-Downloads messbar ist. So hat sich die Zahl der jährlichen Downloads zwischen 2017 und 2021 von 107 Milliarden auf 220 Milliarden mehr als verdoppelt. Diese Zahl wird Prognosen zufolge weiter steigen. [@jeanrenaudGlobaleAusgabenFuer2023]
 
-Die Relevanz von mobilen Anwendungen zeigt sich auch dadurch, dass immer weniger Menschen ihren Laptop verwenden, sondern ausschließlich ihr Mobiltelefon. Weltweit sind es etwa ein Viertel der Nutzer, wobei die Schwankungen zwischen den Ländern groß sind. Der Großteil der Zeit, die an mobilen Geräten verbracht wird, entfällt an dominieren Apps mit einem Anteil von mehr als 80% der mobilen Nutzungsminuten. Innerhalb des App-Marktes herrscht ein intensiver Wettbewerb. Einige wenige Apps dominieren den Großteil des Marktes, was sich daran zeigt, dass Nutzer bis zu 95 % ihrer Zeit mit ihren persönlichen Top-10-Apps verbringen. <!-- Dazu gibt es Grafik --> [@martinGlobalMobileReport2017] 
+Die Relevanz von mobilen Anwendungen zeigt sich auch dadurch, dass immer weniger Menschen ihren Laptop verwenden, sondern ausschließlich ihr Mobiltelefon. Weltweit sind es etwa ein Viertel der Nutzer, wobei die Schwankungen zwischen den Ländern groß sind. Der Großteil der Zeit, die an mobilen Geräten verbracht wird, entfällt an dominieren Apps mit einem Anteil von mehr als 80% der mobilen Nutzungsminuten. Innerhalb des App-Marktes herrscht ein intensiver Wettbewerb. Einige wenige Apps dominieren den Großteil des Marktes, was sich daran zeigt, dass Nutzer bis zu 95 % ihrer Zeit mit ihren persönlichen Top-10-Apps verbringen. <!-- Dazu gibt es Grafik  [@martinGlobalMobileReport2017] 
 
-Insgesamt sind Apps zum Hauptkonsumenten von internetbasierten Diensten geworden. [@maMashDroidApproach2015] 
+Insgesamt sind Apps zum Hauptkonsumenten von internetbasierten Diensten geworden. [@maMashDroidApproach2015]  -->
 
 <!-- - Apps
     - Quelle [@nunkesserAppEntwicklungFuerMobile2023]
@@ -135,16 +148,6 @@ Insgesamt sind Apps zum Hauptkonsumenten von internetbasierten Diensten geworden
     - Quelle [@bmwgroupHighlightsMyBMW]
         - universelle Schnittstelle zum Fahrzeug und allen weiteren Produkten und Services von BMW -->
 
-## Motivation
-
-Die zuvor dargestellten Punkte verdeutlichen die Notwendigkeit, dass insbesondere Unternehmen der Automobilindustrie die Entwicklung von Apps vorantreiben müssen, um ihre Kunden zu überzeugen. Dabei ist auch die kontinuierliche Weiterentwicklung von Apps von entscheidender Bedeutung, um das Kundenerlebnis langfristig zu optimieren und die Kundenzufriedenheit zu erhöhen.
-
-So ist das digitale Erlebnis eines Produktes ein entscheidendes Unterscheidungsmerkmal für Marken. Für Firmen der Automobilbranche kann es zum Beispiel wichtig sein, mobile Anwendungen zu entwickeln, die die Interaktion von Benutzern von Elektrofahrzeugen und der Ladeinfrastruktur erleichtern. Die dazugehörige Software kann Plattformen verwalten und betreiben und Ladenetze optimieren und so die Effizienz von Ladediensten verbessern. [@strategy&DigitalAutoReport]
-
-Eine Hochrechnung aus dem Jahr 2019 prognostizierte, dass im Jahr 2025 etwa 60 % aller Autos über eine Ausstattungen verfügen würden, die als 'basic' oder 'higher connectivity'  <!--toask: welche Begriffe hier dann?--> bezeichnet wird. Für die Folgejahre wurde eine steigende Tendenz prognostiziert. [@mollerFutureMobilityOur2019]
-
-Die Implementierung einer Suchfunktion ist eine Methode zur Optimierung einer mobilen Anwendung. Sie ermöglicht es Kunden, Inhalte innerhalb der App effizienter zu finden, was zu einer Verbesserung des Nutzungserlebnisses und der Benutzerzufriedenheit führt.
-
 <!-- - Kundenerlebnis
 - Kundenzufriedenheit
 - Suchfunktion
@@ -186,6 +189,9 @@ Erstellung prototypischer Suchfunktion, die exemplarisch mehrere Quellen vereint
 - Erst mal nur zwei Quellen. UI prototysich -->
 
 Nur 3 Quellen, kein Fokus auf UI
+
+
+Bei dem Begriff Suchfunktionen wird in dieser Arbeit davon ausgegangen, dass die Inhalte einer App durchsucht werden. Also beispielsweise die Texte, die in einer Seite vorkommen. Es soll nicht um die Suche durch dynamische Inhalte wie zum Beispiel bei YouTube gehen.
 
 ## Aufbau der Arbeit
 <!-- erst am Ende machen! -->

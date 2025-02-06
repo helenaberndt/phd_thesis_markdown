@@ -7,30 +7,11 @@ Beschreibung des strukturellen Aufbaus der Konzeption. -->
 
 
 
-Quelle [@deeBestPracticesInapp2024]:Mobile Suche und Discovery - wie UX
-- "Less is more", simples Design für kleinen Bildschirm
-- man möchte relevante Inhalte (content) geben, der Nutzer nicht überfordert (overwhelm) oder dazu führt, dass Nutzer die Suche weiter verfeinern müssen
-- Im 'Search Transition Screen' Recent searches, Trending, Categories, Instant results, Query suggestions bzw. Autocomplete
-- Allgemein: Typo Tolerance
-- AI teilweise sinnvoll, z.B. bei Suchfunktion für personalisierte Einkaufs-Experience
-- best practices: Erwartungen von Nutzern an Schnelligkeit müssen erfüllt werden, Filter wenn sinnvoll, nach Relevanz sortiert, Suchtext in Ergebnissen mit Highlight/Markierung hervorheben
-
-
-aus Quelle [holstECommerceSearchField2014]: 
-- To a large extent users see the prominence of the search field as an indicator of how strongly the site “recommends” search as a way to find products, versus the alternative of navigating categories via the site menus. -----> If search is relatively crucial, such as in an eCommerce app (studies show that shoppers who start by searching tend to convert better), a search bar is the right choice. If search is more optional, you can tone down its emphasis by substituting a clickable contextual search icon
-- During our usability testing the subjects adopted search as their primary product finding strategy much more frequently on sites that had a very prominent search field, while the test sites with a muted search field design saw increased category navigation.
-
-aus Quelle [@petrockUSVoiceAssistant2019]:
-- (noch aus anderer): In 2019, according to eMarketer, 40% of all U.S. Internet users were speaking queries on their mobile devices, so it might make sense for your app to include voice as a search option.
-- in 2019: 40 % der Internet Nutzer habe Voice Assistancs benutzt
-
-
-
 ## Anforderungsanalyse der Suchfunktion
 
 *todo: hier nochmal mehr stukturieren udn priorisieren? und sollen hier auch nicht-umgesetzte sachen stehen?*
 
-Im 'Requirements Engineering', also der Anforderungsanalyse, werden die Bedürfnisse der Benutzer, Auftraggeber und anderen Interessensgruppen analysiert, um eine geeignete Lösung zu entwickeln. Dabei wird eine Übereinkunft über die Funktionen des Systems, die Systemgrenzen und die Benutzerschnittstellen getroffen. Diese Informationen helfen auch den Entwickler, die Anforderungen besser zu verstehen. [@richterUsabilityUndUX2016]
+Im 'Requirements Engineering', also der Anforderungsanalyse, werden die Bedürfnisse der Benutzer, Auftraggeber und anderen Interessensgruppen analysiert, um eine geeignete Lösung für ein Produkt zu entwickeln. Dabei wird eine Übereinkunft über die Funktionen des Systems, die Systemgrenzen und die Benutzerschnittstellen getroffen. Diese Informationen helfen auch den Entwickler, die Anforderungen besser zu verstehen. [@richterUsabilityUndUX2016]
 
 <!-- Requirements Engineering / Anforderungsanalyse [@richterUsabilityUndUX2016]:
 - Erarbeitung und Erhaltung von Übereinkunft der Stakeholder über Funktionen von System
@@ -55,14 +36,12 @@ Im Folgenden werden die Anforderungen an die Suchfunktion dargestellt. Dabei wir
 
 Da es sich bei der Entwicklung der Suchfunktion um eine prototypische Umsetzung handelt, wurde hierfür keine Nutzerbefragung zur Ermittlung der Anforderungen durchgeführt. Vermutliche Nutzerbedürfnisse wurden antizipiert. 
 
-Im Folgenden werden die Anforderungen an die Suchfunktion in der MyBMW App erfasst und daraus ein Konzept entwickelt.
-
 <!-- - Aber - hier nur prototypische umsetzung, groben Anforderungen kamen von Abteilung und so formuliert, dass es für den protoypschen Umfang sinn macht -->
 
 
 ### Systematische Erfassung der Anforderungen
 
-Die identifizierte Zielgruppe der Suchfunktion sind alle Nutzer der MyBMW App - insbesondere diejenigen, die Inhalte innerhalb der App suchen und schnell finden wollen. So können diese nach einem Stichwort, z.B. 'Klima', suchen und bekommen dann die Ergebnisse der App-Inhalte angezeigt, in denen dieses Wort vorkommt.
+<!--todo: das rein oder raus - Die identifizierte Zielgruppe der Suchfunktion sind alle Nutzer der MyBMW App - insbesondere diejenigen, die Inhalte innerhalb der App suchen und schnell finden wollen. So können diese nach einem Stichwort, z.B. 'Klima', suchen und bekommen dann die Ergebnisse der App-Inhalte angezeigt, in denen dieses Wort vorkommt. -->
 
 <!-- - *Identifizierung der Zielgruppe und deren Bedürfnisse*
     - *Identifizieren Sie die Zielgruppe und deren Erwartungen an die Suchfunktion*
@@ -79,6 +58,7 @@ Die identifizierte Zielgruppe der Suchfunktion sind alle Nutzer der MyBMW App - 
 <!-- - *Analyse der Suchszenarien*
     - Suche nach einem Stichwort, um zu sehen, ob in letzter Zeit Updates dafür waren -> z.B. 'Klima' eingeben und schauen, ob es in den Release Notes vorgekommen ist, evtl. hierfür gleich Filter
     - Schnelles Suchen nach Tutorial/genauerer Anleitung: z.B. 'Navigation' eingeben und auf How-To-Video stoßen, zuvor ist die Filterung nach 'Video' oder 'Tutorial' möglich -->
+
     
 <!-- todo: das vll stichpunktmäßig? -->
 Die funktionalen Anforderungen sind an die zu entwickelnde Suchfunktion sind wie folgt definiert. Die Suchfunktion soll der bestehenden 'Explore'-Seite hinzugefügt werden. Nach dem Anklicken eines Suchsymbols soll der Benutzer einen einzelnen Suchbegriff in ein vorgegebenes Suchfeld eingeben können. Dabei sollen kleine Rechtschreibfehler oder nicht exakte Übereinstimmungen zwischen Suchbegriff und durchsuchten Daten toleriert werden. Vor der Eingabe einer Suchanfrage in die Suchleiste sollen dem Nutzer Vorschläge und frühere Suchanfragen angezeigt werden. Bei der Eingabe eines Begriffs werden die zur Suche verfügbaren Quellen werden über die Schnittstelle durchsucht und anschließend jene Ergebnisse angezeigt, die den Suchbegriff beinhalten. Die Resultate der Suche werden dabei in reduzierter Form untereinander angezeigt. Zu jedem Ergebnis werden ein Titel und Ausschnitte eines längeren Textes dargestellt. Durch Anklicken wird die dazugehörige Seite geöffnet, während beim Verlassen der Seite wieder die Ergebnisse der Suchfunktion angezeigt werden. 
