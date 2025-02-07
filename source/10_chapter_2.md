@@ -71,7 +71,7 @@ Die Applikation stellt dem Kunden eine universelle Schnittstelle zum Fahrzeug be
 
 Nach erfolgter Anmeldung mit der BMW-ID ermöglicht die App den Zugriff auf das Fahrzeug, BMW Services und den Store. Die App ist in mehrere Unterseiten, so genannte Tabs, unterteilt. Im Fahrzeug-Tab erhält der Kunde einen Überblick über den aktuellen Zustand seines Autos, also Fahrzeugstatus und Remote-Funktionen. Im Karten-Tab können Ziele zur Navigation gesucht und ausgewählt werden. Der BMW-Services- und Store-Tab bietet den Kunden direkten Zugriff auf Updates und Finanzdienstleistungen und ermöglicht den Kontakt zu Service Partnern. Im Profil-Tab können persönliche Einstellungen vorgenommen werden. [@bmwHowErsteSchritteMit2024]
 
-Ein besonderes Feature ist das Remote Software Upgrade, mit dem Updates für die Fahrzeugsoftware direkt 'over-the-air' ins Fahrzeug oder zunächst in die MyBMW-App und dann auf das Auto geladen werden. [@julichUpdateFuerFreude2021] 
+Ein besonderes Feature ist das Remote Software Upgrade (RSU), mit dem Updates für die Fahrzeugsoftware direkt 'over-the-air' ins Fahrzeug oder zunächst in die MyBMW-App und dann auf das Auto geladen werden. [@julichUpdateFuerFreude2021] 
 
 *todo: hier Bilder?*
 

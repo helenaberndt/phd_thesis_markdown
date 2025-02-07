@@ -9,7 +9,7 @@ Beschreibung des strukturellen Aufbaus der Konzeption. -->
 
 ## Anforderungsanalyse der Suchfunktion
 
-*todo: hier nochmal mehr stukturieren udn priorisieren? und sollen hier auch nicht-umgesetzte sachen stehen?*
+*todo: sollen hier auch nicht-umgesetzte sachen stehen? wenn ja hier nochmal mehr stukturieren und priorisieren - in must-haves und nice-to-haves?*
 
 Im 'Requirements Engineering', also der Anforderungsanalyse, werden die Bedürfnisse der Benutzer, Auftraggeber und anderen Interessensgruppen analysiert, um eine geeignete Lösung für ein Produkt zu entwickeln. Dabei wird eine Übereinkunft über die Funktionen des Systems, die Systemgrenzen und die Benutzerschnittstellen getroffen. Diese Informationen helfen auch den Entwickler, die Anforderungen besser zu verstehen. [@richterUsabilityUndUX2016]
 
@@ -59,11 +59,26 @@ Da es sich bei der Entwicklung der Suchfunktion um eine prototypische Umsetzung 
     - Suche nach einem Stichwort, um zu sehen, ob in letzter Zeit Updates dafür waren -> z.B. 'Klima' eingeben und schauen, ob es in den Release Notes vorgekommen ist, evtl. hierfür gleich Filter
     - Schnelles Suchen nach Tutorial/genauerer Anleitung: z.B. 'Navigation' eingeben und auf How-To-Video stoßen, zuvor ist die Filterung nach 'Video' oder 'Tutorial' möglich -->
 
-    
-<!-- todo: das vll stichpunktmäßig? -->
-Die funktionalen Anforderungen sind an die zu entwickelnde Suchfunktion sind wie folgt definiert. Die Suchfunktion soll der bestehenden 'Explore'-Seite hinzugefügt werden. Nach dem Anklicken eines Suchsymbols soll der Benutzer einen einzelnen Suchbegriff in ein vorgegebenes Suchfeld eingeben können. Dabei sollen kleine Rechtschreibfehler oder nicht exakte Übereinstimmungen zwischen Suchbegriff und durchsuchten Daten toleriert werden. Vor der Eingabe einer Suchanfrage in die Suchleiste sollen dem Nutzer Vorschläge und frühere Suchanfragen angezeigt werden. Bei der Eingabe eines Begriffs werden die zur Suche verfügbaren Quellen werden über die Schnittstelle durchsucht und anschließend jene Ergebnisse angezeigt, die den Suchbegriff beinhalten. Die Resultate der Suche werden dabei in reduzierter Form untereinander angezeigt. Zu jedem Ergebnis werden ein Titel und Ausschnitte eines längeren Textes dargestellt. Durch Anklicken wird die dazugehörige Seite geöffnet, während beim Verlassen der Seite wieder die Ergebnisse der Suchfunktion angezeigt werden. 
+Die funktionalen Anforderungen sind an die zu entwickelnde Suchfunktion sind wie folgt definiert:
 
-Als nicht-funktionale Anforderung soll die Suchfunktion eine gute Performance aufweisen, d.h. die Suchergebnisse sollen schnell angezeigt werden. Außerdem soll die Suchfunktion benutzerfreundlich sein. Bei der prototypischen Umsetzung der Suchfunktion im Rahmen dieser Bachelorarbeit steht das UX-Design jedoch nicht im Vordergrund.
+- Die Suchfunktion soll der bestehenden 'Explore'-Seite hinzugefügt werden
+- Nach dem Anklicken eines Suchsymbols soll der Benutzer einen einzelnen Suchbegriff in ein vorgegebenes Suchfeld eingeben können
+- Vor der Eingabe einer Suchanfrage in die Suchleiste sollen dem Nutzer Vorschläge und frühere Suchanfragen angezeigt werden
+- Bei der Eingabe eines Begriffs werden die zur Suche verfügbaren Quellen werden über die Schnittstelle durchsucht und anschließend jene Ergebnisse angezeigt, die den Suchbegriff beinhalten
+- Dabei sollen kleine Rechtschreibfehler oder nicht exakte Übereinstimmungen zwischen Suchbegriff und durchsuchten Daten toleriert werden
+- Die Resultate der Suche werden dabei in reduzierter Form untereinander angezeigt
+- Zu jedem Ergebnis werden ein Titel und Ausschnitte eines längeren Textes dargestellt. Durch Anklicken wird die dazugehörige Seite geöffnet, während beim Verlassen der Seite wieder die Ergebnisse der Suchfunktion angezeigt werden
+
+<!-- Text ohne Stichpunkte:
+Die funktionalen Anforderungen sind an die zu entwickelnde Suchfunktion sind wie folgt definiert. Die Suchfunktion soll der bestehenden 'Explore'-Seite hinzugefügt werden. Nach dem Anklicken eines Suchsymbols soll der Benutzer einen einzelnen Suchbegriff in ein vorgegebenes Suchfeld eingeben können. Dabei sollen kleine Rechtschreibfehler oder nicht exakte Übereinstimmungen zwischen Suchbegriff und durchsuchten Daten toleriert werden. Vor der Eingabe einer Suchanfrage in die Suchleiste sollen dem Nutzer Vorschläge und frühere Suchanfragen angezeigt werden. Bei der Eingabe eines Begriffs werden die zur Suche verfügbaren Quellen werden über die Schnittstelle durchsucht und anschließend jene Ergebnisse angezeigt, die den Suchbegriff beinhalten. Die Resultate der Suche werden dabei in reduzierter Form untereinander angezeigt. Zu jedem Ergebnis werden ein Titel und Ausschnitte eines längeren Textes dargestellt. Durch Anklicken wird die dazugehörige Seite geöffnet, während beim Verlassen der Seite wieder die Ergebnisse der Suchfunktion angezeigt werden.  -->
+
+Die nicht-funktionalen Anforderungen umfassen:
+
+- Die Suchfunktion soll eine gute Performance aufweisen, d.h. die Suchergebnisse sollen schnell angezeigt werden
+- Die Suchfunktion soll benutzerfreundlich sein. Bei der prototypischen Umsetzung der Suchfunktion im Rahmen dieser Bachelorarbeit steht das UX-Design jedoch nicht im Vordergrund
+
+<!-- Text ohne Stichpunkte:
+Als nicht-funktionale Anforderung soll die Suchfunktion eine gute Performance aufweisen, d.h. die Suchergebnisse sollen schnell angezeigt werden. Außerdem soll die Suchfunktion benutzerfreundlich sein. Bei der prototypischen Umsetzung der Suchfunktion im Rahmen dieser Bachelorarbeit steht das UX-Design jedoch nicht im Vordergrund. -->
 
 <!-- - *Definition von Qualitätsanforderungen (Usability, Performance, Sicherheit etc.)*
 
@@ -109,7 +124,9 @@ Die Suchfunktion soll in die bestehende App-Umgebung der MyBMW-App integriert we
 
 Flutter stellt u.a. die Klasse 'SearchDelegate' zur Verfügung, die eine Suchseite erzeugt, die u.a. Vorschläge und Ergebnisse anzeigt und im Code Zugriff auf das aktuelle Suchwort, also 'query' ermöglicht [@SearchDelegateClassMaterial]. Diese Klasse vereint die genannten Anforderungen. Die Klasse 'SearchBar' stellt zum Vergleich nur das Eingabefeld für die Suchbegriffe zur Verfügung [@flutterSearchBarClassMaterial].
 
-Die Datenquellen für die Suchfunktion sind eine leicht zugängliche Quelle innerhalb der Anwendung, Daten aus einer lokalen JSON-Datei und der Inhalt von 'String Files'. Um die Daten aus der JSON-Datei lesen zu können, müssen diese zunächst in ein für Dart lesbares Format gebracht werden. Dies kann mit dem Dart-Package 'json_serializable' realisiert werden. Damit können Daten zwischen dem JSON-Format und der gewünschten und durch den Code definierten Struktur konvertiert werden. [@Json_serializableDartPackage]
+Die Datenquellen für die Suchfunktion sind die bereits erwähnten 'String Files'-, Kontext- und Lokale-Daten. 
+
+Um letztere Daten aus der JSON-Datei lesen zu können, müssen diese zunächst in ein für Dart lesbares Format gebracht werden. Dies kann mit dem Dart-Package 'json_serializable' realisiert werden. Damit können Daten zwischen dem JSON-Format und der gewünschten und durch den Code definierten Struktur konvertiert werden. [@Json_serializableDartPackage]
 
 In allen Quellen werden für die Suchfunktion unterschiedliche Strings nach Übereinstimmungen durchsucht. Um kleine Abweichungen zwischen Such- und Vergleichswort zu tolerieren, kann das Dart Package 'Fuzzy' verwendet werden. Mit diesem wird ein für einen String-Vergleich ein sogenannter Fuzzy-Score erzeugt, der angibt, wie groß die Übereinstimmung ist. [@FuzzyDartPackage]
 
@@ -132,18 +149,21 @@ In allen Quellen werden für die Suchfunktion unterschiedliche Strings nach Übe
 
 ### Konzeptentwurf 
 
-Nach der systematischen Erfassung der Anforderungen an die Suchfunktion, werden diese nun im Rahmen des Konzeptentwurfs konkretisiert. Die Konzeption und der Aufbau der API, die die verschiedenen Quellen zusammenführt und an die die Suchanfragen gestellt werden, werden im nächsten Kapitel behandelt. Daher wird an dieser Stelle nicht näher darauf eingegangen.
+Auf Basis der systematischen Erfassung der Anforderungen an die Suchfunktion wird nun das Konzept für die Suchfunktion konkretisiert. Die Konzeption und der Aufbau der API, an die die Suchanfragen gestellt wird und die die verschiedenen Quellen zusammenführt, werden im nächsten Kapitel behandelt. Daher wird an dieser Stelle nicht näher darauf eingegangen. Grob betrachtet schickt die Suchfunktion ein Suchbegriff an die API und bekommt von dieser dann die Ergebnisse für die Anfrage zurück. (Siehe Abbildung \ref{fig:suchfunktion_api}) 
 
-Der Ablauf der Suchfunktion aus Benutzersicht soll, wie bereits schon kurz dargestellt, wie folgt ablaufen. Durch Anklicken des Lupensymbols auf der 'Explore'-Seite, öffnet sich die Seite der Suchfunktion. In der Leiste am oberen Rand kann man zurück zur vorherigen Seite navigieren, einen Suchbegriff eingeben, oder den bisher eingegebenen löschen. Unterhalb der Leiste befinden sich Suchvorschläge, die von der Anwendungsseite aus gegeben werden und die zuletzt durchgeführten Suchanfragen. Eine Suchanfrage wird durchgeführt, indem ein Suchbegriff in das Suchfeld eingegeben und dann mit der Eingabetaste bestätigt wird. Anschließend werden die gefundenen Ergebnisse, die den Suchbegriff enthalten, nach Relevanz sortiert aufgelistet. Diese können je nach Quelle und damit Inhalt unterschiedlich aufgebaut sein. Wird ein Ergebnis angeklickt, öffnet sich die entsprechende Seite der App. Navigiert man zurück, gelangt man wieder auf die Ergebnisseite. (Siehe Abbildung \ref{fig:wireframe_1}) Dieser Aufbau ähnelt der Struktur, die von der Klasse 'SearchDelegate' von Flutter vorgeschlagen wird, in der Platz für Suchvorschläge und -ergebnisse vorgesehen ist [@SearchDelegateClassMaterial]. 
+![Quelle: eigenes Diagramm, 2025](source/figures/Suchfunktion_API.drawio.png){#fig:suchfunktion_api width=50%}
+
+Der Ablauf der Suchfunktion aus Benutzersicht soll wie folgt ablaufen. Durch Anklicken des Lupensymbols auf der 'Explore'-Seite, öffnet sich die Seite der Suchfunktion. Über die Leiste Leiste am oberen Rand dieser Seite können folgende Funktionen ausgeführt werden: Es besteht die Möglichkeit zurück zur vorherigen Seite zu navigieren, einen Suchbegriff einzugeben oder den bisher eingegebenen zu löschen. Unterhalb der Leiste befinden sich Suchvorschläge, die von der Funktionsseite gegeben werden und die zuletzt durchgeführten Suchanfragen. Dabei muss entschieden werden, ob diese Funktionen durch Symbole dargestellt oder mit Text angeschrieben werden. Auch muss entschieden werden, ob die Suchvorschläge dynamisch oder statisch sind.
+
+Eine Suchanfrage wird durchgeführt, indem ein Suchbegriff in das Suchfeld eingegeben und dann mit der Eingabetaste bestätigt wird. Während des Tippens wird die Seite mit Suchverlauf und den Vorschlägen weiter angezeigt. Der Suchbegriff wird an die API geschickt, die diese Anfrage bearbeitet. Anschließend werden die durch die API gefundenen Ergebnisse nach Relevanz sortiert aufgelistet. Diese können je nach Quelle und damit Inhalt unterschiedlich aufgebaut sein. 
+
+Bei den Ergebnissen aus den 'String Files' müssen einige Punkte bedacht werden. So muss geklärt werden, ob nur die Datei für die aktuelle Sprache, in der die App gerade ist, oder alle vorhandenen Sprachen, und damit alle Files durchsucht werden. Denn Nutzer könnten beispielsweise mit einer deutschen App-Einstellung nach einem englischen Begriff suchen und dafür ein Ergebnis erwarten. Andererseits könnte besonders durch die Toleranz von Rechtschreibfehlern Begriffe aus anderen Sprachen, die ähnlich sind, als Treffer angesehen werden können. Zudem muss geklärt werden, wie die Ergebnisse aus den 'String Files' dargestellt werden. Da alle Ergebnisse eines Dienstes auf die gleiche Seite verweisen, ist zu festzusetzen, ob Ergebnisse pro Dienst gruppiert oder einzeln angezeigt werden.
+
+Wird ein Ergebnis angeklickt, öffnet sich die entsprechende Seite der App. Navigiert man zurück, gelangt man wieder auf die Ergebnisseite. (Siehe Abbildung \ref{fig:wireframe_1}) Dieser Aufbau ähnelt der Struktur, die von der Klasse 'SearchDelegate' von Flutter vorgeschlagen wird, in der Platz für Suchvorschläge und -ergebnisse vorgesehen ist [@SearchDelegateClassMaterial]. 
 
 ![Quelle: eigene Zeichnung, 2025](source/figures/Wireframes_ba_1.png){#fig:wireframe_1 width=100%}
 
 Der Suchbegriff wird durch Ausführen der Suche an die API übergeben, die nach der Verarbeitung die passenden Ergebnisse aus den verschiedenen Quellen zurückgibt. Diese werden dann untereinander aufgelistet, wobei die verschiedenen Ergebnisse deutlich voneinander unterschieden werden. Die eigentliche Suchfunktion liegt also in der API, die im folgenden Kapitel konzipiert wird.
-
-Todo:
-nochmal viel genauer! - Fragen aus evalutaiton aufgreifen
-- Wie Verschläge und Suchverlauf (Text / Symbol), statisch oder rotierend
-- String Files: Sprachen (alle oder nur aktuelle), Darstellung (gruppiert / seperat)
 
 <!-- - *Architekturdesign*
     - *Entwerfen Sie die Systemarchitektur der Suchfunktion*
@@ -158,15 +178,13 @@ nochmal viel genauer! - Fragen aus evalutaiton aufgreifen
 
 ## Konzeption der API
 
-
+Nachdem im vorherigen Kapitel das Bedienkonzept erarbeitet worden ist, soll nun die bisher nicht näher betrachtete API konzipiert werden. Die hier zu entwickelnde API wird als Schnittstelle in das existierende App-Umfeld hinzugefügt.
 
 ### Schnittstellen-Design
 
-- *Festlegung der Endpunkte (Endpoints) der API*
-- *Definition der Eingabeparameter und Rückgabewerte für jeden Endpunkt*
-- *Festlegung des Datenformats (z.B. JSON, XML)*
-- *Spezifikation von HTTP-Methoden (GET, POST, PUT, DELETE)*
-- *Dokumentation der API für Entwickler*
+Der Zugriff auf die API erfolgt über einen lokalen Aufruf innerhalb der Suchfunktion. Bei Bestätigung der Eingabe in das Suchfeld wird der Suchbegriff an die Schnittstelle übergeben. Als Rückgabewert werden dann die Ergebnisse der Suche erwartet.
+
+Um die Daten auslesen zu können, muss die API auf verschiedene Datenquellen zugreifen. Für die prototypische Umsetzung sind die, wie bereits schon mehrfach angeführt, die 'String-Files'-, Kontext- und Lokale-Daten. Die detaillierte Betrachtung des Zugriffs auf diese Daten erfolgt im Kapitel zur Implementierung.
 
 ### Architektur-Entwurf
 

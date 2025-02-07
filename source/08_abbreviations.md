@@ -14,7 +14,8 @@
 \renewcommand{\thepage}{\arabic{page}}
 
 
-<!-- todo zusätzlich:
+<!-- todo zusätzlich: bzw nochmal nachschauen ob noch da
 AG: Aktien Gesellschaft 
 IoT: Internet of Things
+BIP: brutto inlands produkt
 -->
