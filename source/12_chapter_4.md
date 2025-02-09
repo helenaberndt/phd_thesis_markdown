@@ -122,11 +122,11 @@ Nicht-funktionale Anforderungen
 Neben der Analyse der Anforderungen an die Suchfunktion, werden auch die technischen Rahmenbedingungen analysiert. So sollen die technischen Möglichkeiten und Grenzen untersucht, geeignete Frameworks gefunden und Schnittstellen geprüft werden. 
 Die Suchfunktion soll in die bestehende App-Umgebung der MyBMW-App integriert werden. Da die MyBMW-App mit Flutter entwickelt wurde, basiert die grundlegende technische Infrastruktur der Suchfunktion auf der Programmiersprache Dart.
 
-Flutter stellt u.a. die Klasse '*SearchDelegate*' zur Verfügung, die eine Suchseite erzeugt, die u.a. Vorschläge und Ergebnisse anzeigt und im Code Zugriff auf das aktuelle Suchwort, also '*query*' ermöglicht [@SearchDelegateClassMaterial]. Diese Klasse vereint die genannten Anforderungen. Die Klasse '*SearchBar*' stellt zum Vergleich nur das Eingabefeld für die Suchbegriffe zur Verfügung [@flutterSearchBarClassMaterial].
+Flutter stellt u.a. die Klasse ```SearchDelegate``` zur Verfügung, die eine Suchseite erzeugt, die u.a. Vorschläge und Ergebnisse anzeigt und im Code Zugriff auf das aktuelle Suchwort, also ```query``` ermöglicht [@SearchDelegateClassMaterial]. Diese Klasse vereint die genannten Anforderungen. Die Klasse ```SearchBar``` stellt zum Vergleich nur das Eingabefeld für die Suchbegriffe zur Verfügung [@flutterSearchBarClassMaterial].
 
 Die Datenquellen für die Suchfunktion sind die bereits erwähnten *'String Files'-*, *Kontext-* und *Lokale-Daten*. 
 
-Um letztere Daten aus der lokalen Datei, also der JSON-Datei, lesen zu können, müssen diese zunächst in ein für Dart lesbares Format gebracht werden. Dies kann mit dem Dart-Package '*json_serializable*' realisiert werden. Damit können Daten zwischen dem JSON-Format und der gewünschten und durch den Code definierten Struktur konvertiert werden. [@Json_serializableDartPackage]
+Um letztere Daten aus der lokalen Datei, also der JSON-Datei, lesen zu können, müssen diese zunächst in ein für Dart lesbares Format gebracht werden. Dies kann mit dem Dart-Package ```json_serializable``` realisiert werden. Damit können Daten zwischen dem JSON-Format und der gewünschten und durch den Code definierten Struktur konvertiert werden. [@Json_serializableDartPackage]
 
 In allen Quellen werden für die Suchfunktion unterschiedliche Strings nach Übereinstimmungen durchsucht. Um kleine Abweichungen zwischen Such- und Vergleichswort zu tolerieren, kann das Dart Package '*Fuzzy*' verwendet werden. Mit diesem wird ein für einen String-Vergleich ein sogenannter Fuzzy-Score erzeugt, der angibt, wie groß die Übereinstimmung ist. [@FuzzyDartPackage]
 
@@ -151,7 +151,7 @@ In allen Quellen werden für die Suchfunktion unterschiedliche Strings nach Übe
 
 Auf Basis der systematischen Erfassung der Anforderungen an die Suchfunktion wird nun das Konzept für die Suchfunktion konkretisiert. Die Konzeption und der Aufbau der API, an die die Suchanfragen gestellt wird und die die verschiedenen Quellen zusammenführt, werden in Kapitel \ref{konzeption-der-api} behandelt. Daher wird an dieser Stelle nicht näher darauf eingegangen. Grob betrachtet schickt die Suchfunktion ein Suchbegriff an die API und bekommt von dieser dann die Ergebnisse für die Anfrage zurück. (Siehe Abbildung \ref{fig:suchfunktion_api}) 
 
-![Quelle: eigenes Diagramm, 2025](source/figures/Suchfunktion_API.drawio.png){#fig:suchfunktion_api width=50%}
+![BeschriftungToBeDone](source/figures/Suchfunktion_API.drawio.png){#fig:suchfunktion_api width=50%}
 
 Der Ablauf der Suchfunktion aus Benutzersicht soll wie folgt ablaufen: Durch Anklicken des Lupensymbols auf der 'Explore'-Seite, öffnet sich die Seite der Suchfunktion. Über die Leiste am oberen Rand dieser Seite können folgende Funktionen ausgeführt werden: Es besteht die Möglichkeit zurück zur vorherigen Seite zu navigieren, einen Suchbegriff einzugeben oder den bisher eingegebenen zu löschen. Unterhalb der Leiste befinden sich Suchvorschläge, die von der Funktionsseite gegeben werden und die zuletzt durchgeführten Suchanfragen. Dabei muss entschieden werden, ob diese Funktionen durch Symbole dargestellt oder mit Text angeschrieben werden. Auch muss entschieden werden, ob die Suchvorschläge dynamisch oder statisch sind.
 
@@ -159,9 +159,9 @@ Eine Suchanfrage wird durchgeführt, indem ein Suchbegriff in das Suchfeld einge
 
 Bei den Ergebnissen aus den '*String-Files*' müssen einige Punkte bedacht werden. So muss geklärt werden, ob nur die Datei für die aktuelle Sprache, in der die App gerade ist, oder alle vorhandenen Sprachen, und damit alle Dateien durchsucht werden. So könnten Nutzer beispielsweise mit einer deutschen App-Einstellung nach einem englischen Begriff suchen und dafür ein Ergebnis erwarten. Andererseits könnte besonders durch die Toleranz von Rechtschreibfehlern Begriffe aus anderen Sprachen, die ähnlich sind, als Treffer angesehen werden können. Zudem muss geklärt werden, wie die Ergebnisse aus den '*String-Files*' dargestellt werden. Da alle Ergebnisse eines Dienstes auf die gleiche Seite verweisen, ist festzusetzen, ob Ergebnisse pro Dienst gruppiert oder einzeln angezeigt werden.
 
-Wird ein Ergebnis angeklickt, öffnet sich die entsprechende Seite der App. Navigiert man zurück, gelangt man wieder auf die Ergebnisseite. (Siehe Abbildung \ref{fig:wireframe_1}) Dieser Aufbau ähnelt der Struktur, die von der Flutter-Klasse '*SearchDelegate*' vorgegeben wird, in der Platz für Suchvorschläge und -ergebnisse vorgesehen ist [@SearchDelegateClassMaterial]. 
+Wird ein Ergebnis angeklickt, öffnet sich die entsprechende Seite der App. Navigiert man zurück, gelangt man wieder auf die Ergebnisseite. (Siehe Abbildung \ref{fig:wireframe_1}) Dieser Aufbau ähnelt der Struktur, die von der Flutter-Klasse ```SearchDelegate``` vorgegeben wird, in der Platz für Suchvorschläge und -ergebnisse vorgesehen ist [@SearchDelegateClassMaterial]. 
 
-![Quelle: eigene Zeichnung, 2025](source/figures/Wireframes_ba_1.png){#fig:wireframe_1 width=100%}
+![BeschriftungToBeDone](source/figures/Wireframes_ba_1.png){#fig:wireframe_1 width=100%}
 
 Der Suchbegriff wird durch Ausführen der Suche an die API übergeben, die nach der Verarbeitung die passenden Ergebnisse aus den verschiedenen Quellen zurückgibt. Diese werden dann untereinander aufgelistet, wobei die verschiedenen Ergebnisse deutlich voneinander unterschieden werden. Die eigentliche Suchfunktion liegt also in der API, die im folgenden Kapitel konzipiert wird.
 
@@ -178,23 +178,22 @@ Der Suchbegriff wird durch Ausführen der Suche an die API übergeben, die nach 
 
 ## Konzeption der API
 
-Nachdem im vorherigen Kapitel das Bedienkonzept erarbeitet worden ist, soll nun die bisher nicht näher betrachtete API konzipiert werden. Die hier zu entwickelnde API wird als Schnittstelle in das existierende App-Umfeld hinzugefügt.
+Im vorliegenden Kapitel wird die Konzeption der API erörtert, die als Schnittstelle in das existierende App-Umfeld integriert wird. Zuvor wurde das Bedienkonzept entwickelt, und es gilt nun, die bisher nicht näher betrachtete API zu konzipieren.
 
 ### Schnittstellen-Design
 
-Der Zugriff auf die API erfolgt über einen lokalen Aufruf innerhalb der Suchfunktion. Bei Bestätigung der Eingabe in das Suchfeld wird der Suchbegriff an die Schnittstelle übergeben. Als Rückgabewert werden dann die Ergebnisse der Suche erwartet. <!-- todo: des nochma anders? -->
+Der Zugriff auf die API erfolgt über einen lokalen Aufruf innerhalb der Suchfunktion. Bei Bestätigung der Eingabe in das Suchfeld wird der Suchbegriff an die Schnittstelle übergeben, woraufhin als Rückgabewert die Ergebnisse der Suche erwartet werden. <!-- todo: des nochma anders? -->
 
-Um die Daten auslesen zu können, muss die API auf verschiedene Datenquellen zugreifen. Für die prototypische Umsetzung sind die *'String-Files'-*, *Kontext-* und *Lokale-Daten*. Die detaillierte Betrachtung des Zugriffs auf diese Daten erfolgt in Kapitel \ref{implementierung-der-api}.
+Um die Daten auslesen zu können, muss die API auf verschiedene Datenquellen zugreifen, zu denen die *'String-Files'-*, *Kontext-* und *Lokale-Daten* zählen. Die detaillierte Betrachtung des Zugriffs auf diese Daten erfolgt in Kapitel \ref{implementierung-der-api}. Um eine Vereinheitlichung zu erreichen, werden alle Daten in Klassen der gleichen Oberklasse geladen, die als ```Searchable``` bezeichnet wird. Die Klasse kann folglich von der API durchsucht werden. Dabei soll von jedem ```Searchable```-Element ein *Fuzzy-Score* ermittelt werden. Dieser dient als Indikator für die Präsenz des Suchbegriffs in dem jeweiligen Element und entscheidet darüber, ob das Element zu den Ergebnissen hinzugefügt wird. Die so ermittelten Ergebnisse werden als ```Findable``` geladen und der ermittelte *Fuzzy-Score* wird dabei gespeichert. Zudem besteht die Möglichkeit, jedes ```Findable``` in einer reduzierten Ansicht als Ergebnis anzuzeigen. (Siehe Abbildung \ref{fig:findable_searchable})
+
+![BeschriftungToBeDone](source/figures/Findable_Searchable.png){#fig:findable_searchable width=100%}
 
 ### Architektur-Entwurf
 
-Infos in [@nunkesserAppEntwicklungFuerMobile2023] ab Seite 65
+Nachdem im vorherigen Kapitel die Endpunkte der zu entwickelnden API aufgezeigt wurden, wird nun die Konzeption der Ermittlung der Ergebnisse dargestellt. 
 
-Aufbau:
+Für jede Quelle, die an die Suchfunktion angebunden werden soll, wird ein Provider implementiert. Diese erweitern eine Oberklasse ```SearchProvider```, die die Methode ```searchForKeyword``` aufweist, mit der die jeweilige Quelle nach einem Suchwort durchsucht werden kann. In den Providern wird zunächst auf die Daten der Quelle zugegriffen und diese dann nach dem Suchwort durchsucht. Die konkrete Realisierung dieser Vorgehensweise wird in Kapitel \ref{implementierung-der-api} detailiert erörtert. (Siehe Abbildung \ref{fig:providers})
 
-- Architekturübersicht
-    - Auteilung in Searchable und Findable
-    - in API für jede Quelle: Provider
-    - wichtig: theoretisch ausbaubar! -> Skalierbarkeit
-- Datenfluss erklären
-    - für jede Quelle den Datenfluss erklären
+![BeschriftungToBeDone](source/figures/Providers.png){#fig:providers width=100%}
+
+Dieser Ansatz ermöglicht die zukünftige Integration weiterer Quellen in die Suchfunktion unter Wahrung einer einheitlichen und einfachen Handhabung. Somit zeichnet sich diese Konzeption durch Skalierbarkeit aus.

@@ -951,11 +951,11 @@ App-Umgebung der MyBMW-App integriert werden. Da die MyBMW-App mit
 Flutter entwickelt wurde, basiert die grundlegende technische
 Infrastruktur der Suchfunktion auf der Programmiersprache Dart.
 
-Flutter stellt u.a. die Klasse `\emph{SearchDelegate}' zur Verfügung,
+Flutter stellt u.a. die Klasse \texttt{SearchDelegate} zur Verfügung,
 die eine Suchseite erzeugt, die u.a. Vorschläge und Ergebnisse anzeigt
-und im Code Zugriff auf das aktuelle Suchwort, also `\emph{query}'
+und im Code Zugriff auf das aktuelle Suchwort, also \texttt{query}
 ermöglicht {[}@SearchDelegateClassMaterial{]}. Diese Klasse vereint die
-genannten Anforderungen. Die Klasse `\emph{SearchBar}' stellt zum
+genannten Anforderungen. Die Klasse \texttt{SearchBar} stellt zum
 Vergleich nur das Eingabefeld für die Suchbegriffe zur Verfügung
 {[}@flutterSearchBarClassMaterial{]}.
 
@@ -964,7 +964,7 @@ Die Datenquellen für die Suchfunktion sind die bereits erwähnten
 
 Um letztere Daten aus der lokalen Datei, also der JSON-Datei, lesen zu
 können, müssen diese zunächst in ein für Dart lesbares Format gebracht
-werden. Dies kann mit dem Dart-Package `\emph{json\_serializable}'
+werden. Dies kann mit dem Dart-Package \texttt{json\_serializable}
 realisiert werden. Damit können Daten zwischen dem JSON-Format und der
 gewünschten und durch den Code definierten Struktur konvertiert werden.
 {[}@Json\_serializableDartPackage{]}
@@ -1029,7 +1029,7 @@ Ergebnisse pro Dienst gruppiert oder einzeln angezeigt werden.
 Wird ein Ergebnis angeklickt, öffnet sich die entsprechende Seite der
 App. Navigiert man zurück, gelangt man wieder auf die Ergebnisseite.
 (Siehe Abbildung \ref{fig:wireframe_1}) Dieser Aufbau ähnelt der
-Struktur, die von der Flutter-Klasse `\emph{SearchDelegate}' vorgegeben
+Struktur, die von der Flutter-Klasse \texttt{SearchDelegate} vorgegeben
 wird, in der Platz für Suchvorschläge und -ergebnisse vorgesehen ist
 {[}@SearchDelegateClassMaterial{]}.
 
@@ -1064,9 +1064,29 @@ Um die Daten auslesen zu können, muss die API auf verschiedene
 Datenquellen zugreifen. Für die prototypische Umsetzung sind die
 \emph{`String-Files'-}, \emph{Kontext-} und \emph{Lokale-Daten}. Die
 detaillierte Betrachtung des Zugriffs auf diese Daten erfolgt in Kapitel
-\ref{implementierung-der-api}.
+\ref{implementierung-der-api}. Um diese zu vereinheitlichen werden alle
+Daten in Klassen der gleichen Oberklasse geladen. Diese Oberklasse wird
+als \texttt{Searchable} bezeichnet - die Klasse kann also von der API
+durchsucht werden. Dabei soll von jedem \texttt{Searchable}-Element mit
+der Funktion \texttt{getFuzzyScore} ein \emph{Fuzzy-Score} ermittelt
+werden, der aussagt ob der Suchbegriff in dem Element vorkommt und damit
+zu den Ergebnissen hinzugefügt wird. Diese Ergebnisse werden als
+\texttt{Findable} geladen. Dabei wird der ermittelte \emph{Fuzzy-Score}
+gespeichert und mit einer Methode \texttt{buildSearchResultTile} das
+jeweilige Element in den Ergebnissen angezeigt. (Siehe Abbildung
+\ref{fig:findable_searchable})
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\linewidth,height=\textheight,keepaspectratio]{source/figures/Findable_Searchable.png}
+\caption{Quelle: eigenes Diagramm, 2025}\label{fig:findable_searchable}
+\end{figure}
 
 \subsection{Architektur-Entwurf}\label{architektur-entwurf}
+
+Nachdem vorherigen Kapitel zum Schnittstellen-Design die Endpunkte der
+zu entwickelnden API aufgezeigt wurden, wird nun konzipiert, wie die
+Ergebnisse bestimmt werden sollen.
 
 Infos in {[}@nunkesserAppEntwicklungFuerMobile2023{]} ab Seite 65
 
